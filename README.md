@@ -1,8 +1,8 @@
-# RCCG City of David Canterbury — website rebuild
+# RCCG City of David Canterbury - website rebuild
 
 The rebuilt public website is live at [rccgcod.netlify.app](https://rccgcod.netlify.app/). It is a static, responsive replacement built from the church's public pages and media.
 
-Source: https://codcanterburychurch.org/ — captured 4 October 2026.
+Source: https://codcanterburychurch.org/ - captured 4 October 2026.
 
 ## Live deployment
 
