@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 const read=(n)=>JSON.parse(fs.readFileSync(`content/${n}.json`,'utf8'));
-const assets=read('assets'),sermons=read('sermons'),events=read('events'),gallery=read('gallery');
+const assets=read('assets'),sermons=read('sermons'),gallery=read('gallery');
+const decodeEntities = (value = '') => String(value).replaceAll('&#8211;', '–').replaceAll('&amp;', '&').replaceAll('&#8217;', '’').replaceAll('&nbsp;', ' ');
+const events=read('events').map(event => ({...event, title: decodeEntities(event.title), description: decodeEntities(event.description)}));
 const esc=(s='')=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const arrow='<svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>';
 const image=(id,alt,cls='',eager=false)=>`<img src="${assets[id]}" alt="${esc(alt)}" class="${cls}" ${eager?'fetchpriority="high"':'loading="lazy"'} decoding="async">`;
