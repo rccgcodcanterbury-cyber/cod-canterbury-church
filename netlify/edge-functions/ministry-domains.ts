@@ -13,7 +13,7 @@ export default async (request: Request) => {
   const requestHost = request.headers.get('host')?.split(':')[0].toLowerCase() || url.hostname;
   const ministry = ministryForHost(requestHost);
   if (!ministry || staticAsset(url.pathname) || url.pathname === `/${ministry}` || url.pathname.startsWith(`/${ministry}/`)) {
-    return context.next();
+    return;
   }
   url.pathname = `/${ministry}${url.pathname === '/' ? '/' : url.pathname}`;
   return url;
