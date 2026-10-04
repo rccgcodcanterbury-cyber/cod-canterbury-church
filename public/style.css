@@ -38,6 +38,30 @@
 @media(max-width:600px){.hero-slider{min-height:690px}.hero-slider-copy{padding-top:5.3rem}.hero-slider-copy h1{font-size:clamp(3.2rem,15vw,4.6rem)}.hero-slider-copy p{font-size:1.14rem}.hero-slider-copy .actions{align-items:flex-start;flex-direction:column}.hero-slider-controls{bottom:1.25rem;gap:.7rem}.hero-arrow{width:46px;height:42px}.hero-progress{display:none}.hero-slide-image{object-position:64% center}}
 @media(prefers-reduced-motion:reduce){.hero-slide.is-active .hero-slide-image,.hero-progress span{animation:none!important}}
 
+/* Shared interaction system: readable surfaces and quiet, purposeful motion. */
+:root{--motion-ease:cubic-bezier(.22,1,.36,1)}
+html{scroll-padding-top:110px}body{overflow-x:clip}::selection{background:var(--gold);color:var(--ink)}
+:focus-visible{outline:3px solid var(--gold-deep);outline-offset:5px}
+h1,h2,h3{text-wrap:balance}p{text-wrap:pretty}
+.header{position:sticky;top:0;transition:box-shadow .3s ease}.header.is-scrolled,.ministry-header.is-scrolled{box-shadow:0 6px 28px rgba(10,30,24,.09)}
+.header-inner{gap:1.25rem}.header nav{gap:clamp(.75rem,1.5vw,1.55rem)}
+.menu-toggle,.ministry-menu-toggle{min-height:44px;min-width:64px}
+.button,.ministry-button{min-height:48px}.button svg,.text-link svg,.ministry-button svg,.ministry-link svg{transition:transform .35s var(--motion-ease)}
+.button:hover svg,.text-link:hover svg,.ministry-button:hover svg,.ministry-link:hover svg{transform:translateX(4px)}
+.life-item img,.sermon-card img{transition:filter .5s ease,transform .6s var(--motion-ease)}
+.life-item:hover img{transform:translateY(-4px)}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .75s var(--motion-ease) var(--reveal-delay,0ms),transform .75s var(--motion-ease) var(--reveal-delay,0ms)}
+.reveal.is-revealed{opacity:1;transform:none}
+.hero-pause{font-size:.72rem;font-weight:700}.is-paused .hero-slide-image,.is-paused .hero-progress span{animation-play-state:paused!important}
+dialog{max-height:92svh;box-shadow:0 24px 100px #0006}dialog[open]{animation:dialog-enter .25s var(--motion-ease)}dialog::backdrop{background:rgba(4,17,14,.88);backdrop-filter:blur(7px)}
+.gallery-controls{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 1.5rem}.gallery-controls button{border:1px solid #ffffff50;color:white;background:transparent;padding:.65rem 1rem;min-height:44px}.gallery-controls button:hover{background:#ffffff20}.gallery-controls span{font-variant-numeric:tabular-nums;font-size:.85rem}
+.gallery-lightbox{max-height:70svh!important}.gallery-item:focus-visible,.ministry-gallery button:focus-visible{outline-offset:3px}
+@keyframes dialog-enter{from{opacity:0;transform:translateY(12px) scale(.98)}to{opacity:1;transform:none}}
+@media(max-width:1050px) and (min-width:901px){.header-inner{width:calc(100% - 3rem)}.header .brand{font-size:1.15rem}.header nav{font-size:.8rem}.header .button{padding:.8rem}}
+@media(max-width:900px){.header nav.open,.ministry-header nav.open{animation:dialog-enter .25s var(--motion-ease)}.header nav>a{min-height:44px;display:flex;align-items:center}}
+@media(max-width:600px){.hero-slider{min-height:650px}.hero-slider-copy h1{font-size:clamp(3.1rem,13vw,4.6rem)}.hero-slider-copy{padding-top:4.5rem}.gallery-controls{padding:.75rem;gap:.5rem}.gallery-controls button{padding:.6rem}.section{padding:4rem 0}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+
 /* Clear paths from the main church into the dedicated teen and youth sites. */
 .next-generation{background:#ebe5d5;padding:clamp(5rem,8vw,8rem) 0}.next-generation .section-heading>p{font-family:var(--serif);font-size:1.2rem;max-width:280px;margin:0}.next-generation-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}.next-generation-card{display:grid;grid-template-columns:.9fr 1fr;grid-template-rows:auto auto 1fr auto;gap:.2rem 1.4rem;padding:1.2rem;border:1px solid rgba(18,56,47,.2);background:var(--white);transition:transform var(--ease),box-shadow var(--ease)}.next-generation-card:hover{transform:translateY(-5px);box-shadow:0 14px 35px rgba(18,56,47,.13)}.next-generation-card img{grid-row:1/5;width:100%;height:260px;object-fit:cover}.next-generation-card span{font-size:.74rem;text-transform:uppercase;font-weight:700;letter-spacing:.09em;color:var(--gold-deep);margin-top:.6rem}.next-generation-card h3{margin:.2rem 0;font-size:2.2rem}.next-generation-card p{margin:0;font-family:var(--serif);font-size:1.05rem;line-height:1.3}.next-generation-card svg{align-self:end;width:25px;color:var(--gold-deep)}
 @media(max-width:600px){.next-generation-grid{grid-template-columns:1fr}.next-generation-card img{height:230px}}

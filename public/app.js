@@ -1,8 +1,40 @@
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 
-const menu = $('.menu-toggle');
-const navigation = $('#navigation');
+// Shared, progressive enhancements across all three church sites.
+const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
+const siteHeader = $('.header, .ministry-header');
+const updateHeader = () => siteHeader?.classList.toggle('is-scrolled', scrollY > 24);
+addEventListener('scroll', updateHeader, { passive: true });
+updateHeader();
+if ('IntersectionObserver' in window && !motionPreference.matches) {
+  const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-revealed');
+      observer.unobserve(entry.target);
+    }
+  }), { threshold: 0.08 });
+  $$('.intro > *, .section-heading, .life-item, .sermon-card, .next-generation-card, .ministry-intro > div, .ministry-features > *, .ministry-gathering > *, .contact-section > *, .ministry-contact > *').forEach((element, index) => {
+    element.classList.add('reveal');
+    element.style.setProperty('--reveal-delay', `${index % 3 * 70}ms`);
+    observer.observe(element);
+  });
+  motionPreference.addEventListener('change', () => {
+    if (motionPreference.matches) { observer.disconnect(); $$('.reveal').forEach(el => el.classList.add('is-revealed')); }
+  });
+}
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape') return;
+  const expanded = $('[aria-controls][aria-expanded="true"]');
+  if (expanded) { document.getElementById(expanded.getAttribute('aria-controls'))?.classList.remove('open'); expanded.setAttribute('aria-expanded', 'false'); expanded.focus(); }
+});
+document.addEventListener('click', event => {
+  if (event.target.closest('header')) return;
+  $$('header [aria-expanded="true"]').forEach(button => { document.getElementById(button.getAttribute('aria-controls'))?.classList.remove('open'); button.setAttribute('aria-expanded', 'false'); });
+});
+
+const menu = $('.menu-toggle, .ministry-menu-toggle');
+const navigation = $('#navigation, #ministry-navigation');
 if (menu && navigation) {
   menu.addEventListener('click', () => {
     const open = navigation.classList.toggle('open');
@@ -23,6 +55,13 @@ if (heroSlider) {
   let current = 0;
   let timer;
   let pointerStartX = 0;
+  let paused = false;
+  const pauseButton = document.createElement('button');
+  pauseButton.className = 'hero-arrow hero-pause';
+  pauseButton.textContent = 'Pause';
+  pauseButton.setAttribute('aria-label', 'Pause slideshow');
+  pauseButton.setAttribute('aria-pressed', 'false');
+  $('.hero-slider-controls', heroSlider)?.append(pauseButton);
 
   const restartProgress = () => {
     if (!progress || reduceMotion.matches) return;
@@ -54,8 +93,16 @@ if (heroSlider) {
   const stop = () => window.clearInterval(timer);
   const start = () => {
     stop();
-    if (!reduceMotion.matches) timer = window.setInterval(() => showSlide(current + 1, 1), 6000);
+    if (!reduceMotion.matches && !paused && !document.hidden) timer = window.setInterval(() => showSlide(current + 1, 1), 6000);
   };
+  pauseButton.addEventListener('click', () => {
+    paused = !paused;
+    pauseButton.textContent = paused ? 'Play' : 'Pause';
+    pauseButton.setAttribute('aria-label', paused ? 'Play slideshow' : 'Pause slideshow');
+    pauseButton.setAttribute('aria-pressed', String(paused));
+    heroSlider.classList.toggle('is-paused', paused);
+    start();
+  });
 
   $('[data-hero-prev]', heroSlider)?.addEventListener('click', () => { showSlide(current - 1, -1); start(); });
   $('[data-hero-next]', heroSlider)?.addEventListener('click', () => { showSlide(current + 1, 1); start(); });
@@ -83,6 +130,8 @@ const dialog = $('#media-dialog');
 const content = $('#media-content');
 function closeDialog() { if (dialog?.open) dialog.close(); if (content) content.innerHTML = ''; }
 if (dialog) {
+  dialog.setAttribute('aria-label', 'Church media viewer');
+  dialog.addEventListener('close', () => { content.replaceChildren(); });
   $('.dialog-close', dialog)?.addEventListener('click', closeDialog);
   dialog.addEventListener('click', event => { if (event.target === dialog) closeDialog(); });
 }
@@ -91,10 +140,33 @@ $$('[data-video]').forEach(button => button.addEventListener('click', () => {
   content.innerHTML = `<iframe title="Sermon video" src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
   dialog.showModal();
 }));
-$$('[data-gallery]').forEach(button => button.addEventListener('click', () => {
-  content.innerHTML = `<img class="gallery-lightbox" src="${button.dataset.gallery}" alt="">`;
-  dialog.showModal();
-}));
+const galleryItems = $$('[data-gallery]');
+let galleryIndex = -1;
+function displayGallery(index) {
+  galleryIndex = (index + galleryItems.length) % galleryItems.length;
+  const source = galleryItems[galleryIndex];
+  const photo = document.createElement('img');
+  photo.className = 'gallery-lightbox';
+  photo.src = source.dataset.gallery;
+  photo.alt = $('img', source)?.alt || 'Church gathering';
+  const controls = document.createElement('div');
+  controls.className = 'gallery-controls';
+  const counter = document.createElement('span');
+  counter.textContent = `${galleryIndex + 1} / ${galleryItems.length}`;
+  counter.setAttribute('aria-live', 'polite');
+  const previous = document.createElement('button'); previous.textContent = '← Previous'; previous.onclick = () => displayGallery(galleryIndex - 1);
+  const next = document.createElement('button'); next.textContent = 'Next →'; next.onclick = () => displayGallery(galleryIndex + 1);
+  const focusedLabel = document.activeElement?.textContent;
+  controls.append(previous, counter, next);
+  content.replaceChildren(photo, controls);
+  if (focusedLabel === previous.textContent) previous.focus();
+  if (focusedLabel === next.textContent) next.focus();
+}
+galleryItems.forEach((button, index) => button.addEventListener('click', () => { displayGallery(index); dialog.showModal(); }));
+dialog?.addEventListener('keydown', event => {
+  if (!$('.gallery-controls', dialog)) return;
+  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); displayGallery(galleryIndex + (event.key === 'ArrowRight' ? 1 : -1)); }
+});
 
 const search = $('#sermon-search');
 if (search) {
