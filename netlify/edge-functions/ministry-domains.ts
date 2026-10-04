@@ -20,7 +20,12 @@ export default async (request: Request, context: Context) => {
   }
 
   url.pathname = `/${ministry}${url.pathname === '/' ? '/' : url.pathname}`;
-  return context.nextRequest(new Request(url, request));
+  const rewrittenRequest = new Request(url.toString(), {
+    method: request.method,
+    headers: request.headers,
+    body: request.method === 'GET' || request.method === 'HEAD' ? undefined : request.body,
+  });
+  return context.nextRequest(rewrittenRequest);
 };
 
 export const config: Config = { path: '/*' };
