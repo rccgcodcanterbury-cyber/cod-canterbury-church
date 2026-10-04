@@ -1,4 +1,4 @@
-import type { Config, Context } from '@netlify/edge-functions';
+import type { Config } from '@netlify/edge-functions';
 
 const ministryForHost = (host: string) => {
   if (host === 'audacious.rccgcodcanterbury.com') return 'audacious';
@@ -8,14 +8,15 @@ const ministryForHost = (host: string) => {
 
 const staticAsset = (pathname: string) => pathname.startsWith('/assets/') || /\.(?:css|js|webp|jpg|jpeg|png|svg|ico|xml|txt|json|ics)$/i.test(pathname);
 
-export default async (request: Request, context: Context) => {
+export default async (request: Request) => {
   const url = new URL(request.url);
-  const ministry = ministryForHost(url.hostname);
+  const requestHost = request.headers.get('host')?.split(':')[0].toLowerCase() || url.hostname;
+  const ministry = ministryForHost(requestHost);
   if (!ministry || staticAsset(url.pathname) || url.pathname === `/${ministry}` || url.pathname.startsWith(`/${ministry}/`)) {
     return context.next();
   }
   url.pathname = `/${ministry}${url.pathname === '/' ? '/' : url.pathname}`;
-  return context.nextRequest(new Request(url, request));
+  return url;
 };
 
 export const config: Config = { path: '/*' };
