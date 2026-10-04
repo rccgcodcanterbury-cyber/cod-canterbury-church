@@ -33,7 +33,7 @@ const channelUrl='https://www.youtube.com/@CODCanterbury';
 const pages={};
 const ministryPhotos={
   audacious:['5778','5779','5780','5782','5783','5786','5790','5791','5792','5793','5796','5797'],
-  youth:['6030','6031','6032','6036','6038','6039','5833','5836','5854','5859','5901','5905']
+  youth:['citiyouth-worship-1','citiyouth-dinner-1','citiyouth-dinner-2','citiyouth-worship-2','6030','6031','6032','6036','6038','6039','5833','5836','5854','5859','5901','5905']
 };
 const ministryConfig={
   audacious:{
@@ -47,11 +47,12 @@ const ministryConfig={
   },
   youth:{
     name:'CITIYOUTHS', label:'Youth church', description:'A church community for young adults aged 19-35 in Canterbury.', instagram:'https://www.instagram.com/codcyf_/',
-    title:'Find your people. Grow your faith.', hero:'6030',
+    title:'Find your people. Grow your faith.', hero:'citiyouth-worship-1',
     intro:'Faith has room for your questions.',
     introText:'A place for real friendship, honest faith and a church community that knows life is lived beyond Sunday.',
     invitation:'There is a place for you here.',
     colour:'youth',
+    gathering:'Citi Breakfast - every Tuesday at 6am on Zoom (UK time).',
     features:[['Worship','A space to encounter God and grow in faith together.'],['Word','Conversations that help us go deeper and connect faith with everyday life.'],['Community','Genuine friendship, support and a place to belong in Canterbury.']]
   }
 };
@@ -69,6 +70,10 @@ for(const [key,config] of Object.entries(ministryConfig)){
     contact:{title:`Contact | ${config.name}`,body:ministryContact(config)},
     'thank-you':{title:`Thank you | ${config.name}`,body:`<section class="ministry-page-intro"><h1>Thank you.</h1><p>Your message has been received. We look forward to meeting you.</p><a href="/" class="ministry-button">Back to ${config.name} ${arrow}</a></section>`}
   };
+  if (config.gathering) {
+    ministryPages[key][''].body = ministryPages[key][''].body.replace('We gather for worship, explore God’s Word, share life and do it together. Contact us for the next gathering.', esc(config.gathering)).replace('Find the next gathering', 'Get in touch');
+    ministryPages[key].gatherings.body = ministryPages[key].gatherings.body.replace('Gather with us.', 'Citi Breakfast.').replace('Our gathering details change from time to time. Send us a message and we will help you find the next one.', esc(config.gathering));
+  }
 }
 pages['']={title:'Welcome to church',body:`<section class="hero"><div class="hero-copy"><h1>A place to belong.<br>A faith to live.</h1><p>Welcome to RCCG City of David, Canterbury.<br>Growing together in faith, worship and community.</p><div class="actions">${link('/visit/','Join us this Sunday','button')}${link('/sermons/','Watch a sermon')}</div></div>${image('6168','Members of City of David Canterbury worshipping together','hero-photo',true)}</section>${serviceStrip}<section class="wrap section intro"><h2>More than a Sunday.<br>A family.</h2><div><p>We’re a warm and welcoming church family, passionate about Jesus, committed to biblical teaching and here to walk together in faith, support one another and make a positive difference in our community.</p>${link('/about-us/','Discover our church')}</div></section><section class="wrap section life"><div class="section-heading"><h2>Life together.</h2>${link('/events/','Explore our calendar')}</div><div class="three-columns">${[['6439','Sunday worship','Gather in worship and the Word.','services'],['6373','Bible study','Grow in faith, together.','services#bible-study'],['6372','Connect Friday','Make space for prayer.','services#prayer']].map(([id,t,d,u])=>`<a class="life-item" href="/${u}${u.includes('#')?'':'/'}">${image(id,t+' at City of David')}<h3>${t}</h3><p>${d}</p></a>`).join('')}</div></section><section class="sermon-feature"><div class="wrap two-columns">${video(sermons[0])}<div><span class="eyebrow">Watch &amp; listen</span><h2>A word for your week.</h2><p>Catch up on messages from City of David Canterbury.</p>${link('/sermons/','Explore sermons','button outline')}</div></div></section><section class="wrap section"><div class="section-heading"><h2>Coming together.</h2>${link('/events/','All events')}</div>${eventList(3)}</section><section class="building-band"><div><h2>Building a home.<br>Growing a community.</h2><p>Support the vision for a place where our community can grow, connect and thrive.</p>${link('/build/','Explore the building project','button')}</div>${image('6458','Our church family')}</section>${contact()}`};
 pages[''].body=heroSlider+pages[''].body.slice(pages[''].body.indexOf('</section>')+'</section>'.length);
