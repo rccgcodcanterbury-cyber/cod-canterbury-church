@@ -182,8 +182,11 @@
     "bytes": 147270
   },
   {
+    "id": 6099,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/4-2.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/4-2.jpg (Caused by ConnectTimeoutError(<HTTPSConnection(host='codcanterburychurch.org', port=443) at 0x109007750>, 'Connection to codcanterburychurch.org timed out. (connect timeout=60)'))"
+    "local": "/assets/6099-4-2.jpg",
+    "alt": "",
+    "bytes": 103752
   },
   {
     "id": 6098,
@@ -1166,16 +1169,25 @@
     "bytes": 150218
   },
   {
+    "id": 5945,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/66.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/66.jpg (Caused by ConnectTimeoutError(<HTTPSConnection(host='codcanterburychurch.org', port=443) at 0x109007b10>, 'Connection to codcanterburychurch.org timed out. (connect timeout=60)'))"
+    "local": "/assets/5945-66.jpg",
+    "alt": "",
+    "bytes": 102886
   },
   {
+    "id": 5944,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/77.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/77.jpg (Caused by ConnectTimeoutError(<HTTPSConnection(host='codcanterburychurch.org', port=443) at 0x1090079d0>, 'Connection to codcanterburychurch.org timed out. (connect timeout=60)'))"
+    "local": "/assets/5944-77.jpg",
+    "alt": "",
+    "bytes": 135384
   },
   {
+    "id": 5943,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/99.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/99.jpg (Caused by ConnectTimeoutError(<HTTPSConnection(host='codcanterburychurch.org', port=443) at 0x109007250>, 'Connection to codcanterburychurch.org timed out. (connect timeout=60)'))"
+    "local": "/assets/5943-99.jpg",
+    "alt": "",
+    "bytes": 131322
   },
   {
     "id": 5942,
@@ -1213,759 +1225,1326 @@
     "bytes": 164340
   },
   {
+    "id": 5937,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/tt.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/tt.jpg (Caused by ConnectTimeoutError(<HTTPSConnection(host='codcanterburychurch.org', port=443) at 0x109007890>, 'Connection to codcanterburychurch.org timed out. (connect timeout=60)'))"
+    "local": "/assets/5937-tt.jpg",
+    "alt": "",
+    "bytes": 106833
   },
   {
+    "id": 5936,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/yy.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/yy.jpg (Caused by ConnectTimeoutError(<HTTPSConnection(host='codcanterburychurch.org', port=443) at 0x109007610>, 'Connection to codcanterburychurch.org timed out. (connect timeout=60)'))"
+    "local": "/assets/5936-yy.jpg",
+    "alt": "",
+    "bytes": 98821
   },
   {
+    "id": 5935,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/uu.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/uu.jpg (Caused by ConnectTimeoutError(<HTTPSConnection(host='codcanterburychurch.org', port=443) at 0x109006e90>, 'Connection to codcanterburychurch.org timed out. (connect timeout=60)'))"
+    "local": "/assets/5935-uu.jpg",
+    "alt": "",
+    "bytes": 164012
   },
   {
+    "id": 5934,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ii.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/ii.jpg (Caused by ConnectTimeoutError(<HTTPSConnection(host='codcanterburychurch.org', port=443) at 0x109006850>, 'Connection to codcanterburychurch.org timed out. (connect timeout=60)'))"
+    "local": "/assets/5934-ii.jpg",
+    "alt": "",
+    "bytes": 185260
   },
   {
+    "id": 5933,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/oo.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/oo.jpg (Caused by ConnectTimeoutError(<HTTPSConnection(host='codcanterburychurch.org', port=443) at 0x1096e8050>, 'Connection to codcanterburychurch.org timed out. (connect timeout=60)'))"
+    "local": "/assets/5933-oo.jpg",
+    "alt": "",
+    "bytes": 145316
   },
   {
+    "id": 5932,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/pp.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/pp.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5932-pp.jpg",
+    "alt": "",
+    "bytes": 135070
   },
   {
+    "id": 5931,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/aa.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/aa.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5931-aa.jpg",
+    "alt": "",
+    "bytes": 99267
   },
   {
+    "id": 5930,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/dd.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/dd.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5930-dd.jpg",
+    "alt": "",
+    "bytes": 130434
   },
   {
+    "id": 5929,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ff.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/ff.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5929-ff.jpg",
+    "alt": "",
+    "bytes": 146713
   },
   {
+    "id": 5928,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/gg.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/gg.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5928-gg.jpg",
+    "alt": "",
+    "bytes": 105740
   },
   {
+    "id": 5927,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/hh.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/hh.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5927-hh.jpg",
+    "alt": "",
+    "bytes": 106594
   },
   {
+    "id": 5926,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/jj.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/jj.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5926-jj.jpg",
+    "alt": "",
+    "bytes": 36222
   },
   {
+    "id": 5925,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/kk.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/kk.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5925-kk.jpg",
+    "alt": "",
+    "bytes": 153430
   },
   {
+    "id": 5924,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/zz.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/zz.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5924-zz.jpg",
+    "alt": "",
+    "bytes": 81444
   },
   {
+    "id": 5923,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ll.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/ll.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5923-ll.jpg",
+    "alt": "",
+    "bytes": 73871
   },
   {
+    "id": 5922,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/sss.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/sss.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5922-sss.jpg",
+    "alt": "",
+    "bytes": 85194
   },
   {
+    "id": 5921,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/vv.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/vv.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5921-vv.jpg",
+    "alt": "",
+    "bytes": 163785
   },
   {
+    "id": 5920,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/bb.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/bb.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5920-bb.jpg",
+    "alt": "",
+    "bytes": 113023
   },
   {
+    "id": 5919,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/nn.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/nn.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5919-nn.jpg",
+    "alt": "",
+    "bytes": 137304
   },
   {
+    "id": 5918,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/mm.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/mm.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5918-mm.jpg",
+    "alt": "",
+    "bytes": 143795
   },
   {
+    "id": 5917,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/qqq.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/qqq.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5917-qqq.jpg",
+    "alt": "",
+    "bytes": 115642
   },
   {
+    "id": 5916,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/qwq.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/qwq.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5916-qwq.jpg",
+    "alt": "",
+    "bytes": 125059
   },
   {
+    "id": 5915,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ddf.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/ddf.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5915-ddf.jpg",
+    "alt": "",
+    "bytes": 110690
   },
   {
+    "id": 5914,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/asw.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/asw.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5914-asw.jpg",
+    "alt": "",
+    "bytes": 163397
   },
   {
+    "id": 5913,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/343.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/343.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5913-343.jpg",
+    "alt": "",
+    "bytes": 183838
   },
   {
+    "id": 5912,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/sda.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/sda.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5912-sda.jpg",
+    "alt": "",
+    "bytes": 144097
   },
   {
+    "id": 5911,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/xc.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/xc.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5911-xc.jpg",
+    "alt": "",
+    "bytes": 138568
   },
   {
+    "id": 5910,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/dfre.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/dfre.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5910-dfre.jpg",
+    "alt": "",
+    "bytes": 125403
   },
   {
+    "id": 5909,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ssd.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/ssd.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5909-ssd.jpg",
+    "alt": "",
+    "bytes": 128627
   },
   {
+    "id": 5908,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/xcvb.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/xcvb.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5908-xcvb.jpg",
+    "alt": "",
+    "bytes": 100652
   },
   {
+    "id": 5907,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/qwa.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/qwa.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5907-qwa.jpg",
+    "alt": "",
+    "bytes": 107131
   },
   {
+    "id": 5906,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/12q.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/12q.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5906-12q.jpg",
+    "alt": "",
+    "bytes": 127909
   },
   {
+    "id": 5905,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/fff.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/fff.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5905-fff.jpg",
+    "alt": "",
+    "bytes": 110522
   },
   {
+    "id": 5904,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/vfc.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/vfc.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5904-vfc.jpg",
+    "alt": "",
+    "bytes": 95157
   },
   {
+    "id": 5903,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/12qs.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/12qs.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5903-12qs.jpg",
+    "alt": "",
+    "bytes": 130921
   },
   {
+    "id": 5902,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/hhg.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/hhg.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5902-hhg.jpg",
+    "alt": "",
+    "bytes": 137615
   },
   {
+    "id": 5901,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/fgtr.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/fgtr.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5901-fgtr.jpg",
+    "alt": "",
+    "bytes": 114353
   },
   {
+    "id": 5900,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/qaz.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/qaz.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5900-qaz.jpg",
+    "alt": "",
+    "bytes": 147173
   },
   {
+    "id": 5899,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/des.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/des.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5899-des.jpg",
+    "alt": "",
+    "bytes": 115041
   },
   {
+    "id": 5898,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/dfc.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/dfc.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5898-dfc.jpg",
+    "alt": "",
+    "bytes": 90462
   },
   {
+    "id": 5897,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/bhnj.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/bhnj.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5897-bhnj.jpg",
+    "alt": "",
+    "bytes": 107893
   },
   {
+    "id": 5896,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/001.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/001.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5896-001.jpg",
+    "alt": "",
+    "bytes": 118778
   },
   {
+    "id": 5895,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/bg.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/bg.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5895-bg.jpg",
+    "alt": "",
+    "bytes": 109726
   },
   {
+    "id": 5894,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09222.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09222.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5894-DSC09222.jpg",
+    "alt": "",
+    "bytes": 159630
   },
   {
+    "id": 5893,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09265.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09265.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5893-DSC09265.jpg",
+    "alt": "",
+    "bytes": 168954
   },
   {
+    "id": 5891,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00032-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00032-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5891-DSC00032-1.jpg",
+    "alt": "",
+    "bytes": 68796
   },
   {
+    "id": 5890,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00076-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00076-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5890-DSC00076-1.jpg",
+    "alt": "",
+    "bytes": 89617
   },
   {
+    "id": 5889,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00145-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00145-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5889-DSC00145-1.jpg",
+    "alt": "",
+    "bytes": 93700
   },
   {
+    "id": 5885,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00909-2.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00909-2.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5885-DSC00909-2.jpg",
+    "alt": "",
+    "bytes": 128629
   },
   {
+    "id": 5884,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00906-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00906-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5884-DSC00906-1.jpg",
+    "alt": "",
+    "bytes": 113089
   },
   {
+    "id": 5883,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00921-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00921-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5883-DSC00921-1.jpg",
+    "alt": "",
+    "bytes": 126436
   },
   {
+    "id": 5882,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00908-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00908-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5882-DSC00908-1.jpg",
+    "alt": "",
+    "bytes": 90556
   },
   {
+    "id": 5881,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00966-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00966-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5881-DSC00966-1.jpg",
+    "alt": "",
+    "bytes": 1019719
   },
   {
+    "id": 5880,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00910-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00910-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5880-DSC00910-1.jpg",
+    "alt": "",
+    "bytes": 95511
   },
   {
+    "id": 5879,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00962-2.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00962-2.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5879-DSC00962-2.jpg",
+    "alt": "",
+    "bytes": 107211
   },
   {
+    "id": 5878,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00954-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00954-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5878-DSC00954-1.jpg",
+    "alt": "",
+    "bytes": 88972
   },
   {
+    "id": 5877,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00953-2.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00953-2.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5877-DSC00953-2.jpg",
+    "alt": "",
+    "bytes": 67726
   },
   {
+    "id": 5876,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00984-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00984-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5876-DSC00984-1.jpg",
+    "alt": "",
+    "bytes": 987329
   },
   {
+    "id": 5875,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00961-2.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00961-2.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5875-DSC00961-2.jpg",
+    "alt": "",
+    "bytes": 89820
   },
   {
+    "id": 5874,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00981-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00981-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5874-DSC00981-1.jpg",
+    "alt": "",
+    "bytes": 128639
   },
   {
+    "id": 5873,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00909-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00909-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5873-DSC00909-1.jpg",
+    "alt": "",
+    "bytes": 128629
   },
   {
+    "id": 5872,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00962-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00962-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5872-DSC00962-1.jpg",
+    "alt": "",
+    "bytes": 107211
   },
   {
+    "id": 5871,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00954.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00954.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5871-DSC00954.jpg",
+    "alt": "",
+    "bytes": 88972
   },
   {
+    "id": 5870,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00953-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00953-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5870-DSC00953-1.jpg",
+    "alt": "",
+    "bytes": 67726
   },
   {
+    "id": 5869,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00984.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00984.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5869-DSC00984.jpg",
+    "alt": "",
+    "bytes": 987329
   },
   {
+    "id": 5868,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00961-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00961-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5868-DSC00961-1.jpg",
+    "alt": "",
+    "bytes": 89820
   },
   {
+    "id": 5867,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00981.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00981.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5867-DSC00981.jpg",
+    "alt": "",
+    "bytes": 128639
   },
   {
+    "id": 5866,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00963.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00963.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5866-DSC00963.jpg",
+    "alt": "",
+    "bytes": 131441
   },
   {
+    "id": 5865,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00974.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00974.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5865-DSC00974.jpg",
+    "alt": "",
+    "bytes": 82222
   },
   {
+    "id": 5864,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00909.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00909.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5864-DSC00909.jpg",
+    "alt": "",
+    "bytes": 128629
   },
   {
+    "id": 5863,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00906.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00906.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5863-DSC00906.jpg",
+    "alt": "",
+    "bytes": 113089
   },
   {
+    "id": 5862,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00921.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00921.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5862-DSC00921.jpg",
+    "alt": "",
+    "bytes": 126436
   },
   {
+    "id": 5861,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00908.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00908.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5861-DSC00908.jpg",
+    "alt": "",
+    "bytes": 90556
   },
   {
+    "id": 5859,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00966.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00966.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5859-DSC00966.jpg",
+    "alt": "",
+    "bytes": 1019719
   },
   {
+    "id": 5858,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00910.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00910.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5858-DSC00910.jpg",
+    "alt": "",
+    "bytes": 95511
   },
   {
+    "id": 5857,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00962.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00962.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5857-DSC00962.jpg",
+    "alt": "",
+    "bytes": 107211
   },
   {
+    "id": 5856,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00959.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00959.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5856-DSC00959.jpg",
+    "alt": "",
+    "bytes": 127287
   },
   {
+    "id": 5855,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00941.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00941.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5855-DSC00941.jpg",
+    "alt": "",
+    "bytes": 138341
   },
   {
+    "id": 5854,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00958.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00958.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5854-DSC00958.jpg",
+    "alt": "",
+    "bytes": 109758
   },
   {
+    "id": 5853,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00972.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00972.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5853-DSC00972.jpg",
+    "alt": "",
+    "bytes": 105767
   },
   {
+    "id": 5852,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00928.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00928.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5852-DSC00928.jpg",
+    "alt": "",
+    "bytes": 146241
   },
   {
+    "id": 5848,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00945-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00945-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5848-DSC00945-1.jpg",
+    "alt": "",
+    "bytes": 140001
   },
   {
+    "id": 5847,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00960-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00960-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5847-DSC00960-1.jpg",
+    "alt": "",
+    "bytes": 111738
   },
   {
+    "id": 5846,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00933-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00933-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5846-DSC00933-1.jpg",
+    "alt": "",
+    "bytes": 143214
   },
   {
+    "id": 5845,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00935.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00935.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5845-DSC00935.jpg",
+    "alt": "",
+    "bytes": 137641
   },
   {
+    "id": 5844,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00913.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00913.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5844-DSC00913.jpg",
+    "alt": "",
+    "bytes": 80035
   },
   {
+    "id": 5843,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00951.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00951.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5843-DSC00951.jpg",
+    "alt": "",
+    "bytes": 106166
   },
   {
+    "id": 5842,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00923.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00923.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5842-DSC00923.jpg",
+    "alt": "",
+    "bytes": 135427
   },
   {
+    "id": 5841,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00905.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00905.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5841-DSC00905.jpg",
+    "alt": "",
+    "bytes": 120286
   },
   {
+    "id": 5840,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00955.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00955.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5840-DSC00955.jpg",
+    "alt": "",
+    "bytes": 111050
   },
   {
+    "id": 5839,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00980.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00980.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5839-DSC00980.jpg",
+    "alt": "",
+    "bytes": 77716
   },
   {
+    "id": 5838,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00939.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00939.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5838-DSC00939.jpg",
+    "alt": "",
+    "bytes": 113489
   },
   {
+    "id": 5837,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00931.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00931.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5837-DSC00931.jpg",
+    "alt": "",
+    "bytes": 125348
   },
   {
+    "id": 5836,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00956.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00956.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5836-DSC00956.jpg",
+    "alt": "",
+    "bytes": 118226
   },
   {
+    "id": 5835,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00918.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00918.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5835-DSC00918.jpg",
+    "alt": "",
+    "bytes": 87552
   },
   {
+    "id": 5834,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00920.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00920.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5834-DSC00920.jpg",
+    "alt": "",
+    "bytes": 118760
   },
   {
+    "id": 5833,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00976.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00976.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5833-DSC00976.jpg",
+    "alt": "",
+    "bytes": 151965
   },
   {
+    "id": 5832,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00965.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00965.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5832-DSC00965.jpg",
+    "alt": "",
+    "bytes": 80919
   },
   {
+    "id": 5831,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00932.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00932.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5831-DSC00932.jpg",
+    "alt": "",
+    "bytes": 136285
   },
   {
+    "id": 5830,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00917.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00917.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5830-DSC00917.jpg",
+    "alt": "",
+    "bytes": 81305
   },
   {
+    "id": 5829,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00937.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00937.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5829-DSC00937.jpg",
+    "alt": "",
+    "bytes": 126032
   },
   {
+    "id": 5828,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00925.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00925.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5828-DSC00925.jpg",
+    "alt": "",
+    "bytes": 90903
   },
   {
+    "id": 5827,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00950.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00950.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5827-DSC00950.jpg",
+    "alt": "",
+    "bytes": 94464
   },
   {
+    "id": 5826,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00949.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00949.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5826-DSC00949.jpg",
+    "alt": "",
+    "bytes": 122630
   },
   {
+    "id": 5825,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00926.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00926.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5825-DSC00926.jpg",
+    "alt": "",
+    "bytes": 103907
   },
   {
+    "id": 5824,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00953.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00953.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5824-DSC00953.jpg",
+    "alt": "",
+    "bytes": 87028
   },
   {
+    "id": 5823,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00945.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00945.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5823-DSC00945.jpg",
+    "alt": "",
+    "bytes": 140001
   },
   {
+    "id": 5822,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00960.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00960.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5822-DSC00960.jpg",
+    "alt": "",
+    "bytes": 111738
   },
   {
+    "id": 5821,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00933.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00933.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5821-DSC00933.jpg",
+    "alt": "",
+    "bytes": 143214
   },
   {
+    "id": 5819,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00922.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00922.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5819-DSC00922.jpg",
+    "alt": "",
+    "bytes": 170228
   },
   {
+    "id": 5808,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00145.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00145.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5808-DSC00145.jpg",
+    "alt": "",
+    "bytes": 34655
   },
   {
+    "id": 5807,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00032.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00032.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5807-DSC00032.jpg",
+    "alt": "",
+    "bytes": 25763
   },
   {
+    "id": 5806,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00076.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00076.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5806-DSC00076.jpg",
+    "alt": "",
+    "bytes": 32935
   },
   {
+    "id": 5802,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09934-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09934-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5802-DSC09934-1.jpg",
+    "alt": "",
+    "bytes": 27984
   },
   {
+    "id": 5801,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09937-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09937-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5801-DSC09937-1.jpg",
+    "alt": "",
+    "bytes": 29575
   },
   {
+    "id": 5800,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09948-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09948-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5800-DSC09948-1.jpg",
+    "alt": "",
+    "bytes": 25126
   },
   {
+    "id": 5799,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09935-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09935-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5799-DSC09935-1.jpg",
+    "alt": "",
+    "bytes": 28027
   },
   {
+    "id": 5798,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09951-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09951-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5798-DSC09951-1.jpg",
+    "alt": "",
+    "bytes": 25929
   },
   {
+    "id": 5797,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09944-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09944-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5797-DSC09944-1.jpg",
+    "alt": "",
+    "bytes": 29119
   },
   {
+    "id": 5796,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09943-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09943-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5796-DSC09943-1.jpg",
+    "alt": "",
+    "bytes": 33679
   },
   {
+    "id": 5795,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09950-2.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09950-2.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5795-DSC09950-2.jpg",
+    "alt": "",
+    "bytes": 29567
   },
   {
+    "id": 5794,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09945-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09945-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5794-DSC09945-1.jpg",
+    "alt": "",
+    "bytes": 20169
   },
   {
+    "id": 5793,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09936-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09936-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5793-DSC09936-1.jpg",
+    "alt": "",
+    "bytes": 30406
   },
   {
+    "id": 5792,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09938-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09938-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5792-DSC09938-1.jpg",
+    "alt": "",
+    "bytes": 30222
   },
   {
+    "id": 5791,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09941-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09941-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5791-DSC09941-1.jpg",
+    "alt": "",
+    "bytes": 34231
   },
   {
+    "id": 5790,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09942-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09942-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5790-DSC09942-1.jpg",
+    "alt": "",
+    "bytes": 31227
   },
   {
+    "id": 5788,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09951.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09951.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5788-DSC09951.jpg",
+    "alt": "",
+    "bytes": 25600
   },
   {
+    "id": 5787,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09945.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09945.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5787-DSC09945.jpg",
+    "alt": "",
+    "bytes": 17373
   },
   {
+    "id": 5786,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09944.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09944.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5786-DSC09944.jpg",
+    "alt": "",
+    "bytes": 23643
   },
   {
+    "id": 5785,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09950-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09950-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5785-DSC09950-1.jpg",
+    "alt": "",
+    "bytes": 23135
   },
   {
+    "id": 5784,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09948.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09948.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5784-DSC09948.jpg",
+    "alt": "",
+    "bytes": 21692
   },
   {
+    "id": 5783,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09943.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09943.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5783-DSC09943.jpg",
+    "alt": "",
+    "bytes": 29226
   },
   {
+    "id": 5782,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09942.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09942.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5782-DSC09942.jpg",
+    "alt": "",
+    "bytes": 32205
   },
   {
+    "id": 5781,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09941.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09941.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5781-DSC09941.jpg",
+    "alt": "",
+    "bytes": 32241
   },
   {
+    "id": 5780,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09938.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09938.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5780-DSC09938.jpg",
+    "alt": "",
+    "bytes": 24890
   },
   {
+    "id": 5779,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09937.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09937.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5779-DSC09937.jpg",
+    "alt": "",
+    "bytes": 24411
   },
   {
+    "id": 5778,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09936.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09936.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5778-DSC09936.jpg",
+    "alt": "",
+    "bytes": 48966
   },
   {
+    "id": 5777,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09935.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09935.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5777-DSC09935.jpg",
+    "alt": "",
+    "bytes": 18138
   },
   {
+    "id": 5776,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09934.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09934.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5776-DSC09934.jpg",
+    "alt": "",
+    "bytes": 15858
   },
   {
+    "id": 5775,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09933.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09933.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5775-DSC09933.jpg",
+    "alt": "",
+    "bytes": 35533
   },
   {
+    "id": 5774,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09931.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09931.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5774-DSC09931.jpg",
+    "alt": "",
+    "bytes": 48021
   },
   {
+    "id": 5773,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09930.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09930.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5773-DSC09930.jpg",
+    "alt": "",
+    "bytes": 34602
   },
   {
+    "id": 5772,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09921.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09921.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5772-DSC09921.jpg",
+    "alt": "",
+    "bytes": 44954
   },
   {
+    "id": 5771,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09929.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09929.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5771-DSC09929.jpg",
+    "alt": "",
+    "bytes": 55177
   },
   {
+    "id": 5770,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09926.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09926.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5770-DSC09926.jpg",
+    "alt": "",
+    "bytes": 39439
   },
   {
+    "id": 5769,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09818.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09818.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5769-DSC09818.jpg",
+    "alt": "",
+    "bytes": 16515
   },
   {
+    "id": 5768,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09952.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09952.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5768-DSC09952.jpg",
+    "alt": "",
+    "bytes": 25629
   },
   {
+    "id": 5767,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09918.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09918.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5767-DSC09918.jpg",
+    "alt": "",
+    "bytes": 45323
   },
   {
+    "id": 5766,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09927.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09927.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5766-DSC09927.jpg",
+    "alt": "",
+    "bytes": 42714
   },
   {
+    "id": 5765,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09920.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09920.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5765-DSC09920.jpg",
+    "alt": "",
+    "bytes": 35778
   },
   {
+    "id": 5761,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01307-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC01307-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5761-DSC01307-1.jpg",
+    "alt": "",
+    "bytes": 34983
   },
   {
+    "id": 5760,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01305.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC01305.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5760-DSC01305.jpg",
+    "alt": "",
+    "bytes": 33352
   },
   {
+    "id": 5759,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01301.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC01301.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5759-DSC01301.jpg",
+    "alt": "",
+    "bytes": 29352
   },
   {
+    "id": 5758,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01292.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC01292.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5758-DSC01292.jpg",
+    "alt": "",
+    "bytes": 38088
   },
   {
+    "id": 5757,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01289.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC01289.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5757-DSC01289.jpg",
+    "alt": "",
+    "bytes": 32954
   },
   {
+    "id": 5756,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01280.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC01280.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5756-DSC01280.jpg",
+    "alt": "",
+    "bytes": 21742
   },
   {
+    "id": 5755,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01272.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC01272.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5755-DSC01272.jpg",
+    "alt": "",
+    "bytes": 33702
   },
   {
+    "id": 5754,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01309.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC01309.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5754-DSC01309.jpg",
+    "alt": "",
+    "bytes": 27621
   },
   {
+    "id": 5741,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/red.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/red.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5741-red.jpg",
+    "alt": "",
+    "bytes": 281389
   },
   {
+    "id": 5740,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/Recovered-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/Recovered-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5740-Recovered-scaled.jpg",
+    "alt": "",
+    "bytes": 765280
   },
   {
+    "id": 5739,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/gallery1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/gallery1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5739-gallery1.jpg",
+    "alt": "",
+    "bytes": 164644
   },
   {
+    "id": 5708,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/coverA-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/coverA-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5708-coverA-1.jpg",
+    "alt": "",
+    "bytes": 180226
   },
   {
+    "id": 5707,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/coverA.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/coverA.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5707-coverA.jpg",
+    "alt": "",
+    "bytes": 180226
   },
   {
+    "id": 5706,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/cover_about-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/cover_about-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5706-cover_about-scaled.jpg",
+    "alt": "",
+    "bytes": 592523
   },
   {
+    "id": 5695,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/contact.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/contact.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5695-contact.jpg",
+    "alt": "",
+    "bytes": 147185
   },
   {
+    "id": 5691,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide1-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/slide1-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5691-slide1-1.jpg",
+    "alt": "",
+    "bytes": 689764
   },
   {
+    "id": 5690,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide2-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/slide2-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5690-slide2-1.jpg",
+    "alt": "",
+    "bytes": 122971
   },
   {
+    "id": 5688,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide3-1.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/slide3-1.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5688-slide3-1.jpg",
+    "alt": "",
+    "bytes": 32738
   },
   {
+    "id": 5674,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide1-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/slide1-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5674-slide1-scaled.jpg",
+    "alt": "",
+    "bytes": 642529
   },
   {
+    "id": 5673,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide2-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/slide2-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5673-slide2-scaled.jpg",
+    "alt": "",
+    "bytes": 795855
   },
   {
+    "id": 5672,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide3-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/slide3-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5672-slide3-scaled.jpg",
+    "alt": "",
+    "bytes": 444135
   },
   {
+    "id": 5671,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01277-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC01277-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5671-DSC01277-scaled.jpg",
+    "alt": "",
+    "bytes": 558175
   },
   {
+    "id": 5661,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/about.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/about.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5661-about.jpg",
+    "alt": "",
+    "bytes": 155719
   },
   {
+    "id": 5639,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/vision-1-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/vision-1-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5639-vision-1-scaled.jpg",
+    "alt": "",
+    "bytes": 430938
   },
   {
+    "id": 5635,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/vision-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/vision-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5635-vision-scaled.jpg",
+    "alt": "",
+    "bytes": 531408
   },
   {
+    "id": 5634,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01307-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC01307-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5634-DSC01307-scaled.jpg",
+    "alt": "",
+    "bytes": 878463
   },
   {
+    "id": 5632,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/m2-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/m2-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5632-m2-scaled.jpg",
+    "alt": "",
+    "bytes": 458494
   },
   {
+    "id": 5631,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/mission-4-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/mission-4-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5631-mission-4-scaled.jpg",
+    "alt": "",
+    "bytes": 581528
   },
   {
+    "id": 5551,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/flagmain.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/flagmain.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5551-flagmain.jpg",
+    "alt": "",
+    "bytes": 23302
   },
   {
+    "id": 5535,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ourVision-scaled.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/ourVision-scaled.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5535-ourVision-scaled.jpg",
+    "alt": "",
+    "bytes": 620868
   },
   {
+    "id": 5534,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09950.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC09950.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5534-DSC09950.jpg",
+    "alt": "",
+    "bytes": 13235286
   },
   {
+    "id": 5528,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/EVENT.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/EVENT.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5528-EVENT.jpg",
+    "alt": "",
+    "bytes": 100184
   },
   {
+    "id": 5524,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/prayer.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/prayer.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5524-prayer.jpg",
+    "alt": "",
+    "bytes": 75752
   },
   {
+    "id": 5523,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/the-bible.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/the-bible.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5523-the-bible.jpg",
+    "alt": "",
+    "bytes": 26391
   },
   {
+    "id": 5521,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00961.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/DSC00961.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5521-DSC00961.jpg",
+    "alt": "",
+    "bytes": 12583574
   },
   {
+    "id": 5517,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/cover.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/cover.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5517-cover.jpg",
+    "alt": "",
+    "bytes": 273403
   },
   {
+    "id": 5516,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/cover2.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/cover2.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5516-cover2.jpg",
+    "alt": "",
+    "bytes": 229614
   },
   {
+    "id": 5513,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5513-rccg-cod-cantebury-logo-1.png",
+    "alt": "",
+    "bytes": 37640
   },
   {
+    "id": 5512,
     "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/cover3.jpg",
-    "error": "HTTPSConnectionPool(host='codcanterburychurch.org', port=443): Max retries exceeded with url: /wp-content/uploads/2025/05/cover3.jpg (Caused by NameResolutionError(\"HTTPSConnection(host='codcanterburychurch.org', port=443): Failed to resolve 'codcanterburychurch.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    "local": "/assets/5512-cover3.jpg",
+    "alt": "",
+    "bytes": 259958
   }
 ]

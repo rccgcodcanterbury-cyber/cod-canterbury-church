@@ -1,0 +1,1743 @@
+{
+  "attempted": 193,
+  "recovered": [
+    {
+      "id": 5945,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/66.jpg",
+      "asset": "/assets/5945-66.webp",
+      "bytes": 102886,
+      "width": 858,
+      "height": 858,
+      "sha256": "12be0f47197ae7c688e465340f42264dce52b7e0bd956c2ec7c9e8e85588b98a"
+    },
+    {
+      "id": 6099,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/4-2.jpg",
+      "asset": "/assets/6099-4-2.webp",
+      "bytes": 103752,
+      "width": 858,
+      "height": 857,
+      "sha256": "66e0b0369e4186e513acacd9838f4531bef84ff8069c420ff714245aaf645477"
+    },
+    {
+      "id": 5943,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/99.jpg",
+      "asset": "/assets/5943-99.webp",
+      "bytes": 131322,
+      "width": 857,
+      "height": 857,
+      "sha256": "7e7b4302440fc4d216589539d76cf1bb5303a0798b588793f080f55ade77f1ee"
+    },
+    {
+      "id": 5944,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/77.jpg",
+      "asset": "/assets/5944-77.webp",
+      "bytes": 135384,
+      "width": 857,
+      "height": 857,
+      "sha256": "065df6c069924613de54f5ae4f973b58fbdabe418c6cb2449f82101588bc32b1"
+    },
+    {
+      "id": 5936,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/yy.jpg",
+      "asset": "/assets/5936-yy.webp",
+      "bytes": 98821,
+      "width": 858,
+      "height": 857,
+      "sha256": "315f85898c9a07f64f020e228b7ef75fa8fcc1ef5d69ca30c7099f35a9f8964c"
+    },
+    {
+      "id": 5937,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/tt.jpg",
+      "asset": "/assets/5937-tt.webp",
+      "bytes": 106833,
+      "width": 857,
+      "height": 858,
+      "sha256": "612a0d1112922706c613a78f3c18bc407698b6ca85893bebc57fc2ee65db7a6f"
+    },
+    {
+      "id": 5934,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ii.jpg",
+      "asset": "/assets/5934-ii.webp",
+      "bytes": 185260,
+      "width": 857,
+      "height": 857,
+      "sha256": "c2bebba6f23a1f367cad4789a8ea613d42b5532cb5c529623b089ef5c7fb9194"
+    },
+    {
+      "id": 5935,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/uu.jpg",
+      "asset": "/assets/5935-uu.webp",
+      "bytes": 164012,
+      "width": 857,
+      "height": 857,
+      "sha256": "f8f15a172bf1f7b960cfc22ed52995886a7e8305c2c12dccd1ae6e66204183ba"
+    },
+    {
+      "id": 5933,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/oo.jpg",
+      "asset": "/assets/5933-oo.webp",
+      "bytes": 145316,
+      "width": 858,
+      "height": 858,
+      "sha256": "4537be8e0ddaeca902019fd6fcffbbfa48d23e1425c84d90a5ed1025affde64c"
+    },
+    {
+      "id": 5932,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/pp.jpg",
+      "asset": "/assets/5932-pp.webp",
+      "bytes": 135070,
+      "width": 857,
+      "height": 857,
+      "sha256": "1b499bb1d663a74f3a270ed7097809ec0eaf49261bf8593bde16d35772757aa4"
+    },
+    {
+      "id": 5931,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/aa.jpg",
+      "asset": "/assets/5931-aa.webp",
+      "bytes": 99267,
+      "width": 857,
+      "height": 858,
+      "sha256": "39cdf6dc7a02b7fa26b8ea2f8ddc03c8213bd8ecc863848a62cb1b000555f8ce"
+    },
+    {
+      "id": 5930,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/dd.jpg",
+      "asset": "/assets/5930-dd.webp",
+      "bytes": 130434,
+      "width": 858,
+      "height": 858,
+      "sha256": "0b925830347ed5d7b7e40cc7b4bb4a528d07f158da87f66d17ec570af4ebc2f2"
+    },
+    {
+      "id": 5926,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/jj.jpg",
+      "asset": "/assets/5926-jj.webp",
+      "bytes": 36222,
+      "width": 857,
+      "height": 857,
+      "sha256": "14a11e121e41787b95579faa64484b7051ee64d24c22685f317cbbdf1909abc0"
+    },
+    {
+      "id": 5927,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/hh.jpg",
+      "asset": "/assets/5927-hh.webp",
+      "bytes": 106594,
+      "width": 858,
+      "height": 857,
+      "sha256": "f20fa4cf74acb0346beb5c1002cd69de44525043ddfd317b6674094989ac7c1e"
+    },
+    {
+      "id": 5928,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/gg.jpg",
+      "asset": "/assets/5928-gg.webp",
+      "bytes": 105740,
+      "width": 858,
+      "height": 857,
+      "sha256": "fb0c0af4bb19769896940e0c8fa1ae17496db6ac804481ee397dbf80e744d841"
+    },
+    {
+      "id": 5929,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ff.jpg",
+      "asset": "/assets/5929-ff.webp",
+      "bytes": 146713,
+      "width": 857,
+      "height": 857,
+      "sha256": "a8cc21d67f72c16af497fc86c49e96214657f56e8ed22aba93b93b23d26cde3a"
+    },
+    {
+      "id": 5922,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/sss.jpg",
+      "asset": "/assets/5922-sss.webp",
+      "bytes": 85194,
+      "width": 858,
+      "height": 857,
+      "sha256": "6f79db2e509072f5a91ca744fb69da41ee0681b791c84570035ff7126d0e4f91"
+    },
+    {
+      "id": 5924,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/zz.jpg",
+      "asset": "/assets/5924-zz.webp",
+      "bytes": 81444,
+      "width": 858,
+      "height": 858,
+      "sha256": "d863a4fca19103adac00f221ef411d8552e5dda7e8352a9e65fcfdfdd4b1a56b"
+    },
+    {
+      "id": 5925,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/kk.jpg",
+      "asset": "/assets/5925-kk.webp",
+      "bytes": 153430,
+      "width": 857,
+      "height": 858,
+      "sha256": "0355b8672de661ef19b214c9a1bc7759f0d3eef229099cddd51c562665abff93"
+    },
+    {
+      "id": 5923,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ll.jpg",
+      "asset": "/assets/5923-ll.webp",
+      "bytes": 73871,
+      "width": 858,
+      "height": 857,
+      "sha256": "074e841617e0b642743c1e9690692b9a8598b0cddb041a4a4c10480f642ae5f6"
+    },
+    {
+      "id": 5918,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/mm.jpg",
+      "asset": "/assets/5918-mm.webp",
+      "bytes": 143795,
+      "width": 858,
+      "height": 858,
+      "sha256": "d18f69a9c8fa0a60556c3123df082e37e6c969cab22f9940ae601a1d8e6d0d8a"
+    },
+    {
+      "id": 5920,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/bb.jpg",
+      "asset": "/assets/5920-bb.webp",
+      "bytes": 113023,
+      "width": 857,
+      "height": 857,
+      "sha256": "2d3242fccc15688810c0d0a598436d016ea4482f64a55526bf2011eb69bf5a1b"
+    },
+    {
+      "id": 5921,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/vv.jpg",
+      "asset": "/assets/5921-vv.webp",
+      "bytes": 163785,
+      "width": 858,
+      "height": 857,
+      "sha256": "7aa27d7b2e4c3f5da4b27270b4bed61da3da8383bd39c770aedfed792764471c"
+    },
+    {
+      "id": 5919,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/nn.jpg",
+      "asset": "/assets/5919-nn.webp",
+      "bytes": 137304,
+      "width": 857,
+      "height": 857,
+      "sha256": "fdbe4979c5d8b2797effe279b38e3ab396f4e78f768222ae160b0e9c59c3197f"
+    },
+    {
+      "id": 5917,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/qqq.jpg",
+      "asset": "/assets/5917-qqq.webp",
+      "bytes": 115642,
+      "width": 857,
+      "height": 858,
+      "sha256": "2457e61f8f213c8431a4974ae3abbc78d29a69abb6d258765ffb96357474632b"
+    },
+    {
+      "id": 5915,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ddf.jpg",
+      "asset": "/assets/5915-ddf.webp",
+      "bytes": 110690,
+      "width": 858,
+      "height": 857,
+      "sha256": "06cbf29bd9bab35368b0515bb95994853ebbfb87e42a8c2fcf846eaa996be5f7"
+    },
+    {
+      "id": 5916,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/qwq.jpg",
+      "asset": "/assets/5916-qwq.webp",
+      "bytes": 125059,
+      "width": 857,
+      "height": 857,
+      "sha256": "b1b5d0330232c870b0a8be0a1bf8e63fe4b6a23cb2bc3812a7e188b5adce0d14"
+    },
+    {
+      "id": 5914,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/asw.jpg",
+      "asset": "/assets/5914-asw.webp",
+      "bytes": 163397,
+      "width": 858,
+      "height": 858,
+      "sha256": "76bd35c9310cd3474e6c3c2591d4c5a6b438c13ad2e209d1fdf2571998929650"
+    },
+    {
+      "id": 5913,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/343.jpg",
+      "asset": "/assets/5913-343.webp",
+      "bytes": 183838,
+      "width": 858,
+      "height": 857,
+      "sha256": "00fa066d6df9860d0be473a86591927f43af237d1bf15c97200c256498985d75"
+    },
+    {
+      "id": 5912,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/sda.jpg",
+      "asset": "/assets/5912-sda.webp",
+      "bytes": 144097,
+      "width": 858,
+      "height": 858,
+      "sha256": "dfae56ed7aad464387df5f395e4ff82df94edc8e00a22f36e399ef88dd98475b"
+    },
+    {
+      "id": 5911,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/xc.jpg",
+      "asset": "/assets/5911-xc.webp",
+      "bytes": 138568,
+      "width": 858,
+      "height": 857,
+      "sha256": "c6e54badae4d5c664bc7a4de9a5b4ee98caedaba1d038023a400a8db341bf570"
+    },
+    {
+      "id": 5910,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/dfre.jpg",
+      "asset": "/assets/5910-dfre.webp",
+      "bytes": 125403,
+      "width": 857,
+      "height": 857,
+      "sha256": "49c4914229e9d4bd1ec143126afa251aa7387f8df66b3859009640e28c32e9be"
+    },
+    {
+      "id": 5909,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ssd.jpg",
+      "asset": "/assets/5909-ssd.webp",
+      "bytes": 128627,
+      "width": 858,
+      "height": 858,
+      "sha256": "0b76e8f7dd8e371b89fee34888cc5eb0c0c99d0199be1afc8237fa55b614b759"
+    },
+    {
+      "id": 5908,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/xcvb.jpg",
+      "asset": "/assets/5908-xcvb.webp",
+      "bytes": 100652,
+      "width": 857,
+      "height": 858,
+      "sha256": "da825a3f734a52fa493c5c3067d80d5dd36171a2a823984d84e1ed7cf2f43b2b"
+    },
+    {
+      "id": 5907,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/qwa.jpg",
+      "asset": "/assets/5907-qwa.webp",
+      "bytes": 107131,
+      "width": 857,
+      "height": 857,
+      "sha256": "fb2211ea357ad5b5420c860851aa15ac73315827d5c299468f6c5fc1f2d1ac91"
+    },
+    {
+      "id": 5906,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/12q.jpg",
+      "asset": "/assets/5906-12q.webp",
+      "bytes": 127909,
+      "width": 857,
+      "height": 857,
+      "sha256": "69e27db184bbf59e1c0a5ae73c0db90a795c7771d4aca3e0b9cf1fabdaffce57"
+    },
+    {
+      "id": 5905,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/fff.jpg",
+      "asset": "/assets/5905-fff.webp",
+      "bytes": 110522,
+      "width": 857,
+      "height": 857,
+      "sha256": "899a8b29c95b9abdfc81829b8e011c0cba6e76686ea864cb8a2355f9ad01837a"
+    },
+    {
+      "id": 5904,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/vfc.jpg",
+      "asset": "/assets/5904-vfc.webp",
+      "bytes": 95157,
+      "width": 857,
+      "height": 858,
+      "sha256": "4545ed08b7217bbf1b75baba11ec20f01f159810f826581b0687f103d9d0da22"
+    },
+    {
+      "id": 5903,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/12qs.jpg",
+      "asset": "/assets/5903-12qs.webp",
+      "bytes": 130921,
+      "width": 858,
+      "height": 858,
+      "sha256": "fcabe3113d7de007fcffb86f13d84943434c626c07c5fdd9149ad42a242d5945"
+    },
+    {
+      "id": 5902,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/hhg.jpg",
+      "asset": "/assets/5902-hhg.webp",
+      "bytes": 137615,
+      "width": 857,
+      "height": 857,
+      "sha256": "66ed8ecd1c0a65bdc0830b4f71e70c79a0762a2eba61d533274fd100c2b2f304"
+    },
+    {
+      "id": 5901,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/fgtr.jpg",
+      "asset": "/assets/5901-fgtr.webp",
+      "bytes": 114353,
+      "width": 857,
+      "height": 858,
+      "sha256": "9e99c04500caa181617fcd02a467de65d1df461bea1254877da738ad57dd1d22"
+    },
+    {
+      "id": 5900,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/qaz.jpg",
+      "asset": "/assets/5900-qaz.webp",
+      "bytes": 147173,
+      "width": 858,
+      "height": 858,
+      "sha256": "a6aa9317da6b474125c9555ea5b8d44893289fd96ce7bcc95f2f9a0e18717de2"
+    },
+    {
+      "id": 5899,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/des.jpg",
+      "asset": "/assets/5899-des.webp",
+      "bytes": 115041,
+      "width": 857,
+      "height": 857,
+      "sha256": "20dafb7dd6fbcfbcf06e3a6e4f25211f5f41e4a9b5092e1bf53120989c2da9bb"
+    },
+    {
+      "id": 5898,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/dfc.jpg",
+      "asset": "/assets/5898-dfc.webp",
+      "bytes": 90462,
+      "width": 858,
+      "height": 857,
+      "sha256": "62f000db14c4fd6abbec4d3ed20e5c6514d3d1215cfa15f88963020c2fbd9376"
+    },
+    {
+      "id": 5897,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/bhnj.jpg",
+      "asset": "/assets/5897-bhnj.webp",
+      "bytes": 107893,
+      "width": 858,
+      "height": 857,
+      "sha256": "bb69435e4c2ff2c2e2ddcb21108c327cf54c613efd7daf44a5b587bd18dfb5ba"
+    },
+    {
+      "id": 5896,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/001.jpg",
+      "asset": "/assets/5896-001.webp",
+      "bytes": 118778,
+      "width": 858,
+      "height": 857,
+      "sha256": "2609c10dfcc10c271ddcf990d58179d301b914786ad0dc5022cf315b57c17dda"
+    },
+    {
+      "id": 5895,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/bg.jpg",
+      "asset": "/assets/5895-bg.webp",
+      "bytes": 109726,
+      "width": 858,
+      "height": 858,
+      "sha256": "9910d3df7a2b50d53620171697411c427e330b625c4502b016848e7a2d864b14"
+    },
+    {
+      "id": 5894,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09222.jpg",
+      "asset": "/assets/5894-DSC09222.webp",
+      "bytes": 159630,
+      "width": 857,
+      "height": 857,
+      "sha256": "7a502fc5196a1d5c47ca9cff70af12fd347f56ac8beb6bf2fa4172e77d2b1e2f"
+    },
+    {
+      "id": 5893,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09265.jpg",
+      "asset": "/assets/5893-DSC09265.webp",
+      "bytes": 168954,
+      "width": 857,
+      "height": 857,
+      "sha256": "e7fa86ca6bf7469cb562e670a620542ceb31dc6e612411fe30c624df9fed2c1c"
+    },
+    {
+      "id": 5891,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00032-1.jpg",
+      "asset": "/assets/5891-DSC00032-1.webp",
+      "bytes": 68796,
+      "width": 857,
+      "height": 858,
+      "sha256": "3fc3f9b556a8b4f98c360d27283d8486908a187ec7552edf4bfe5643ff87f8b2"
+    },
+    {
+      "id": 5890,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00076-1.jpg",
+      "asset": "/assets/5890-DSC00076-1.webp",
+      "bytes": 89617,
+      "width": 857,
+      "height": 857,
+      "sha256": "0672186ba86aa1cdf286dd62eb2677af4d1acd3a5abf352f26214b2a846b9da9"
+    },
+    {
+      "id": 5889,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00145-1.jpg",
+      "asset": "/assets/5889-DSC00145-1.webp",
+      "bytes": 93700,
+      "width": 857,
+      "height": 858,
+      "sha256": "4d711a3d47b6b25cdffcad79ea01201d099284b59730ab14f3ed72183d2872ec"
+    },
+    {
+      "id": 5885,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00909-2.jpg",
+      "asset": "/assets/5885-DSC00909-2.webp",
+      "bytes": 128629,
+      "width": 857,
+      "height": 858,
+      "sha256": "c3275756107cf901430111b449ecf9edaded055a49d2fbc4edc14705ca8a9bd0"
+    },
+    {
+      "id": 5884,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00906-1.jpg",
+      "asset": "/assets/5884-DSC00906-1.webp",
+      "bytes": 113089,
+      "width": 858,
+      "height": 857,
+      "sha256": "36c404c2a74d550b55714fa140457abbaa44a53be9d0f146b94767d4c47468a2"
+    },
+    {
+      "id": 5883,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00921-1.jpg",
+      "asset": "/assets/5883-DSC00921-1.webp",
+      "bytes": 126436,
+      "width": 857,
+      "height": 858,
+      "sha256": "5b01cbbc79558bd01090118d5b6eac06cef62385e58cfb51efe403b895a5339a"
+    },
+    {
+      "id": 5882,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00908-1.jpg",
+      "asset": "/assets/5882-DSC00908-1.webp",
+      "bytes": 90556,
+      "width": 857,
+      "height": 857,
+      "sha256": "adae62112d035528b4f46b185acfc94ac735e9e29b41b7ac9601220c3b6194b5"
+    },
+    {
+      "id": 5881,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00966-1.jpg",
+      "asset": "/assets/5881-DSC00966-1.webp",
+      "bytes": 1019719,
+      "width": 858,
+      "height": 857,
+      "sha256": "d409e2dec6f36757972a30d847c22020e7f605a6ade3a5f5677b67983c8b9956"
+    },
+    {
+      "id": 5880,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00910-1.jpg",
+      "asset": "/assets/5880-DSC00910-1.webp",
+      "bytes": 95511,
+      "width": 857,
+      "height": 858,
+      "sha256": "71a5d38453d90d94efca6344ba5ea80a094e7d88a7861a62a7fc09bc384d5a39"
+    },
+    {
+      "id": 5878,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00954-1.jpg",
+      "asset": "/assets/5878-DSC00954-1.webp",
+      "bytes": 88972,
+      "width": 857,
+      "height": 857,
+      "sha256": "905a08fbe538e5ae8c8c7092909b913694d9f8b3f2b0681e9b7e07985dc1f2dd"
+    },
+    {
+      "id": 5879,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00962-2.jpg",
+      "asset": "/assets/5879-DSC00962-2.webp",
+      "bytes": 107211,
+      "width": 857,
+      "height": 857,
+      "sha256": "ece08a486bedbb469e405dec0ab9c3dd410f09899d0df65e40060295e8fe343a"
+    },
+    {
+      "id": 5877,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00953-2.jpg",
+      "asset": "/assets/5877-DSC00953-2.webp",
+      "bytes": 67726,
+      "width": 857,
+      "height": 857,
+      "sha256": "6cf74dac0c7ae99cb1df08fc992cec4427ec313045fac0d28f627c93389236c1"
+    },
+    {
+      "id": 5876,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00984-1.jpg",
+      "asset": "/assets/5876-DSC00984-1.webp",
+      "bytes": 987329,
+      "width": 857,
+      "height": 857,
+      "sha256": "8887f73496d5fc5c5bd28071797fd78fd2566fbddd2ac8eec94210efb3f175dd"
+    },
+    {
+      "id": 5875,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00961-2.jpg",
+      "asset": "/assets/5875-DSC00961-2.webp",
+      "bytes": 89820,
+      "width": 857,
+      "height": 858,
+      "sha256": "b0360ab7e617ffc84e66d778bd9de3927bd084363e90edd632a513a2b39340b5"
+    },
+    {
+      "id": 5874,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00981-1.jpg",
+      "asset": "/assets/5874-DSC00981-1.webp",
+      "bytes": 128639,
+      "width": 857,
+      "height": 857,
+      "sha256": "82568744f8732e2480e67f77d5cd9a1ddc5f84633a99d1348b051e721aed896f"
+    },
+    {
+      "id": 5871,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00954.jpg",
+      "asset": "/assets/5871-DSC00954.webp",
+      "bytes": 88972,
+      "width": 857,
+      "height": 857,
+      "sha256": "905a08fbe538e5ae8c8c7092909b913694d9f8b3f2b0681e9b7e07985dc1f2dd"
+    },
+    {
+      "id": 5872,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00962-1.jpg",
+      "asset": "/assets/5872-DSC00962-1.webp",
+      "bytes": 107211,
+      "width": 857,
+      "height": 857,
+      "sha256": "ece08a486bedbb469e405dec0ab9c3dd410f09899d0df65e40060295e8fe343a"
+    },
+    {
+      "id": 5873,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00909-1.jpg",
+      "asset": "/assets/5873-DSC00909-1.webp",
+      "bytes": 128629,
+      "width": 857,
+      "height": 858,
+      "sha256": "c3275756107cf901430111b449ecf9edaded055a49d2fbc4edc14705ca8a9bd0"
+    },
+    {
+      "id": 5870,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00953-1.jpg",
+      "asset": "/assets/5870-DSC00953-1.webp",
+      "bytes": 67726,
+      "width": 857,
+      "height": 857,
+      "sha256": "6cf74dac0c7ae99cb1df08fc992cec4427ec313045fac0d28f627c93389236c1"
+    },
+    {
+      "id": 5868,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00961-1.jpg",
+      "asset": "/assets/5868-DSC00961-1.webp",
+      "bytes": 89820,
+      "width": 857,
+      "height": 858,
+      "sha256": "b0360ab7e617ffc84e66d778bd9de3927bd084363e90edd632a513a2b39340b5"
+    },
+    {
+      "id": 5867,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00981.jpg",
+      "asset": "/assets/5867-DSC00981.webp",
+      "bytes": 128639,
+      "width": 857,
+      "height": 857,
+      "sha256": "82568744f8732e2480e67f77d5cd9a1ddc5f84633a99d1348b051e721aed896f"
+    },
+    {
+      "id": 5866,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00963.jpg",
+      "asset": "/assets/5866-DSC00963.webp",
+      "bytes": 131441,
+      "width": 858,
+      "height": 858,
+      "sha256": "ec84a2f9063ddb16ad50a89c22e06923a58c6dbce439b1012190087c8105492a"
+    },
+    {
+      "id": 5869,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00984.jpg",
+      "asset": "/assets/5869-DSC00984.webp",
+      "bytes": 987329,
+      "width": 857,
+      "height": 857,
+      "sha256": "8887f73496d5fc5c5bd28071797fd78fd2566fbddd2ac8eec94210efb3f175dd"
+    },
+    {
+      "id": 5865,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00974.jpg",
+      "asset": "/assets/5865-DSC00974.webp",
+      "bytes": 82222,
+      "width": 857,
+      "height": 858,
+      "sha256": "62ae1d60bfffed30258d79176089cf84a04638451dc08441e29ca35e50258f0c"
+    },
+    {
+      "id": 5863,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00906.jpg",
+      "asset": "/assets/5863-DSC00906.webp",
+      "bytes": 113089,
+      "width": 858,
+      "height": 857,
+      "sha256": "36c404c2a74d550b55714fa140457abbaa44a53be9d0f146b94767d4c47468a2"
+    },
+    {
+      "id": 5864,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00909.jpg",
+      "asset": "/assets/5864-DSC00909.webp",
+      "bytes": 128629,
+      "width": 857,
+      "height": 858,
+      "sha256": "c3275756107cf901430111b449ecf9edaded055a49d2fbc4edc14705ca8a9bd0"
+    },
+    {
+      "id": 5862,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00921.jpg",
+      "asset": "/assets/5862-DSC00921.webp",
+      "bytes": 126436,
+      "width": 857,
+      "height": 858,
+      "sha256": "5b01cbbc79558bd01090118d5b6eac06cef62385e58cfb51efe403b895a5339a"
+    },
+    {
+      "id": 5861,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00908.jpg",
+      "asset": "/assets/5861-DSC00908.webp",
+      "bytes": 90556,
+      "width": 857,
+      "height": 857,
+      "sha256": "adae62112d035528b4f46b185acfc94ac735e9e29b41b7ac9601220c3b6194b5"
+    },
+    {
+      "id": 5858,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00910.jpg",
+      "asset": "/assets/5858-DSC00910.webp",
+      "bytes": 95511,
+      "width": 857,
+      "height": 858,
+      "sha256": "71a5d38453d90d94efca6344ba5ea80a094e7d88a7861a62a7fc09bc384d5a39"
+    },
+    {
+      "id": 5857,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00962.jpg",
+      "asset": "/assets/5857-DSC00962.webp",
+      "bytes": 107211,
+      "width": 857,
+      "height": 857,
+      "sha256": "ece08a486bedbb469e405dec0ab9c3dd410f09899d0df65e40060295e8fe343a"
+    },
+    {
+      "id": 5859,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00966.jpg",
+      "asset": "/assets/5859-DSC00966.webp",
+      "bytes": 1019719,
+      "width": 858,
+      "height": 857,
+      "sha256": "d409e2dec6f36757972a30d847c22020e7f605a6ade3a5f5677b67983c8b9956"
+    },
+    {
+      "id": 5856,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00959.jpg",
+      "asset": "/assets/5856-DSC00959.webp",
+      "bytes": 127287,
+      "width": 858,
+      "height": 858,
+      "sha256": "966b6a1ca268615da008008f5251494c49755f235905e21301eedb2d392613d7"
+    },
+    {
+      "id": 5855,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00941.jpg",
+      "asset": "/assets/5855-DSC00941.webp",
+      "bytes": 138341,
+      "width": 857,
+      "height": 858,
+      "sha256": "e02432042fd526bbb6e47a94d97a5f64dabd8e8568262f3856949013d2664d80"
+    },
+    {
+      "id": 5854,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00958.jpg",
+      "asset": "/assets/5854-DSC00958.webp",
+      "bytes": 109758,
+      "width": 857,
+      "height": 857,
+      "sha256": "90d369c1c618004a8bdbffef5c5f5b3e4008437a73a8cae90a390d59fdfadf97"
+    },
+    {
+      "id": 5853,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00972.jpg",
+      "asset": "/assets/5853-DSC00972.webp",
+      "bytes": 105767,
+      "width": 858,
+      "height": 857,
+      "sha256": "7a469774ff5c741e3bbc17ff9d245f6a59b4005339d4cc4de780d63719588c1e"
+    },
+    {
+      "id": 5852,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00928.jpg",
+      "asset": "/assets/5852-DSC00928.webp",
+      "bytes": 146241,
+      "width": 857,
+      "height": 858,
+      "sha256": "406484c2450279aa41758b4c08005387d4e416f5ec5b6e840af6db828adb1aa4"
+    },
+    {
+      "id": 5848,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00945-1.jpg",
+      "asset": "/assets/5848-DSC00945-1.webp",
+      "bytes": 140001,
+      "width": 858,
+      "height": 857,
+      "sha256": "b43497249b087db31cf53223ed2800ae380639c51e471eae1718bd00be542c3f"
+    },
+    {
+      "id": 5847,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00960-1.jpg",
+      "asset": "/assets/5847-DSC00960-1.webp",
+      "bytes": 111738,
+      "width": 858,
+      "height": 857,
+      "sha256": "1ed72443d3cabde7624ab7cecbf903555c0748043c530e0b78b0f2cf9b875915"
+    },
+    {
+      "id": 5846,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00933-1.jpg",
+      "asset": "/assets/5846-DSC00933-1.webp",
+      "bytes": 143214,
+      "width": 857,
+      "height": 857,
+      "sha256": "912fed5a371d745514e478a88a8a6d6aafea3079db55ecf0c9f59639cd623912"
+    },
+    {
+      "id": 5845,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00935.jpg",
+      "asset": "/assets/5845-DSC00935.webp",
+      "bytes": 137641,
+      "width": 857,
+      "height": 858,
+      "sha256": "82cd17ea94f0bedbff96d244ac5a3984a1a9e2dff5a72a3e70b25bf9d4be8baf"
+    },
+    {
+      "id": 5844,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00913.jpg",
+      "asset": "/assets/5844-DSC00913.webp",
+      "bytes": 80035,
+      "width": 858,
+      "height": 858,
+      "sha256": "26c5d34075104d4e63a3f81f644dfd691e0fe168def0601d04c44f98492ec4c0"
+    },
+    {
+      "id": 5843,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00951.jpg",
+      "asset": "/assets/5843-DSC00951.webp",
+      "bytes": 106166,
+      "width": 858,
+      "height": 857,
+      "sha256": "d8b0d8c545e024901963d7b596e6bb49d6371dab2db39cd143891b037b53e221"
+    },
+    {
+      "id": 5842,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00923.jpg",
+      "asset": "/assets/5842-DSC00923.webp",
+      "bytes": 135427,
+      "width": 857,
+      "height": 857,
+      "sha256": "3f14608b5478f4c79be92586f3ba697bc9a9de8669e33d2812303e3099fb28c7"
+    },
+    {
+      "id": 5839,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00980.jpg",
+      "asset": "/assets/5839-DSC00980.webp",
+      "bytes": 77716,
+      "width": 858,
+      "height": 857,
+      "sha256": "bf84d7e565531aa60b9e7c892356fa6197f4b21314deaac7a510c20e8d705e73"
+    },
+    {
+      "id": 5840,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00955.jpg",
+      "asset": "/assets/5840-DSC00955.webp",
+      "bytes": 111050,
+      "width": 858,
+      "height": 857,
+      "sha256": "7016c564947de363f34d8553ecb6b0591737c3dfe86621a38da52308dc96ea23"
+    },
+    {
+      "id": 5841,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00905.jpg",
+      "asset": "/assets/5841-DSC00905.webp",
+      "bytes": 120286,
+      "width": 858,
+      "height": 857,
+      "sha256": "24ae778e5437e63106eeb7dea09fec0ff32e1179b884264cc0bea0df0ce63519"
+    },
+    {
+      "id": 5835,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00918.jpg",
+      "asset": "/assets/5835-DSC00918.webp",
+      "bytes": 87552,
+      "width": 858,
+      "height": 857,
+      "sha256": "adcf1aef62197295d745f6a51536ef9ac35c813fb4f68a4b6211d81719484de9"
+    },
+    {
+      "id": 5837,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00931.jpg",
+      "asset": "/assets/5837-DSC00931.webp",
+      "bytes": 125348,
+      "width": 857,
+      "height": 858,
+      "sha256": "ee3ccfabfe55fa306e34d223a7cf952e9e5aec376ecc2549508eb4f8de47c8ab"
+    },
+    {
+      "id": 5838,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00939.jpg",
+      "asset": "/assets/5838-DSC00939.webp",
+      "bytes": 113489,
+      "width": 858,
+      "height": 857,
+      "sha256": "acd4e75bccc80fe1320c25b398e8645354fef4049eefa21d08fa8a548decac5c"
+    },
+    {
+      "id": 5836,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00956.jpg",
+      "asset": "/assets/5836-DSC00956.webp",
+      "bytes": 118226,
+      "width": 857,
+      "height": 857,
+      "sha256": "534b164aaf5733183e9c2b7b07b6cc97d654dc85df3dcb55c02c70473defa7fa"
+    },
+    {
+      "id": 5832,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00965.jpg",
+      "asset": "/assets/5832-DSC00965.webp",
+      "bytes": 80919,
+      "width": 857,
+      "height": 857,
+      "sha256": "35aebb3e15b3103cff13eac4553d2297a7af25c9cb869b5c875279c843120d3a"
+    },
+    {
+      "id": 5834,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00920.jpg",
+      "asset": "/assets/5834-DSC00920.webp",
+      "bytes": 118760,
+      "width": 857,
+      "height": 857,
+      "sha256": "90d0260f8af9a59ad63d66c5de60df1d634a03aa37b4b0fc479cd4e488bc1244"
+    },
+    {
+      "id": 5833,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00976.jpg",
+      "asset": "/assets/5833-DSC00976.webp",
+      "bytes": 151965,
+      "width": 858,
+      "height": 857,
+      "sha256": "8b603e0ef623e0e75182f5eaff6470fbb9cac140b27b88d77a728876b678a273"
+    },
+    {
+      "id": 5831,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00932.jpg",
+      "asset": "/assets/5831-DSC00932.webp",
+      "bytes": 136285,
+      "width": 857,
+      "height": 857,
+      "sha256": "34db95fe7c4102520cf44bfe4ec3fdcf4d6d81dcbbd6e63d6fb9bdb3409032b7"
+    },
+    {
+      "id": 5830,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00917.jpg",
+      "asset": "/assets/5830-DSC00917.webp",
+      "bytes": 81305,
+      "width": 857,
+      "height": 857,
+      "sha256": "910f6162682cd21b7ab6b2acef95bcb8aa00593706035bdd81e3aa89f6e99093"
+    },
+    {
+      "id": 5829,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00937.jpg",
+      "asset": "/assets/5829-DSC00937.webp",
+      "bytes": 126032,
+      "width": 857,
+      "height": 858,
+      "sha256": "64270f3383e389778c4106a1cb72caa997c619bde39a060d79cce9479ee67d5a"
+    },
+    {
+      "id": 5828,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00925.jpg",
+      "asset": "/assets/5828-DSC00925.webp",
+      "bytes": 90903,
+      "width": 857,
+      "height": 858,
+      "sha256": "8823b43224a02d51b505b539750cf5520c48c221eb556cb8852561034d7f6411"
+    },
+    {
+      "id": 5826,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00949.jpg",
+      "asset": "/assets/5826-DSC00949.webp",
+      "bytes": 122630,
+      "width": 858,
+      "height": 857,
+      "sha256": "7031b166d056ad0e4ef18c59782a35f435a88bc53c56f556923a76c3b8f87ecd"
+    },
+    {
+      "id": 5825,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00926.jpg",
+      "asset": "/assets/5825-DSC00926.webp",
+      "bytes": 103907,
+      "width": 858,
+      "height": 858,
+      "sha256": "516ba9e2703375ab192b36438b4c8ee9613e3a8816dbd2b547e9913e9cf92ac2"
+    },
+    {
+      "id": 5824,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00953.jpg",
+      "asset": "/assets/5824-DSC00953.webp",
+      "bytes": 87028,
+      "width": 858,
+      "height": 857,
+      "sha256": "f7e81bc3e1e10e539918c860181b3e6ae0e2963b59b054723992286b009d6184"
+    },
+    {
+      "id": 5823,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00945.jpg",
+      "asset": "/assets/5823-DSC00945.webp",
+      "bytes": 140001,
+      "width": 858,
+      "height": 857,
+      "sha256": "b43497249b087db31cf53223ed2800ae380639c51e471eae1718bd00be542c3f"
+    },
+    {
+      "id": 5822,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00960.jpg",
+      "asset": "/assets/5822-DSC00960.webp",
+      "bytes": 111738,
+      "width": 858,
+      "height": 857,
+      "sha256": "1ed72443d3cabde7624ab7cecbf903555c0748043c530e0b78b0f2cf9b875915"
+    },
+    {
+      "id": 5821,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00933.jpg",
+      "asset": "/assets/5821-DSC00933.webp",
+      "bytes": 143214,
+      "width": 857,
+      "height": 857,
+      "sha256": "912fed5a371d745514e478a88a8a6d6aafea3079db55ecf0c9f59639cd623912"
+    },
+    {
+      "id": 5827,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00950.jpg",
+      "asset": "/assets/5827-DSC00950.webp",
+      "bytes": 94464,
+      "width": 858,
+      "height": 858,
+      "sha256": "27704e9027c2aad9b30a3d967f2bd33d6035a4f27cb531100457cb438bf133d4"
+    },
+    {
+      "id": 5806,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00076.jpg",
+      "asset": "/assets/5806-DSC00076.webp",
+      "bytes": 32935,
+      "width": 356,
+      "height": 356,
+      "sha256": "76e9f7952846910e00ac00bd8d59054c9e3d3f97c0e2511620e55545688c619d"
+    },
+    {
+      "id": 5802,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09934-1.jpg",
+      "asset": "/assets/5802-DSC09934-1.webp",
+      "bytes": 27984,
+      "width": 356,
+      "height": 356,
+      "sha256": "3a0e1f3046d0e4277b0883ffa96c8c5e30f80f9dbe2a3e14cdf7a2130da4951d"
+    },
+    {
+      "id": 5801,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09937-1.jpg",
+      "asset": "/assets/5801-DSC09937-1.webp",
+      "bytes": 29575,
+      "width": 356,
+      "height": 356,
+      "sha256": "dad88fb962635777fb72353e80cf8e153af73d7a9ae115be632377b07c44426c"
+    },
+    {
+      "id": 5800,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09948-1.jpg",
+      "asset": "/assets/5800-DSC09948-1.webp",
+      "bytes": 25126,
+      "width": 356,
+      "height": 356,
+      "sha256": "aed1b9fb2626ae145c34d4b1d682cfc9c28351785ccb218265c206786497dbed"
+    },
+    {
+      "id": 5799,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09935-1.jpg",
+      "asset": "/assets/5799-DSC09935-1.webp",
+      "bytes": 28027,
+      "width": 356,
+      "height": 356,
+      "sha256": "3c6ccdaa99e484d82543e97a24171d1d143be1f8c3fefcdf3158297c3b672e10"
+    },
+    {
+      "id": 5808,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00145.jpg",
+      "asset": "/assets/5808-DSC00145.webp",
+      "bytes": 34655,
+      "width": 356,
+      "height": 356,
+      "sha256": "3f5ba2caee9552394ceb3eb64b15c364a50703c60ac44866e99297069f1dbdee"
+    },
+    {
+      "id": 5807,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00032.jpg",
+      "asset": "/assets/5807-DSC00032.webp",
+      "bytes": 25763,
+      "width": 356,
+      "height": 356,
+      "sha256": "0bbdb4d44e04c5ca26565246455f27ca5e6110121cfb14de7382a20a7f248b0b"
+    },
+    {
+      "id": 5798,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09951-1.jpg",
+      "asset": "/assets/5798-DSC09951-1.webp",
+      "bytes": 25929,
+      "width": 356,
+      "height": 356,
+      "sha256": "38f840e4be5a1b5f5ac9827ad9e02e2fb9310ffdbf3d0b1e053e43ce19a6941b"
+    },
+    {
+      "id": 5819,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00922.jpg",
+      "asset": "/assets/5819-DSC00922.webp",
+      "bytes": 170228,
+      "width": 857,
+      "height": 858,
+      "sha256": "a0e6b01d69157f2b2aa5274ee42de8977b2d87042e452abd5a412405d4f20abe"
+    },
+    {
+      "id": 5797,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09944-1.jpg",
+      "asset": "/assets/5797-DSC09944-1.webp",
+      "bytes": 29119,
+      "width": 356,
+      "height": 356,
+      "sha256": "6485de5226ddcf5b7e6031c3e832032c2d522a333cb4462a63a394b586333280"
+    },
+    {
+      "id": 5796,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09943-1.jpg",
+      "asset": "/assets/5796-DSC09943-1.webp",
+      "bytes": 33679,
+      "width": 356,
+      "height": 356,
+      "sha256": "78ea885910c22168960019a3681cefb4bd51abf046aea70f948eea610f541725"
+    },
+    {
+      "id": 5794,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09945-1.jpg",
+      "asset": "/assets/5794-DSC09945-1.webp",
+      "bytes": 20169,
+      "width": 356,
+      "height": 356,
+      "sha256": "3b2a948120893f2de36a600bc0a92581ca2120b0d1b5b010fd999f18a670c530"
+    },
+    {
+      "id": 5795,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09950-2.jpg",
+      "asset": "/assets/5795-DSC09950-2.webp",
+      "bytes": 29567,
+      "width": 356,
+      "height": 356,
+      "sha256": "03210c9e8745148046ca552232bb26bd319f8e1e13a666388ef0d470659a99d3"
+    },
+    {
+      "id": 5792,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09938-1.jpg",
+      "asset": "/assets/5792-DSC09938-1.webp",
+      "bytes": 30222,
+      "width": 356,
+      "height": 356,
+      "sha256": "ef1711a6dc7459e8cb01ac12706d0da5333df6ef22c2bff2f21ee3bb37b9febb"
+    },
+    {
+      "id": 5793,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09936-1.jpg",
+      "asset": "/assets/5793-DSC09936-1.webp",
+      "bytes": 30406,
+      "width": 356,
+      "height": 356,
+      "sha256": "c293d6fb3b768ebd850f26e0203269af19d60721d5ca3bacf5ef6f65ffae0068"
+    },
+    {
+      "id": 5790,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09942-1.jpg",
+      "asset": "/assets/5790-DSC09942-1.webp",
+      "bytes": 31227,
+      "width": 356,
+      "height": 356,
+      "sha256": "738acea20a060abc7868d274ab4be9c9ee8b4dc9e9a650bfbad59e983bab5f82"
+    },
+    {
+      "id": 5791,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09941-1.jpg",
+      "asset": "/assets/5791-DSC09941-1.webp",
+      "bytes": 34231,
+      "width": 356,
+      "height": 356,
+      "sha256": "ee2e26aa47adb86aba607025d61017248a93c6b9e9555d5d3afb77fe0d48aa91"
+    },
+    {
+      "id": 5787,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09945.jpg",
+      "asset": "/assets/5787-DSC09945.webp",
+      "bytes": 17373,
+      "width": 289,
+      "height": 289,
+      "sha256": "7ff52698ca5054aa115d0e38dedc92e7f544e7e7c5c7852a2580782b2e9a0e5e"
+    },
+    {
+      "id": 5788,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09951.jpg",
+      "asset": "/assets/5788-DSC09951.webp",
+      "bytes": 25600,
+      "width": 337,
+      "height": 337,
+      "sha256": "7e63884ce68f422afe68c5ae3b8e1d780a863ac6d37b78c404ddb7488f16d1f4"
+    },
+    {
+      "id": 5785,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09950-1.jpg",
+      "asset": "/assets/5785-DSC09950-1.webp",
+      "bytes": 23135,
+      "width": 270,
+      "height": 270,
+      "sha256": "eaae7feed5820fbdf998ca5c728a852fa67923cc9970f016656339f960621ca1"
+    },
+    {
+      "id": 5786,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09944.jpg",
+      "asset": "/assets/5786-DSC09944.webp",
+      "bytes": 23643,
+      "width": 276,
+      "height": 276,
+      "sha256": "b1043b41d867216e5720aa8f120d9bcd301808a8868df8849031c51ff0df231d"
+    },
+    {
+      "id": 5784,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09948.jpg",
+      "asset": "/assets/5784-DSC09948.webp",
+      "bytes": 21692,
+      "width": 291,
+      "height": 290,
+      "sha256": "425d59c75f411f9c4e798b9073380443ac750cfd34cf643e4a6255d7e2ef21c9"
+    },
+    {
+      "id": 5783,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09943.jpg",
+      "asset": "/assets/5783-DSC09943.webp",
+      "bytes": 29226,
+      "width": 290,
+      "height": 290,
+      "sha256": "8813d66ccc046c7b7d10d8c52074a21c14e666194ca53ab333f661df8c1314a0"
+    },
+    {
+      "id": 5781,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09941.jpg",
+      "asset": "/assets/5781-DSC09941.webp",
+      "bytes": 32241,
+      "width": 315,
+      "height": 314,
+      "sha256": "bd6f3fc4b33417eaaf5d50e3f04883480c75f95cd3cae69455d2aa14f917836c"
+    },
+    {
+      "id": 5782,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09942.jpg",
+      "asset": "/assets/5782-DSC09942.webp",
+      "bytes": 32205,
+      "width": 346,
+      "height": 346,
+      "sha256": "63bf78f45e88ff51c5364c3e656efc6576a826bc20f8da630318bbbee5464357"
+    },
+    {
+      "id": 5780,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09938.jpg",
+      "asset": "/assets/5780-DSC09938.webp",
+      "bytes": 24890,
+      "width": 284,
+      "height": 285,
+      "sha256": "7c3a7a436be54b52548bc2d88edb2b65e74624e499468309cea624de01c6f9ad"
+    },
+    {
+      "id": 5779,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09937.jpg",
+      "asset": "/assets/5779-DSC09937.webp",
+      "bytes": 24411,
+      "width": 283,
+      "height": 284,
+      "sha256": "6a1255a80202202e33918e474950b6473bd72585dd0f2b82a58e34d0e75f8807"
+    },
+    {
+      "id": 5777,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09935.jpg",
+      "asset": "/assets/5777-DSC09935.webp",
+      "bytes": 18138,
+      "width": 222,
+      "height": 222,
+      "sha256": "3132fdd1952e58f0d1389a7eb5faac7c84d045172f67c361829f20694f87e09e"
+    },
+    {
+      "id": 5776,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09934.jpg",
+      "asset": "/assets/5776-DSC09934.webp",
+      "bytes": 15858,
+      "width": 188,
+      "height": 189,
+      "sha256": "4a8e711986243cd4a00b24c54c0a78695aaf992219cfe7f9e659bc31489aec4e"
+    },
+    {
+      "id": 5778,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09936.jpg",
+      "asset": "/assets/5778-DSC09936.webp",
+      "bytes": 48966,
+      "width": 512,
+      "height": 512,
+      "sha256": "2ecaf848a3f2659aa4044387da793a003311edc240786328fc031eed483174b0"
+    },
+    {
+      "id": 5775,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09933.jpg",
+      "asset": "/assets/5775-DSC09933.webp",
+      "bytes": 35533,
+      "width": 356,
+      "height": 356,
+      "sha256": "35f77eaeef2fe14a446d8789c4beb92ddd01c4c9f8e5b8300ece06bfb24528c8"
+    },
+    {
+      "id": 5773,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09930.jpg",
+      "asset": "/assets/5773-DSC09930.webp",
+      "bytes": 34602,
+      "width": 474,
+      "height": 475,
+      "sha256": "da7977b750ca2a527fb5f40c8a5bca903cf84ad050c6478ec9f19c02ac0ee359"
+    },
+    {
+      "id": 5774,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09931.jpg",
+      "asset": "/assets/5774-DSC09931.webp",
+      "bytes": 48021,
+      "width": 474,
+      "height": 473,
+      "sha256": "953f684fdb34d80711dfd3435d2e18b08b1aa3c0c410c1f8c5a52755a6199cb7"
+    },
+    {
+      "id": 5772,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09921.jpg",
+      "asset": "/assets/5772-DSC09921.webp",
+      "bytes": 44954,
+      "width": 508,
+      "height": 508,
+      "sha256": "d9996a3baaa795350527487c96e749d41d98282b8a3249c4aa052c454dc63526"
+    },
+    {
+      "id": 5771,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09929.jpg",
+      "asset": "/assets/5771-DSC09929.webp",
+      "bytes": 55177,
+      "width": 476,
+      "height": 476,
+      "sha256": "4509fa754a8add8924252a00eb33c94cd3854f737d261f9c29691e52104f38bc"
+    },
+    {
+      "id": 5769,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09818.jpg",
+      "asset": "/assets/5769-DSC09818.webp",
+      "bytes": 16515,
+      "width": 308,
+      "height": 307,
+      "sha256": "b07697ac42923adb6e23473a9a53ae49e4414e43c02b2c3be10e77fab64284d0"
+    },
+    {
+      "id": 5770,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09926.jpg",
+      "asset": "/assets/5770-DSC09926.webp",
+      "bytes": 39439,
+      "width": 427,
+      "height": 427,
+      "sha256": "eb3d7b9043ddd92817b3f36e6198a8164454e27587e973a56d677ce60edc29d8"
+    },
+    {
+      "id": 5767,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09918.jpg",
+      "asset": "/assets/5767-DSC09918.webp",
+      "bytes": 45323,
+      "width": 435,
+      "height": 434,
+      "sha256": "d2795a1bc4ca11016b180456022c6bd6428bc5a8d0d70f84e8c3ff102a930d9b"
+    },
+    {
+      "id": 5768,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09952.jpg",
+      "asset": "/assets/5768-DSC09952.webp",
+      "bytes": 25629,
+      "width": 305,
+      "height": 305,
+      "sha256": "0c7de71309673aa304f0b5bd25f6719849e711470905177370c691b9dad2ec3a"
+    },
+    {
+      "id": 5766,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09927.jpg",
+      "asset": "/assets/5766-DSC09927.webp",
+      "bytes": 42714,
+      "width": 427,
+      "height": 427,
+      "sha256": "32c013e21caf7af3ca2dca2eb24e72816ea3bb18f8a211cb127723ed2f768dd0"
+    },
+    {
+      "id": 5765,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09920.jpg",
+      "asset": "/assets/5765-DSC09920.webp",
+      "bytes": 35778,
+      "width": 442,
+      "height": 442,
+      "sha256": "688bc0838050fc23c8e5fb5c95af05a2483debf3cf8779d2d326d83e826633e1"
+    },
+    {
+      "id": 5761,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01307-1.jpg",
+      "asset": "/assets/5761-DSC01307-1.webp",
+      "bytes": 34983,
+      "width": 377,
+      "height": 378,
+      "sha256": "4f5ba31d7638f97410f40aba7308f6410268326247f31296b05ecd680523ef9f"
+    },
+    {
+      "id": 5760,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01305.jpg",
+      "asset": "/assets/5760-DSC01305.webp",
+      "bytes": 33352,
+      "width": 347,
+      "height": 348,
+      "sha256": "d0131ff7082e2ebf3c06563427ded8adb0841e5c9430ce869374c2fec17959b9"
+    },
+    {
+      "id": 5759,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01301.jpg",
+      "asset": "/assets/5759-DSC01301.webp",
+      "bytes": 29352,
+      "width": 336,
+      "height": 336,
+      "sha256": "24b636a37ec35bd2f222b800a4ce9f8d08aad22bbf6dd6babf978ea25069ad2f"
+    },
+    {
+      "id": 5758,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01292.jpg",
+      "asset": "/assets/5758-DSC01292.webp",
+      "bytes": 38088,
+      "width": 405,
+      "height": 404,
+      "sha256": "a0b4fa41e83de71b82fd26effd6f87cbc9e7aeff1a27b73ac6044ab1427bd537"
+    },
+    {
+      "id": 5756,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01280.jpg",
+      "asset": "/assets/5756-DSC01280.webp",
+      "bytes": 21742,
+      "width": 356,
+      "height": 356,
+      "sha256": "748b43d918e3559890f44cf31810261af445a99cb287e99dd2016ee0aadc14ef"
+    },
+    {
+      "id": 5757,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01289.jpg",
+      "asset": "/assets/5757-DSC01289.webp",
+      "bytes": 32954,
+      "width": 414,
+      "height": 414,
+      "sha256": "b8ec091786fd5e35b9d6fe8eace86d2ce295fd0e43a9140698e608d13dfc7c8f"
+    },
+    {
+      "id": 5755,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01272.jpg",
+      "asset": "/assets/5755-DSC01272.webp",
+      "bytes": 33702,
+      "width": 417,
+      "height": 416,
+      "sha256": "6c6d45b8fe499c0793eaf39eedb3d42f90066b223ede7575c8229c2be2d239da"
+    },
+    {
+      "id": 5754,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01309.jpg",
+      "asset": "/assets/5754-DSC01309.webp",
+      "bytes": 27621,
+      "width": 342,
+      "height": 342,
+      "sha256": "d3b1707023b1b54d3e30efe9b81f5fbd652aaf174bcd42e7463e4731f8622d10"
+    },
+    {
+      "id": 5739,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/gallery1.jpg",
+      "asset": "/assets/5739-gallery1.webp",
+      "bytes": 164644,
+      "width": 934,
+      "height": 721,
+      "sha256": "07d639b70acbe84e8d665e29abf1808e375f39c4a3fcdff0991046e595f604bd"
+    },
+    {
+      "id": 5741,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/red.jpg",
+      "asset": "/assets/5741-red.webp",
+      "bytes": 281389,
+      "width": 1318,
+      "height": 1018,
+      "sha256": "69bb0a010fae0deb32565bc5ccf22bfe3c55ebe252821e67567f2a08b4c5bf90"
+    },
+    {
+      "id": 5708,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/coverA-1.jpg",
+      "asset": "/assets/5708-coverA-1.webp",
+      "bytes": 180226,
+      "width": 1181,
+      "height": 1057,
+      "sha256": "31b406297715eaba334496a930e4148d93f5ec5d8ac56d97872a8050e17705af"
+    },
+    {
+      "id": 5707,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/coverA.jpg",
+      "asset": "/assets/5707-coverA.webp",
+      "bytes": 180226,
+      "width": 1181,
+      "height": 1057,
+      "sha256": "31b406297715eaba334496a930e4148d93f5ec5d8ac56d97872a8050e17705af"
+    },
+    {
+      "id": 5695,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/contact.jpg",
+      "asset": "/assets/5695-contact.webp",
+      "bytes": 147185,
+      "width": 1897,
+      "height": 552,
+      "sha256": "f113994ba5d8d6ad66a1069aee52765efe08dbcb6792e1a6e737029764a47d96"
+    },
+    {
+      "id": 5740,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/Recovered-scaled.jpg",
+      "asset": "/assets/5740-Recovered-scaled.webp",
+      "bytes": 765280,
+      "width": 2560,
+      "height": 1979,
+      "sha256": "24ef7025a550692c8050c0fc4b6199ac924a0fbe86c71e62951daf9cadd09809"
+    },
+    {
+      "id": 5688,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide3-1.jpg",
+      "asset": "/assets/5688-slide3-1.webp",
+      "bytes": 32738,
+      "width": 611,
+      "height": 611,
+      "sha256": "3aeeb1b9f1f472c884bdff690f536640c8fd0f5d898d31a42eedcfcefcebf94e"
+    },
+    {
+      "id": 5691,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide1-1.jpg",
+      "asset": "/assets/5691-slide1-1.webp",
+      "bytes": 689764,
+      "width": 901,
+      "height": 901,
+      "sha256": "ced599591a8fdd9a9c12cd6bfc90f03fcded7837d808831379e9d5a78d5ca7dc"
+    },
+    {
+      "id": 5690,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide2-1.jpg",
+      "asset": "/assets/5690-slide2-1.webp",
+      "bytes": 122971,
+      "width": 917,
+      "height": 917,
+      "sha256": "ae729cc57e19df99b7f8c6be7bbda57005b036a9018da2ab7b0ffc6abc29810f"
+    },
+    {
+      "id": 5706,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/cover_about-scaled.jpg",
+      "asset": "/assets/5706-cover_about-scaled.webp",
+      "bytes": 592523,
+      "width": 2560,
+      "height": 2292,
+      "sha256": "50152323108e11f92d287ab09d2e905531569611b3b54e20901300cfd21a6bcc"
+    },
+    {
+      "id": 5674,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide1-scaled.jpg",
+      "asset": "/assets/5674-slide1-scaled.webp",
+      "bytes": 642529,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "bafdeb42e25c92da810fc4a79b438bc584885898b998f02941c8e4310793ab10"
+    },
+    {
+      "id": 5672,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide3-scaled.jpg",
+      "asset": "/assets/5672-slide3-scaled.webp",
+      "bytes": 444135,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "6a487787a9e1e46c18552f80d111ac0435c095df9935bee4c98fb2a866661070"
+    },
+    {
+      "id": 5661,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/about.jpg",
+      "asset": "/assets/5661-about.webp",
+      "bytes": 155719,
+      "width": 1921,
+      "height": 551,
+      "sha256": "7461b5b8c94a3f1fca924b6767c35eaf07bb987bf2509c416c073badcca93cb7"
+    },
+    {
+      "id": 5671,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01277-scaled.jpg",
+      "asset": "/assets/5671-DSC01277-scaled.webp",
+      "bytes": 558175,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "0fe760022b68671e75c7cb96cd5f3378ef22ce42b8f6d407f219c5b6b9f6aaee"
+    },
+    {
+      "id": 5673,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/slide2-scaled.jpg",
+      "asset": "/assets/5673-slide2-scaled.webp",
+      "bytes": 795855,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "2d32ab1c1da86d1cbfe8a9c4d30967c516c029f050da788004300e367fd4be3e"
+    },
+    {
+      "id": 5639,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/vision-1-scaled.jpg",
+      "asset": "/assets/5639-vision-1-scaled.webp",
+      "bytes": 430938,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "b193bfcd6ac4340d5585048f722b7c1277d9708426111ede3f7962bcbacadc1a"
+    },
+    {
+      "id": 5635,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/vision-scaled.jpg",
+      "asset": "/assets/5635-vision-scaled.webp",
+      "bytes": 531408,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "db1a577f7c678712286ac5d64ed85c6baf6404f2152e58eb4a71f35101fb54b4"
+    },
+    {
+      "id": 5551,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/flagmain.jpg",
+      "asset": "/assets/5551-flagmain.webp",
+      "bytes": 23302,
+      "width": 881,
+      "height": 381,
+      "sha256": "871473ef3001c5d5a2fd022c7ac16abeef67ca1aa631d03f3d240aa6aafc0063"
+    },
+    {
+      "id": 5632,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/m2-scaled.jpg",
+      "asset": "/assets/5632-m2-scaled.webp",
+      "bytes": 458494,
+      "width": 2560,
+      "height": 2287,
+      "sha256": "3c4b53e994eadd1b754492eaae1382272377b014d3c34803829db9a3ad016142"
+    },
+    {
+      "id": 5634,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC01307-scaled.jpg",
+      "asset": "/assets/5634-DSC01307-scaled.webp",
+      "bytes": 878463,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "608e7f2227ee09d1d302b4601d57f1ac67d708631d8df08b84724e6cc93ffdf4"
+    },
+    {
+      "id": 5631,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/mission-4-scaled.jpg",
+      "asset": "/assets/5631-mission-4-scaled.webp",
+      "bytes": 581528,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "93180302c2d82e245a430144ff3654bbef4fe7d0b02f1ab1334b7a75277ebac6"
+    },
+    {
+      "id": 5535,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/ourVision-scaled.jpg",
+      "asset": "/assets/5535-ourVision-scaled.webp",
+      "bytes": 620868,
+      "width": 2560,
+      "height": 2274,
+      "sha256": "fa7b9be1820fa56be5f0538cba5be7d2ab7a3ca432feee20d2514373b7c533ac"
+    },
+    {
+      "id": 5524,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/prayer.jpg",
+      "asset": "/assets/5524-prayer.webp",
+      "bytes": 75752,
+      "width": 800,
+      "height": 530,
+      "sha256": "2268dc8dda0f84052b3c887f89aa6be657519624aacc282ab35b0fb3c0ef8338"
+    },
+    {
+      "id": 5523,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/the-bible.jpg",
+      "asset": "/assets/5523-the-bible.webp",
+      "bytes": 26391,
+      "width": 801,
+      "height": 532,
+      "sha256": "c3c4d4c3e350f15f16b64eb88a6d6d441aa0fca2bdcb01c939c005923a967cf7"
+    },
+    {
+      "id": 5528,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/EVENT.jpg",
+      "asset": "/assets/5528-EVENT.webp",
+      "bytes": 100184,
+      "width": 801,
+      "height": 531,
+      "sha256": "e59604a24454b02775d4e3ad62eddfba94f31f727ada55ef94880e02b329aa2b"
+    },
+    {
+      "id": 5516,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/cover2.jpg",
+      "asset": "/assets/5516-cover2.webp",
+      "bytes": 229614,
+      "width": 1921,
+      "height": 1101,
+      "sha256": "5f31378730b6991e39f8f0821f65fc9c485fca70a0bc50c9ec9a5a9ea0c21b6a"
+    },
+    {
+      "id": 5517,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/cover.jpg",
+      "asset": "/assets/5517-cover.webp",
+      "bytes": 273403,
+      "width": 1921,
+      "height": 1101,
+      "sha256": "311a50483a9c2fa827686dc0b1d760432f339740d7ecc6bbf92c71db28f5a7fc"
+    },
+    {
+      "id": 5513,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "asset": "/assets/5513-rccg-cod-cantebury-logo-1.webp",
+      "bytes": 37640,
+      "width": 300,
+      "height": 110,
+      "sha256": "e660c1185aff88924eee672dec422b60eeede53fb1d3a60aa9d3809b4b6491d1"
+    },
+    {
+      "id": 5534,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC09950.jpg",
+      "asset": "/assets/5534-DSC09950.webp",
+      "bytes": 13235286,
+      "width": 3904,
+      "height": 3904,
+      "sha256": "aadd26b095519b35c424e22161c7c5302fd29a0831a0be8a3b68fb8ddfecb3ef"
+    },
+    {
+      "id": 5512,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/cover3.jpg",
+      "asset": "/assets/5512-cover3.webp",
+      "bytes": 259958,
+      "width": 1921,
+      "height": 1101,
+      "sha256": "84ee5e6987814ab6e13f95c35089818f4656bc8930166d2c67b990ae5c25cda2"
+    },
+    {
+      "id": 5521,
+      "source": "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00961.jpg",
+      "asset": "/assets/5521-DSC00961.webp",
+      "bytes": 12583574,
+      "width": 3891,
+      "height": 3891,
+      "sha256": "b1ab6222f1b3ebee0ee65db51bdeeb8b0d66ab6b6b74b9f8027493e440264fce"
+    }
+  ],
+  "unresolved": []
+}
