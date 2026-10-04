@@ -5,3 +5,35 @@
 @media(max-width:900px){.header-inner{height:78px}.menu-toggle{display:flex;align-items:center;gap:.5rem}.header nav{display:none;position:absolute;top:78px;left:0;right:0;padding:1.5rem var(--gutter) 2rem;background:var(--paper);border-top:1px solid var(--line);box-shadow:0 12px 25px rgba(0,0,0,.1)}.header nav.open{display:grid;grid-template-columns:1fr}.header nav .button{justify-content:center;margin-top:.5rem}.hero{grid-template-columns:1fr}.hero-copy{padding:4.2rem var(--gutter) 3rem}.hero-photo{min-height:410px;max-height:500px}.service-strip>.wrap{grid-template-columns:1fr;gap:1rem;padding:1.6rem 0}.service-strip>div>div{border:0;padding:0}.service-strip .text-link{justify-self:start}.intro,.two-columns,.contact-section{grid-template-columns:1fr;gap:2.5rem}.three-columns,.sermon-grid{grid-template-columns:repeat(2,1fr)}.sermon-feature .two-columns{gap:2rem}.building-band{grid-template-columns:1fr}.building-band>div{padding:4rem var(--gutter)}.building-band img{height:380px}.footer-grid{grid-template-columns:2fr 1fr 1fr}.footer-grid>div:first-child{grid-column:span 3}.footer-grid>div:not(:first-child){padding-left:1.25rem}.service-detail>img{height:400px}}
 @media(max-width:600px){body{font-size:15px}.brand{font-size:1.15rem}.brand img{width:32px;height:32px}.header nav{gap:1.05rem}.hero h1{font-size:3.25rem}.hero-photo{min-height:330px}.three-columns,.sermon-grid{grid-template-columns:1fr}.life-item img{height:265px}.section-heading{align-items:start;flex-direction:column;gap:1rem}.event-row{grid-template-columns:92px 1fr auto;gap:.7rem}.event-row h3{font-size:1.3rem}.event-row svg{width:18px}.event-controls{align-items:stretch;flex-direction:column;gap:.9rem;padding-bottom:1.2rem}.event-controls label{width:100%}.event-controls input,.event-controls select{width:100%}.event-controls .text-link{margin:0;align-self:start}.search-label{flex-direction:column;gap:.3rem;width:100%}.search-label input{width:100%}.gallery{columns:2 145px;gap:.7rem}.gallery-item{margin-bottom:.7rem}.footer-grid{grid-template-columns:1fr 1fr;gap:2rem}.footer-grid>div:first-child{grid-column:span 2}.footer-grid>div:not(:first-child){padding-left:0;border-left:0}.copyright{flex-direction:column}.bank>div{grid-template-columns:1fr}.actions{gap:1rem}.contact-section h2{font-size:3rem}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+
+/* Full-screen editorial hero carousel, inspired by the church's previous site. */
+.hero-slider{position:relative;min-height:clamp(620px,calc(100svh - 96px),880px);overflow:hidden;background:var(--ink);color:#fff;isolation:isolate;touch-action:pan-y}
+.hero-slides,.hero-slide,.hero-slide:after,.hero-wash{position:absolute;inset:0}
+.hero-slide{margin:0;z-index:0;opacity:0;transform:translateX(5%) scale(1.065);transition:opacity 1.05s cubic-bezier(.22,.61,.36,1),transform 1.2s cubic-bezier(.22,.61,.36,1)}
+.hero-slide.is-active{z-index:1;opacity:1;transform:translateX(0) scale(1.02)}
+.hero-slide.is-active .hero-slide-image{animation:hero-drift 6s linear forwards}
+.hero-slide.is-leaving-left{z-index:1;opacity:0;transform:translateX(-4%) scale(1.04)}
+.hero-slide.is-leaving-right{z-index:1;opacity:0;transform:translateX(4%) scale(1.04)}
+.hero-slide-image{width:100%;height:100%;max-width:none;object-fit:cover;object-position:center;filter:saturate(.8) contrast(1.04)}
+.hero-slide:after{content:'';background:linear-gradient(90deg,rgba(5,30,24,.76) 0%,rgba(5,30,24,.48) 45%,rgba(5,30,24,.12) 78%,rgba(5,30,24,.28) 100%)}
+.hero-wash{z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.06),rgba(0,0,0,.2));pointer-events:none}
+.hero-slider-copy{position:relative;z-index:3;width:min(calc(100% - (var(--gutter)*2)),var(--wide));margin:auto;padding-top:clamp(7rem,16vh,11rem)}
+.hero-slider-copy h1{max-width:920px;margin-bottom:1.35rem;color:#fff;text-shadow:0 2px 20px rgba(0,0,0,.2);font-size:clamp(4rem,8vw,8.3rem)}
+.hero-slider-copy p{max-width:640px;font-family:var(--serif);font-size:clamp(1.2rem,2vw,1.7rem);line-height:1.38}
+.hero-watch-link{display:inline-flex;align-items:center;gap:.75rem;border-bottom:1px solid rgba(255,255,255,.8);padding-bottom:.2rem;font-family:var(--serif);font-size:1.08rem}
+.hero-watch-link svg{width:22px}
+.hero-slider-controls{position:absolute;z-index:4;right:var(--gutter);bottom:2.2rem;display:flex;align-items:center;gap:1.3rem}
+.hero-arrow{display:grid;place-items:center;width:58px;height:48px;border:1px solid rgba(255,255,255,.55);background:rgba(9,40,32,.28);color:#fff;backdrop-filter:blur(5px);transition:background var(--ease),border-color var(--ease),transform var(--ease)}
+.hero-arrow:hover,.hero-arrow:focus-visible{background:var(--gold);border-color:var(--gold);color:var(--ink);transform:translateY(-2px)}
+.hero-arrow svg{width:32px;fill:none;stroke:currentColor;stroke-width:1.5}
+.hero-slider-status{display:flex;align-items:center;gap:.75rem}
+.hero-dot{border:0;background:transparent;color:rgba(255,255,255,.66);padding:.3rem 0;font-size:.74rem;font-weight:700;letter-spacing:.08em}
+.hero-dot.is-active{color:#fff}
+.hero-progress{display:block;width:72px;height:2px;background:rgba(255,255,255,.35);overflow:hidden}
+.hero-progress span{display:block;width:100%;height:100%;background:var(--gold);transform-origin:left;animation:hero-progress 6s linear forwards}
+@keyframes hero-drift{from{transform:scale(1)}to{transform:scale(1.055)}}
+@keyframes hero-progress{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+
+@media(max-width:900px){.hero-slider{min-height:calc(100svh - 78px)}.hero-slider-copy{padding-top:clamp(5rem,15vh,8rem)}.hero-slider-copy h1{font-size:clamp(3.7rem,12vw,6.4rem)}.hero-slider-controls{left:var(--gutter);right:auto}.hero-slide-image{object-position:58% center}}
+@media(max-width:600px){.hero-slider{min-height:690px}.hero-slider-copy{padding-top:5.3rem}.hero-slider-copy h1{font-size:clamp(3.2rem,15vw,4.6rem)}.hero-slider-copy p{font-size:1.14rem}.hero-slider-copy .actions{align-items:flex-start;flex-direction:column}.hero-slider-controls{bottom:1.25rem;gap:.7rem}.hero-arrow{width:46px;height:42px}.hero-progress{display:none}.hero-slide-image{object-position:64% center}}
+@media(prefers-reduced-motion:reduce){.hero-slide.is-active .hero-slide-image,.hero-progress span{animation:none!important}}
