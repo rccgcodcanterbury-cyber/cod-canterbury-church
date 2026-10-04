@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 10000067,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-10-04 09:00:00",
+    "end_date": "2026-10-04 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-10-04/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000875,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-10-04 11:30:00",
+    "end_date": "2026-10-04 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-10-04/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000328,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-10-09 22:00:00",
+    "end_date": "2026-10-09 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-10-09/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000068,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-10-11 09:00:00",
+    "end_date": "2026-10-11 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-10-11/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000876,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-10-11 11:30:00",
+    "end_date": "2026-10-11 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-10-11/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000329,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-10-16 22:00:00",
+    "end_date": "2026-10-16 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-10-16/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000069,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-10-18 09:00:00",
+    "end_date": "2026-10-18 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-10-18/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000877,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-10-18 11:30:00",
+    "end_date": "2026-10-18 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-10-18/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000330,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-10-23 22:00:00",
+    "end_date": "2026-10-23 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-10-23/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000070,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-10-25 09:00:00",
+    "end_date": "2026-10-25 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-10-25/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000878,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-10-25 11:30:00",
+    "end_date": "2026-10-25 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-10-25/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000331,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-10-30 22:00:00",
+    "end_date": "2026-10-30 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-10-30/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000071,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-11-01 09:00:00",
+    "end_date": "2026-11-01 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-11-01/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000879,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-11-01 11:30:00",
+    "end_date": "2026-11-01 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-11-01/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000332,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-11-06 22:00:00",
+    "end_date": "2026-11-06 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-11-06/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000072,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-11-08 09:00:00",
+    "end_date": "2026-11-08 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-11-08/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000880,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-11-08 11:30:00",
+    "end_date": "2026-11-08 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-11-08/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000333,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-11-13 22:00:00",
+    "end_date": "2026-11-13 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-11-13/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000073,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-11-15 09:00:00",
+    "end_date": "2026-11-15 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-11-15/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000881,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-11-15 11:30:00",
+    "end_date": "2026-11-15 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-11-15/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000334,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-11-20 22:00:00",
+    "end_date": "2026-11-20 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-11-20/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000074,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-11-22 09:00:00",
+    "end_date": "2026-11-22 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-11-22/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000882,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-11-22 11:30:00",
+    "end_date": "2026-11-22 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-11-22/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000335,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-11-27 22:00:00",
+    "end_date": "2026-11-27 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-11-27/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000075,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-11-29 09:00:00",
+    "end_date": "2026-11-29 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-11-29/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000883,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-11-29 11:30:00",
+    "end_date": "2026-11-29 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-11-29/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000336,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-12-04 22:00:00",
+    "end_date": "2026-12-04 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-12-04/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000076,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-12-06 09:00:00",
+    "end_date": "2026-12-06 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-12-06/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000884,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-12-06 11:30:00",
+    "end_date": "2026-12-06 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-12-06/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000337,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-12-11 22:00:00",
+    "end_date": "2026-12-11 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-12-11/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000077,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-12-13 09:00:00",
+    "end_date": "2026-12-13 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-12-13/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000885,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-12-13 11:30:00",
+    "end_date": "2026-12-13 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-12-13/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000338,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-12-18 22:00:00",
+    "end_date": "2026-12-18 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-12-18/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000078,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-12-20 09:00:00",
+    "end_date": "2026-12-20 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-12-20/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000886,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-12-20 11:30:00",
+    "end_date": "2026-12-20 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-12-20/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000339,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2026-12-25 22:00:00",
+    "end_date": "2026-12-25 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-12-25/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000079,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-12-27 09:00:00",
+    "end_date": "2026-12-27 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-12-27/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000887,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2026-12-27 11:30:00",
+    "end_date": "2026-12-27 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-12-27/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000340,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2027-01-01 22:00:00",
+    "end_date": "2027-01-01 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2027-01-01/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000080,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2027-01-03 09:00:00",
+    "end_date": "2027-01-03 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2027-01-03/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000888,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2027-01-03 11:30:00",
+    "end_date": "2027-01-03 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2027-01-03/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000341,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2027-01-08 22:00:00",
+    "end_date": "2027-01-08 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2027-01-08/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000081,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2027-01-10 09:00:00",
+    "end_date": "2027-01-10 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2027-01-10/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000889,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2027-01-10 11:30:00",
+    "end_date": "2027-01-10 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2027-01-10/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000342,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2027-01-15 22:00:00",
+    "end_date": "2027-01-15 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2027-01-15/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000082,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2027-01-17 09:00:00",
+    "end_date": "2027-01-17 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2027-01-17/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000890,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2027-01-17 11:30:00",
+    "end_date": "2027-01-17 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2027-01-17/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000343,
+    "title": "Connect Friday",
+    "description": "",
+    "start_date": "2027-01-22 22:00:00",
+    "end_date": "2027-01-22 23:30:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2027-01-22/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000083,
+    "title": "Sunday Service",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2027-01-24 09:00:00",
+    "end_date": "2027-01-24 11:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2027-01-24/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  },
+  {
+    "id": 10000891,
+    "title": "2nd Service &#8211; Sunday",
+    "description": "<p>Sunday Service</p>",
+    "start_date": "2027-01-24 11:30:00",
+    "end_date": "2027-01-24 14:00:00",
+    "timezone": "Europe/London",
+    "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2027-01-24/",
+    "venue": {
+      "id": 6116,
+      "author": "1",
+      "status": "publish",
+      "date": "2025-06-22 20:54:09",
+      "date_utc": "2025-06-22 19:54:09",
+      "modified": "2025-06-22 20:54:09",
+      "modified_utc": "2025-06-22 19:54:09",
+      "url": "https://codcanterburychurch.org/index.php/venue/function-hall/",
+      "venue": "Function Hall",
+      "slug": "function-hall",
+      "address": "St. John\u2019s Church of England Primary School",
+      "city": "Canterbury",
+      "country": "United Kingdom",
+      "show_map": true,
+      "show_map_link": true,
+      "global_id": "codcanterburychurch.org?id=6116",
+      "global_id_lineage": [
+        "codcanterburychurch.org?id=6116"
+      ]
+    }
+  }
+]

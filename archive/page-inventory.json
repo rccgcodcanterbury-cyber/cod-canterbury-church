@@ -1,0 +1,494 @@
+[
+  {
+    "slug": "about-us",
+    "url": "https://codcanterburychurch.org/index.php/about-us/",
+    "status": 200,
+    "images": [
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145802.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145812.png",
+      "https://cdn-icons-png.flaticon.com/32/2111/2111463.png",
+      "https://cdn-icons-png.flaticon.com/32/1384/1384060.png"
+    ],
+    "links": []
+  },
+  {
+    "slug": "join-our-services",
+    "url": "https://codcanterburychurch.org/index.php/join-our-services/",
+    "status": 200,
+    "images": [
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/sunday-service-cos.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/connect-friday-cod-canterbury.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/sunday-service-cos.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/sunday-service-cos.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/connect-friday-cod-canterbury.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/sunday-service-cos.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/sunday-service-cos.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/connect-friday-cod-canterbury.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/sunday-service-cos.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/sunday-service-cos.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/connect-friday-cod-canterbury.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/sunday-service-cos.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/06/our-services.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145802.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145812.png",
+      "https://cdn-icons-png.flaticon.com/32/2111/2111463.png",
+      "https://cdn-icons-png.flaticon.com/32/1384/1384060.png"
+    ],
+    "links": [
+      {
+        "text": "List",
+        "url": "https://codcanterburychurch.org/events/list/?shortcode=8be891ba"
+      },
+      {
+        "text": "Month",
+        "url": "https://codcanterburychurch.org/events/month/?shortcode=8be891ba"
+      },
+      {
+        "text": "Day",
+        "url": "https://codcanterburychurch.org/events/today/?shortcode=8be891ba"
+      },
+      {
+        "text": "Map",
+        "url": "https://codcanterburychurch.org/events/map/?shortcode=8be891ba"
+      },
+      {
+        "text": "",
+        "url": "https://codcanterburychurch.org/events/map/?pagename=join-our-services&shortcode=8be891ba&eventDisplay=past"
+      },
+      {
+        "text": "",
+        "url": "https://codcanterburychurch.org/events/map/page/2/?shortcode=8be891ba"
+      },
+      {
+        "text": "Today",
+        "url": "https://codcanterburychurch.org/events/map/?pagename=join-our-services&shortcode=8be891ba"
+      },
+      {
+        "text": "View Event Details",
+        "url": "#"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/sunday-service/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-10-04/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/connect-friday/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-10-09/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/sunday-service/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-10-11/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/sunday-service/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-10-11/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/connect-friday/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-10-16/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/sunday-service/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-10-18/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/sunday-service/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-10-18/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/connect-friday/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-10-23/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/sunday-service/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-10-25/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/sunday-service/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/2nd-service-sunday/2026-10-25/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/connect-friday/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/connect-friday/2026-10-30/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Event Series",
+        "url": "https://codcanterburychurch.org/index.php/series/sunday-service/"
+      },
+      {
+        "text": "Event Details",
+        "url": "https://codcanterburychurch.org/index.php/event/sunday-service/2026-11-01/"
+      },
+      {
+        "text": "Get Directions",
+        "url": "https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+John%E2%80%99s+Church+of+England+Primary+School+Canterbury+United+Kingdom"
+      },
+      {
+        "text": "Previous Events",
+        "url": "https://codcanterburychurch.org/events/map/?pagename=join-our-services&shortcode=8be891ba&eventDisplay=past"
+      },
+      {
+        "text": "Today",
+        "url": "https://codcanterburychurch.org/events/map/?pagename=join-our-services&shortcode=8be891ba"
+      },
+      {
+        "text": "Next Events",
+        "url": "https://codcanterburychurch.org/events/map/page/2/?shortcode=8be891ba"
+      },
+      {
+        "text": "Google Calendar",
+        "url": "https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fcodcanterburychurch.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist"
+      },
+      {
+        "text": "iCalendar",
+        "url": "webcal://codcanterburychurch.org/?post_type=tribe_events&ical=1&eventDisplay=list"
+      },
+      {
+        "text": "Outlook 365",
+        "url": "https://outlook.office.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fcodcanterburychurch.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Rccg+COD+Canterbury+Events+\u2013+Rccg+COD+Canterbury"
+      },
+      {
+        "text": "Outlook Live",
+        "url": "https://outlook.live.com/owa?path=/calendar/action/compose&rru=addsubscription&url=webcal%3A%2F%2Fcodcanterburychurch.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&name=Rccg+COD+Canterbury+Events+\u2013+Rccg+COD+Canterbury"
+      },
+      {
+        "text": "Export .ics file",
+        "url": "https://codcanterburychurch.org/events/map/?shortcode=8be891ba&ical=1"
+      },
+      {
+        "text": "Export Outlook .ics file",
+        "url": "https://codcanterburychurch.org/events/map/?shortcode=8be891ba&outlook-ical=1#038;ical=1"
+      }
+    ]
+  },
+  {
+    "slug": "give",
+    "url": "https://codcanterburychurch.org/index.php/give/",
+    "status": 200,
+    "images": [
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145802.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145812.png",
+      "https://cdn-icons-png.flaticon.com/32/2111/2111463.png",
+      "https://cdn-icons-png.flaticon.com/32/1384/1384060.png"
+    ],
+    "links": [
+      {
+        "text": "Give via PayPal",
+        "url": "https://www.paypal.com/donate?token=2A8Iq4F6INWu6Tv3mT4isi6jJHR2y4k_kaK42v3NCZEQI93GhGzOGGYNj3A8KtApbvFDqhFb6-mD9EoQ"
+      },
+      {
+        "text": "Give Now",
+        "url": "https://paymentrequest.natwestpayit.com/reusable-links/39240ff5-d447-453c-8107-12962e4c7811"
+      }
+    ]
+  },
+  {
+    "slug": "build",
+    "url": "https://codcanterburychurch.org/index.php/build/",
+    "status": 200,
+    "images": [
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/11/building-project-vision-2-1024x576.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/11/Screenshot-2025-11-27-at-20.05.49.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145802.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145812.png",
+      "https://cdn-icons-png.flaticon.com/32/2111/2111463.png",
+      "https://cdn-icons-png.flaticon.com/32/1384/1384060.png"
+    ],
+    "links": [
+      {
+        "text": "Click Link to Give Now",
+        "url": "https://Givingrequest.natwestpayit.com/reusable-links/2d3f3656-08dc-47eb-b1a2-391615701f3e"
+      }
+    ]
+  },
+  {
+    "slug": "contact-us",
+    "url": "https://codcanterburychurch.org/index.php/contact-us/",
+    "status": 200,
+    "images": [
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145802.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145812.png",
+      "https://cdn-icons-png.flaticon.com/32/2111/2111463.png",
+      "https://cdn-icons-png.flaticon.com/32/1384/1384060.png"
+    ],
+    "links": [
+      {
+        "text": "St. John\u2019s Church of England Primary School",
+        "url": "https://goo.gl/maps/qXR4hJePJZ36FeVdA"
+      }
+    ]
+  },
+  {
+    "slug": "gallery",
+    "url": "https://codcanterburychurch.org/index.php/gallery/",
+    "status": 200,
+    "images": [
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00922.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00933.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00960.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00945.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00949.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00950.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00976.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00918.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00905.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00923.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00951.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00935.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00909.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00974.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00963.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00961-2.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00906-1.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00145-1.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/DSC00076-1.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/001.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/22-1.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/20.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/11-1.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/51.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/49.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/45.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145802.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145812.png",
+      "https://cdn-icons-png.flaticon.com/32/2111/2111463.png",
+      "https://cdn-icons-png.flaticon.com/32/1384/1384060.png"
+    ],
+    "links": []
+  },
+  {
+    "slug": "sermons",
+    "url": "https://codcanterburychurch.org/index.php/sermons/",
+    "status": 200,
+    "images": [
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145802.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145812.png",
+      "https://cdn-icons-png.flaticon.com/32/2111/2111463.png",
+      "https://cdn-icons-png.flaticon.com/32/1384/1384060.png"
+    ],
+    "links": []
+  },
+  {
+    "slug": "join-us",
+    "url": "https://codcanterburychurch.org/index.php/join-us/",
+    "status": 200,
+    "images": [
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145802.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145812.png",
+      "https://cdn-icons-png.flaticon.com/32/2111/2111463.png",
+      "https://cdn-icons-png.flaticon.com/32/1384/1384060.png"
+    ],
+    "links": []
+  },
+  {
+    "slug": "event-list",
+    "url": "https://codcanterburychurch.org/index.php/event-list/",
+    "status": 200,
+    "images": [
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/12/cropped-rccg-cod-cantebury-logo-web.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/sunday-service-cod.png",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/connect-friday-cod-canterbuty.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/prayer-night-Made-with-PosterMyWall.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/envgelism-cod-canterbury.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/prayer-changes-things-cod.jpg",
+      "https://codcanterburychurch.org/wp-content/uploads/2025/05/rccg-cod-cantebury-logo-1.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145802.png",
+      "https://cdn-icons-png.flaticon.com/32/145/145812.png",
+      "https://cdn-icons-png.flaticon.com/32/2111/2111463.png",
+      "https://cdn-icons-png.flaticon.com/32/1384/1384060.png"
+    ],
+    "links": [
+      {
+        "text": "",
+        "url": "https://codcanterburychurch.org/index.php/event-item/sunday-service/"
+      },
+      {
+        "text": "Sunday Service",
+        "url": "https://codcanterburychurch.org/index.php/event-item/sunday-service/"
+      },
+      {
+        "text": "event",
+        "url": "https://codcanterburychurch.org/index.php/event-types/event/"
+      },
+      {
+        "text": "",
+        "url": "https://codcanterburychurch.org/index.php/event-item/connect-friday/"
+      },
+      {
+        "text": "Connect Friday",
+        "url": "https://codcanterburychurch.org/index.php/event-item/connect-friday/"
+      },
+      {
+        "text": "event",
+        "url": "https://codcanterburychurch.org/index.php/event-types/event/"
+      },
+      {
+        "text": "",
+        "url": "https://codcanterburychurch.org/index.php/event-item/prayer-vigil/"
+      },
+      {
+        "text": "Prayer Vigil",
+        "url": "https://codcanterburychurch.org/index.php/event-item/prayer-vigil/"
+      },
+      {
+        "text": "event",
+        "url": "https://codcanterburychurch.org/index.php/event-types/event/"
+      },
+      {
+        "text": "",
+        "url": "https://codcanterburychurch.org/index.php/event-item/evangelism/"
+      },
+      {
+        "text": "Evangelism",
+        "url": "https://codcanterburychurch.org/index.php/event-item/evangelism/"
+      },
+      {
+        "text": "event",
+        "url": "https://codcanterburychurch.org/index.php/event-types/event/"
+      },
+      {
+        "text": "",
+        "url": "https://codcanterburychurch.org/index.php/event-item/prayer-changes-things/"
+      },
+      {
+        "text": "Prayer Changes Things",
+        "url": "https://codcanterburychurch.org/index.php/event-item/prayer-changes-things/"
+      },
+      {
+        "text": "event",
+        "url": "https://codcanterburychurch.org/index.php/event-types/event/"
+      }
+    ]
+  }
+]

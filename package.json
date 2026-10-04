@@ -1,0 +1,1 @@
+{"name":"cod-canterbury-church","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","dev":"netlify dev","check":"node scripts/check.mjs"},"devDependencies":{"netlify-cli":"^23.0.0"},"engines":{"node":">=22"}}
