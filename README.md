@@ -27,6 +27,6 @@ Use Node 22+, run `npm install`, then `npm run build` and `npm run dev`.
 
 ## Content notes
 
-The original services page and events calendar disagree on Sunday service times. The rebuild reports the calendar times and asks visitors to confirm with the church. General giving and the building project use separate accounts; preserve that distinction. Imported music-theme demo posts are archived, not presented as church content. Event data is a snapshot, not a live calendar integration.
+The original services page and events calendar disagree on Sunday service times. The rebuild reports the calendar times and asks visitors to confirm with the church. General giving and the building project use separate accounts; preserve that distinction. Imported music-theme demo posts are archived, not presented as church content. Event data is a snapshot, not a live calendar integration. The sermon selection and current-pastor reference were refreshed from the official YouTube channel on 4 October 2026.
 
 The current church domain has not been changed.
