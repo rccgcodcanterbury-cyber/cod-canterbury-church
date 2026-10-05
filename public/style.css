@@ -65,3 +65,23 @@ dialog{max-height:92svh;box-shadow:0 24px 100px #0006}dialog[open]{animation:dia
 /* Clear paths from the main church into the dedicated teen and youth sites. */
 .next-generation{background:#ebe5d5;padding:clamp(5rem,8vw,8rem) 0}.next-generation .section-heading>p{font-family:var(--serif);font-size:1.2rem;max-width:280px;margin:0}.next-generation-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}.next-generation-card{display:grid;grid-template-columns:.9fr 1fr;grid-template-rows:auto auto 1fr auto;gap:.2rem 1.4rem;padding:1.2rem;border:1px solid rgba(18,56,47,.2);background:var(--white);transition:transform var(--ease),box-shadow var(--ease)}.next-generation-card:hover{transform:translateY(-5px);box-shadow:0 14px 35px rgba(18,56,47,.13)}.next-generation-card img{grid-row:1/5;width:100%;height:260px;object-fit:cover}.next-generation-card span{font-size:.74rem;text-transform:uppercase;font-weight:700;letter-spacing:.09em;color:var(--gold-deep);margin-top:.6rem}.next-generation-card h3{margin:.2rem 0;font-size:2.2rem}.next-generation-card p{margin:0;font-family:var(--serif);font-size:1.05rem;line-height:1.3}.next-generation-card svg{align-self:end;width:25px;color:var(--gold-deep)}
 @media(max-width:600px){.next-generation-grid{grid-template-columns:1fr}.next-generation-card img{height:230px}}
+
+/* A clearer invitation, inspired by the reference site's direct visit journey. */
+.hero-slider-copy .hero-welcome{font-family:var(--sans);font-size:.76rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin-bottom:1.5rem}
+.hero-slider-copy .hero-service-time{font-family:var(--sans);font-size:1rem;font-weight:600;margin-top:1.5rem;color:#f4dfae}
+.hero-slider-copy{padding-top:clamp(3.5rem,9vh,7rem);padding-bottom:7rem}
+.hero-slider-copy h1{font-size:clamp(3.5rem,7vw,7.2rem)}
+.hero-dot{min-width:32px;min-height:44px}
+.visit-invitation{display:grid;grid-template-columns:1.15fr 1fr;gap:clamp(2rem,7vw,7rem);padding-top:6rem;padding-bottom:6rem;align-items:center;border-bottom:1px solid var(--line)}
+.visit-invitation .eyebrow{color:#785c27}.visit-invitation h2{margin-bottom:1.5rem}.visit-invitation>div>p:not(.eyebrow){max-width:540px}
+.visit-details{border-left:1px solid var(--gold-deep);padding:2rem 0 2rem 3rem}
+.visit-details>span{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700}
+.visit-details>strong{display:block;font-family:var(--serif);font-size:clamp(2.2rem,3.5vw,3.6rem);font-weight:500;margin:.75rem 0 1.5rem;line-height:1.2}
+.visit-details small{font-size:.55em}.visit-details p{font-size:1.2rem}
+.next-generation-card{padding:0;overflow:hidden;grid-template-columns:1fr;gap:.6rem;background:var(--ink);color:white;position:relative;min-height:480px;align-content:end}
+.next-generation-card img{position:absolute;inset:0;width:100%;height:100%;grid-row:auto;opacity:.6;transition:transform .8s var(--motion-ease)}
+.next-generation-card::after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 15%,#061b18e6);pointer-events:none}
+.next-generation-card>*:not(img){position:relative;z-index:1;margin-left:2rem;margin-right:2rem}
+.next-generation-card span{color:#f4dfae;margin-top:12rem}.next-generation-card h3{font-size:clamp(2.6rem,4vw,4.2rem)}.next-generation-card p{margin-bottom:.5rem}.next-generation-card svg{color:#f4dfae;margin-bottom:2rem}
+.next-generation-card:hover img{transform:scale(1.035)}
+@media(max-width:600px){.hero-slider{min-height:620px}.hero-slider-copy{padding-top:3rem}.hero-slider-copy h1{font-size:clamp(3rem,12vw,4.5rem)}.hero-slider-copy .hero-welcome{font-size:.66rem;letter-spacing:.11em}.hero-slider-copy .actions{flex-direction:row;align-items:center;gap:1.2rem}.hero-slider-controls{gap:.45rem}.hero-slider-status{gap:.25rem}.hero-arrow{min-height:44px}.visit-invitation{grid-template-columns:1fr;padding-top:3.5rem;padding-bottom:3.5rem;gap:2rem}.visit-details{padding:1.5rem 0 0;border-left:0;border-top:1px solid var(--line)}.next-generation-card{min-height:370px}.next-generation-card img{height:100%}.next-generation-card>*:not(img){margin-left:1.5rem;margin-right:1.5rem}.next-generation-card span{margin-top:8rem}}
