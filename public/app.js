@@ -23,27 +23,34 @@ if ('IntersectionObserver' in window && !motionPreference.matches) {
     if (motionPreference.matches) { observer.disconnect(); $$('.reveal').forEach(el => el.classList.add('is-revealed')); }
   });
 }
-document.addEventListener('keydown', event => {
-  if (event.key !== 'Escape') return;
-  const expanded = $('[aria-controls][aria-expanded="true"]');
-  if (expanded) { document.getElementById(expanded.getAttribute('aria-controls'))?.classList.remove('open'); expanded.setAttribute('aria-expanded', 'false'); expanded.focus(); }
-});
-document.addEventListener('click', event => {
-  if (event.target.closest('header')) return;
-  $$('header [aria-expanded="true"]').forEach(button => { document.getElementById(button.getAttribute('aria-controls'))?.classList.remove('open'); button.setAttribute('aria-expanded', 'false'); });
-});
-
 const menu = $('.menu-toggle, .ministry-menu-toggle');
 const navigation = $('#navigation, #ministry-navigation');
+function setMenu(open, restoreFocus = false) {
+  if (!menu || !navigation) return;
+  navigation.classList.toggle('open', open);
+  menu.setAttribute('aria-expanded', String(open));
+  menu.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+  menu.innerHTML = open ? 'Close <span aria-hidden="true">✕</span>' : 'Menu <span aria-hidden="true">☰</span>';
+  document.body.classList.toggle('navigation-open', open);
+  $$('main, footer').forEach(element => { element.inert = open; });
+  if (restoreFocus) menu.focus();
+}
 if (menu && navigation) {
-  menu.addEventListener('click', () => {
-    const open = navigation.classList.toggle('open');
-    menu.setAttribute('aria-expanded', String(open));
+  menu.setAttribute('aria-label', 'Open navigation menu');
+  menu.addEventListener('click', () => setMenu(menu.getAttribute('aria-expanded') !== 'true'));
+  $$('a', navigation).forEach(link => link.addEventListener('click', () => setMenu(false)));
+  document.addEventListener('click', event => { if (!event.target.closest('header') && navigation.classList.contains('open')) setMenu(false); });
+  document.addEventListener('keydown', event => {
+    if (!navigation.classList.contains('open')) return;
+    if (event.key === 'Escape') { event.preventDefault(); setMenu(false, true); }
+    if (event.key === 'Tab') {
+      const controls = [menu, ...$$('a', navigation)];
+      const first = controls[0], last = controls.at(-1);
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    }
   });
-  $$('a', navigation).forEach(link => link.addEventListener('click', () => {
-    navigation.classList.remove('open');
-    menu.setAttribute('aria-expanded', 'false');
-  }));
+  addEventListener('resize', () => { if (getComputedStyle(menu).display === 'none') setMenu(false); });
 }
 
 const heroSlider = $('[data-hero-slider]');
@@ -140,8 +147,30 @@ if (sermonRail) {
     toggle.setAttribute('aria-pressed', String(userPaused));
     toggle.innerHTML = userPaused ? 'Resume movement <span aria-hidden="true">▶</span>' : 'Pause movement <span aria-hidden="true">Ⅱ</span>';
   };
-  toggle.addEventListener('click', () => { userPaused = !userPaused; updateRail(); });
+  toggle.addEventListener('click', () => {
+    userPaused = !userPaused;
+    if (!userPaused && sermonRail.classList.contains('is-browsing')) {
+      const viewport = $('.sermon-rail-window', sermonRail);
+      const track = $('.sermon-rail-track', sermonRail);
+      const loopWidth = $('.sermon-rail-group', track).getBoundingClientRect().width;
+      const duration = parseFloat(getComputedStyle(track).animationDuration) || 100;
+      track.style.animationDelay = `-${(viewport.scrollLeft % loopWidth) / loopWidth * duration}s`;
+      sermonRail.classList.remove('is-browsing');
+      viewport.scrollLeft = 0;
+    }
+    updateRail();
+  });
   const windowElement = $('.sermon-rail-window', sermonRail);
+  // Touch users can take over the moving row and browse it horizontally.
+  windowElement.addEventListener('pointerdown', event => {
+    if (event.pointerType !== 'touch' || sermonRail.classList.contains('is-browsing')) return;
+    const track = $('.sermon-rail-track', sermonRail);
+    const transform = new DOMMatrixReadOnly(getComputedStyle(track).transform);
+    userPaused = true;
+    sermonRail.classList.add('is-browsing');
+    windowElement.scrollLeft = Math.abs(transform.m41);
+    updateRail();
+  }, { passive: true });
   windowElement.addEventListener('mouseenter', () => { hovered = true; updateRail(); });
   windowElement.addEventListener('mouseleave', () => { hovered = false; updateRail(); });
   windowElement.addEventListener('focusin', () => { focused = true; updateRail(); });
@@ -237,7 +266,7 @@ async function refreshYouTube() {
     const data = await response.json();
     if (data.source !== 'youtube' || !Array.isArray(data.videos)) return;
     const videos = data.videos.filter(video => /^[\w-]{11}$/.test(video.id) && typeof video.title === 'string').slice(0, 12);
-    if (!videos.length || dialog?.open || track?.contains(document.activeElement)) return;
+    if (!videos.length || dialog?.open || track?.contains(document.activeElement) || sermonRail?.classList.contains('is-browsing')) return;
     const element = (tag, className, text) => {
       const node = document.createElement(tag);
       if (className) node.className = className;
