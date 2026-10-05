@@ -30,3 +30,9 @@ Use Node 22+, run `npm install`, then `npm run build` and `npm run dev`.
 The original services page and events calendar disagree on Sunday service times. The rebuild reports the calendar times and asks visitors to confirm with the church. General giving and the building project use separate accounts; preserve that distinction. Imported music-theme demo posts are archived, not presented as church content. Event data is a snapshot, not a live calendar integration. The sermon selection and current-pastor reference were refreshed from the official YouTube channel on 4 October 2026.
 
 The current church domain has not been changed.
+
+### Automatic YouTube updates
+
+The homepage video row and sermons page request `/.netlify/functions/youtube-feed` when opened. The function reads the public Atom feed for the verified `@CODCanterbury` channel (`UCOBJendA58WmfmZADo_Ey1w`), validates the entries and returns up to 12 recent uploads. No API key is required. Netlify caches a successful response for ten minutes; new videos appear after YouTube publishes them in its feed and that cache refreshes. The feed does not provide video durations, so refreshed cards omit them.
+
+If YouTube times out, returns an error or provides an invalid feed, the six saved videos remain available. Run `node --test tests/youtube-feed.test.mjs` to check parsing, sorting, duplicate removal and error fallbacks. Use `npm run dev` to test the function locally; a plain static server displays the saved selection.

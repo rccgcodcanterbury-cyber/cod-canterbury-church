@@ -163,11 +163,14 @@ if (dialog) {
   $('.dialog-close', dialog)?.addEventListener('click', closeDialog);
   dialog.addEventListener('click', event => { if (event.target === dialog) closeDialog(); });
 }
-$$('[data-video]').forEach(button => button.addEventListener('click', () => {
+document.addEventListener('click', event => {
+  const button = event.target.closest('[data-video]');
+  if (!button || !dialog || !content) return;
   const id = button.dataset.video;
+  if (!/^[\w-]{11}$/.test(id)) return;
   content.innerHTML = `<iframe title="Sermon video" src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
   dialog.showModal();
-}));
+});
 const galleryItems = $$('[data-gallery]');
 let galleryIndex = -1;
 function displayGallery(index) {
@@ -198,10 +201,10 @@ dialog?.addEventListener('keydown', event => {
 
 const search = $('#sermon-search');
 if (search) {
-  const cards = $$('.sermon-card'); const empty = $('#sermon-empty');
+  const empty = $('#sermon-empty');
   search.addEventListener('input', () => {
     const query = search.value.trim().toLowerCase(); let visible = 0;
-    cards.forEach(card => { const match = card.dataset.search.includes(query); card.classList.toggle('hidden', !match); if (match) visible++; });
+    $$('.sermon-card').forEach(card => { const match = card.dataset.search.includes(query); card.classList.toggle('hidden', !match); if (match) visible++; });
     empty.hidden = visible !== 0;
   });
 }
@@ -221,3 +224,63 @@ if (eventFilter && eventDate) {
   });
   eventFilter.addEventListener('change', update); eventDate.addEventListener('change', update);
 }
+
+
+// Fetch recent public uploads through the site's cached endpoint; static cards remain usable.
+async function refreshYouTube() {
+  const track = $('.sermon-rail-track');
+  const grid = $('[data-youtube-grid]');
+  if (!track && !grid) return;
+  try {
+    const response = await fetch('/.netlify/functions/youtube-feed', { signal: AbortSignal.timeout(9000) });
+    if (!response.ok) return;
+    const data = await response.json();
+    if (data.source !== 'youtube' || !Array.isArray(data.videos)) return;
+    const videos = data.videos.filter(video => /^[\w-]{11}$/.test(video.id) && typeof video.title === 'string').slice(0, 12);
+    if (!videos.length || dialog?.open || track?.contains(document.activeElement)) return;
+    const element = (tag, className, text) => {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text) node.textContent = text;
+      return node;
+    };
+    function videoButton(video) {
+      const button = element('button', 'video');
+      button.type = 'button'; button.dataset.video = video.id; button.setAttribute('aria-label', `Watch ${video.title}`);
+      const image = element('img'); image.src = `https://img.youtube.com/vi/${video.id}/hqdefault.jpg`; image.alt = video.title; image.loading = 'lazy'; image.width = 480; image.height = 270;
+      const play = element('span', 'play', '▶'); play.setAttribute('aria-hidden', 'true');
+      button.append(image, play);
+      return button;
+    }
+    const titleParts = video => video.title.split(/\s*\|+\s*/).filter(Boolean);
+    function caption(video) {
+      const parts = titleParts(video);
+      const description = parts.slice(1).filter(part => !/^RCCG/i.test(part)).join(' / ');
+      const block = element('div'); block.append(element('h3', '', parts[0]), element('p', '', description));
+      return block;
+    }
+    if (track) {
+      const group = element('div', 'sermon-rail-group');
+      videos.forEach((video, index) => {
+        const card = element('article', 'sermon-rail-card');
+        const details = element('div', 'sermon-rail-caption'); details.append(element('span', 'sermon-number', String(index + 1).padStart(2, '0')), caption(video));
+        card.append(videoButton(video), details); group.append(card);
+      });
+      const copy = group.cloneNode(true); copy.setAttribute('aria-hidden', 'true'); $$('button', copy).forEach(button => button.tabIndex = -1);
+      track.replaceChildren(group, copy);
+      track.style.animationDuration = `${Math.max(100, videos.length * 16)}s`;
+    }
+    if (grid) {
+      const cards = videos.map(video => {
+        const card = element('article', 'sermon-card'); card.dataset.search = video.title.toLowerCase();
+        const text = caption(video); const heading = text.querySelector('h3'); const h2 = element('h2', '', heading.textContent); heading.replaceWith(h2);
+        const link = element('a', 'text-link', 'Watch on YouTube'); link.href = `https://www.youtube.com/watch?v=${video.id}`;
+        card.append(videoButton(video), ...text.childNodes, link); return card;
+      });
+      grid.replaceChildren(...cards);
+      search?.dispatchEvent(new Event('input'));
+      const note = $('[data-youtube-note]'); if (note) note.textContent = 'Recent uploads from our official YouTube channel. Visit the channel for the full archive and live services.';
+    }
+  } catch { /* The generated selection is the fallback, including on local static previews. */ }
+}
+refreshYouTube();
