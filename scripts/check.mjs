@@ -13,4 +13,9 @@ for (const [file, text] of [['dist/llms.txt','RCCG City of David Canterbury'],['
 for (const [file, text] of [['dist/audacious/index.html','Faith with your whole life.'],['dist/youth/index.html','Find your people. Grow your faith.']]) {
   if (!fs.readFileSync(file,'utf8').includes(text)) throw new Error(`${file} is missing expected ministry content.`);
 }
+for (const file of ['dist/404.html','dist/thank-you/index.html','dist/audacious/thank-you/index.html','dist/youth/thank-you/index.html']) {
+  if (!fs.readFileSync(file,'utf8').includes('content="noindex,nofollow"')) throw new Error(`${file} should not be indexed.`);
+}
+const eventPage = fs.readFileSync(`dist/events/${JSON.parse(fs.readFileSync('content/events.json','utf8'))[0].id}/index.html`,'utf8');
+if (!eventPage.includes('"@type":"Event"')) throw new Error('Event page is missing Event structured data.');
 console.log('Build check passed.');
