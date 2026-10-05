@@ -126,6 +126,34 @@ if (heroSlider) {
   start();
 }
 
+// A seamless right-to-left message row. Pause reasons remain independent.
+const sermonRail = $('[data-sermon-rail]');
+if (sermonRail) {
+  const toggle = $('[data-rail-pause]', sermonRail);
+  let userPaused = false;
+  let hovered = false;
+  let focused = false;
+  let visible = true;
+  const updateRail = () => {
+    const mediaOpen = $('#media-dialog')?.open;
+    sermonRail.classList.toggle('is-paused', userPaused || hovered || focused || document.hidden || !visible || mediaOpen || motionPreference.matches);
+    toggle.setAttribute('aria-pressed', String(userPaused));
+    toggle.innerHTML = userPaused ? 'Resume movement <span aria-hidden="true">▶</span>' : 'Pause movement <span aria-hidden="true">Ⅱ</span>';
+  };
+  toggle.addEventListener('click', () => { userPaused = !userPaused; updateRail(); });
+  const windowElement = $('.sermon-rail-window', sermonRail);
+  windowElement.addEventListener('mouseenter', () => { hovered = true; updateRail(); });
+  windowElement.addEventListener('mouseleave', () => { hovered = false; updateRail(); });
+  windowElement.addEventListener('focusin', () => { focused = true; updateRail(); });
+  windowElement.addEventListener('focusout', () => { focused = false; updateRail(); });
+  document.addEventListener('visibilitychange', updateRail);
+  motionPreference.addEventListener('change', updateRail);
+  $('#media-dialog')?.addEventListener('close', updateRail);
+  new MutationObserver(updateRail).observe($('#media-dialog'), { attributes: true, attributeFilter: ['open'] });
+  if ('IntersectionObserver' in window) new IntersectionObserver(entries => { visible = entries[0].isIntersecting; updateRail(); }).observe(sermonRail);
+  updateRail();
+}
+
 const dialog = $('#media-dialog');
 const content = $('#media-content');
 function closeDialog() { if (dialog?.open) dialog.close(); if (content) content.innerHTML = ''; }
