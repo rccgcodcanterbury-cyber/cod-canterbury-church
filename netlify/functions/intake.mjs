@@ -10,7 +10,8 @@ function readBody(event){
 
 export default async function handler(event){
   if(event.httpMethod!=='POST')return json(405,{error:'Method not allowed'});
-  if(process.env.INTAKE_ENABLED!=='true'||process.env.PRIVACY_NOTICE_APPROVED!=='true'||process.env.INTAKE_ABUSE_CONTROL_APPROVED!=='true'||!process.env.PRIVACY_RETENTION_TEXT)return json(503,{error:'Secure submissions are not available yet. Please email the church office.'});
+  const turnstileSecret=process.env.TURNSTILE_SECRET_KEY;
+  if(process.env.INTAKE_ENABLED!=='true'||process.env.PRIVACY_NOTICE_APPROVED!=='true'||process.env.INTAKE_ABUSE_CONTROL_APPROVED!=='true'||!turnstileSecret||!process.env.PRIVACY_RETENTION_TEXT)return json(503,{error:'Secure submissions are not available yet. Please email the church office.'});
   let input;
   try{input=readBody(event)}catch{return json(400,{error:'Please check the form and try again.'})}
   if(text(input.website,200))return json(202,{ok:true});
@@ -40,6 +41,13 @@ export default async function handler(event){
     record.visit_date=date||null;record.party_size=party;record.preferred_contact=preferred;record.contact_consent=contactConsent;
     table='first_time_visitors';
   }
+  const turnstileToken=text(input['cf-turnstile-response'],2048);
+  if(!turnstileToken)return json(400,{error:'Please complete the security check and try again.'});
+  try{
+    const response=await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:new URLSearchParams({secret:turnstileSecret,response:turnstileToken,remoteip:event.headers?.['x-nf-client-connection-ip']||event.headers?.['X-Nf-Client-Connection-Ip']||''})});
+    const result=await response.json();
+    if(!result.success)return json(400,{error:'The security check did not pass. Please try again.'});
+  }catch{return json(503,{error:'We could not verify the security check. Please try again later.'})}
   const supabaseUrl=process.env.SUPABASE_URL;
   const publishableKey=process.env.SUPABASE_PUBLISHABLE_KEY;
   const resendKey=process.env.RESEND_API_KEY;

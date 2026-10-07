@@ -187,3 +187,5 @@ dialog{max-height:92svh;box-shadow:0 24px 100px #0006}dialog[open]{animation:dia
 }
 @media(max-width:1100px) and (max-height:600px) and (orientation:landscape){.hero-slider{min-height:540px}.header nav.open{grid-template-columns:1fr 1fr;column-gap:2rem}.header nav>a:not(.button){min-height:48px;font-size:1.4rem}.header nav .button{grid-column:1/-1;margin-top:1rem}}
 @media(max-width:1100px){.two-columns>*{min-width:0}main a[href^="mailto:"]{overflow-wrap:anywhere}}
+
+.turnstile-challenge{min-height:65px;margin:.8rem 0}
