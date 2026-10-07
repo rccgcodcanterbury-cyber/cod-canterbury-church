@@ -63,16 +63,34 @@ if (heroSlider) {
   let timer;
   let pointerStartX = 0;
   let paused = false;
+  const videoHost = $('[data-hero-video]', heroSlider);
+  const showVideo = () => {
+    if (!videoHost || current !== 0 || paused || reduceMotion.matches || window.matchMedia('(max-width: 600px)').matches || document.hidden || videoHost.firstChild) return;
+    const clip = document.createElement('video');
+    clip.muted = true;
+    clip.autoplay = true;
+    clip.loop = true;
+    clip.playsInline = true;
+    clip.preload = 'metadata';
+    clip.setAttribute('aria-hidden', 'true');
+    clip.addEventListener('playing', () => videoHost.classList.add('is-ready'));
+    clip.addEventListener('error', () => hideVideo(), { once: true });
+    clip.src = '/assets/canterbury-hero.mp4';
+    videoHost.append(clip);
+    clip.play().catch(hideVideo);
+  };
+  const hideVideo = () => { if (videoHost) { videoHost.replaceChildren(); videoHost.classList.remove('is-ready'); } };
   const pauseButton = document.createElement('button');
   pauseButton.className = 'hero-arrow hero-pause';
   pauseButton.textContent = 'Pause';
-  pauseButton.setAttribute('aria-label', 'Pause slideshow');
+  pauseButton.setAttribute('aria-label', 'Pause hero motion');
   pauseButton.setAttribute('aria-pressed', 'false');
   $('.hero-slider-controls', heroSlider)?.append(pauseButton);
 
   const restartProgress = () => {
     if (!progress || reduceMotion.matches) return;
     progress.style.animation = 'none';
+    progress.style.animationDuration = current === 0 ? '12s' : '6s';
     void progress.offsetWidth;
     progress.style.animation = '';
   };
@@ -94,20 +112,22 @@ if (heroSlider) {
     dots[target]?.setAttribute('aria-current', 'true');
     window.setTimeout(() => outgoing.classList.remove('is-leaving-left', 'is-leaving-right'), 1100);
     current = target;
+    if (current === 0) showVideo(); else hideVideo();
     restartProgress();
   };
 
-  const stop = () => window.clearInterval(timer);
+  const stop = () => window.clearTimeout(timer);
   const start = () => {
     stop();
-    if (!reduceMotion.matches && !paused && !document.hidden) timer = window.setInterval(() => showSlide(current + 1, 1), 6000);
+    if (!reduceMotion.matches && !paused && !document.hidden) timer = window.setTimeout(() => { showSlide(current + 1, 1); start(); }, current === 0 ? 12000 : 6000);
   };
   pauseButton.addEventListener('click', () => {
     paused = !paused;
     pauseButton.textContent = paused ? 'Play' : 'Pause';
-    pauseButton.setAttribute('aria-label', paused ? 'Play slideshow' : 'Pause slideshow');
+    pauseButton.setAttribute('aria-label', paused ? 'Play hero motion' : 'Pause hero motion');
     pauseButton.setAttribute('aria-pressed', String(paused));
     heroSlider.classList.toggle('is-paused', paused);
+    if (paused) hideVideo(); else showVideo();
     start();
   });
 
@@ -127,9 +147,10 @@ if (heroSlider) {
     if (event.key === 'ArrowLeft') { showSlide(current - 1, -1); start(); }
     if (event.key === 'ArrowRight') { showSlide(current + 1, 1); start(); }
   });
-  reduceMotion.addEventListener('change', start);
-  document.addEventListener('visibilitychange', () => document.hidden ? stop() : start());
+  reduceMotion.addEventListener('change', () => { if (reduceMotion.matches) hideVideo(); else showVideo(); start(); });
+  document.addEventListener('visibilitychange', () => { if (document.hidden) { stop(); hideVideo(); } else { showVideo(); start(); } });
   restartProgress();
+  showVideo();
   start();
 }
 
