@@ -36,7 +36,7 @@ test('intake rejects a failed anti-spam challenge before writing personal data',
 
 test('first visit requires explicit permission before follow-up',async()=>{
   enableIntake();
-  let requests=0;globalThis.fetch=async()=>{requests++;throw new Error('should not call providers')};
+  let requests=0;globalThis.fetch=async()=>{requests++;throw new Error('no provider should receive an invalid submission')};
   const result=await handler(event({kind:'first_time_visitor',submission_key:'123e4567-e89b-12d3-a456-426614174000',full_name:'Visitor',email:'person@example.org',preferred_contact:'email',contact_consent:false}));
   assert.equal(result.statusCode,400);
   assert.equal(requests,0);
