@@ -23,7 +23,7 @@ const dateLabel = value => new Intl.DateTimeFormat('en-GB',{dateStyle:'medium',t
 function showMessage(target,text,bad=false){target.textContent=text;target.dataset.error=bad?'true':'false'}
 function setSignedIn(user){loginPanel.classList.toggle('hidden',Boolean(user));dashboard.classList.toggle('hidden',!user)}
 
-function setFilterOptions(){filter.innerHTML='<option value="all">All statuses</option>'+statuses[queue].map(status=>`<option value="${status}">${readable(status)}</option>`).join('')}
+function setFilterOptions(){filter.innerHTML='<option value="all">All statuses</option>'+statuses[queue].map(status=>`<option value="${status}">${readable(status)}</option>`).join('');if(!statuses[queue].includes(filter.value))filter.value='all'}
 
 async function loadQueue(){
   list.innerHTML='<p class="record-meta" style="padding:1rem">Loading submissions…</p>';
