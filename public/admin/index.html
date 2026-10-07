@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#102a24">
+  <title>Church office | City of David Canterbury</title>
+  <link rel="stylesheet" href="/admin/admin.css">
+  <script src="/admin/config.js" defer></script>
+  <script src="/admin/admin.bundle.js" defer></script>
+</head>
+<body>
+  <main class="admin-shell">
+    <section class="login-panel" id="login-panel" aria-labelledby="login-title">
+      <a class="wordmark" href="/">CITY OF DAVID <span>CANTERBURY</span></a>
+      <p class="eyebrow">Church office</p>
+      <h1 id="login-title">Welcome back.</h1>
+      <p class="intro">Sign in with your church office account to review private submissions.</p>
+      <form id="login-form">
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="username" required>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+        <button class="primary" type="submit">Sign in <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="form-message" id="login-message" role="status" aria-live="polite"></p>
+      <a class="back-link" href="/">← Return to the church website</a>
+    </section>
+
+    <section class="dashboard hidden" id="dashboard" aria-labelledby="dashboard-title">
+      <header class="dashboard-header">
+        <div><p class="eyebrow">City of David Canterbury / Church office</p><h1 id="dashboard-title">Care starts here.</h1></div>
+        <button class="quiet-button" id="sign-out" type="button">Sign out</button>
+      </header>
+      <div class="dashboard-note" id="dashboard-note" role="status"></div>
+      <nav class="queue-tabs" aria-label="Intake queues">
+        <button class="queue-tab is-active" type="button" data-queue="testimonies">Testimonies <span id="testimony-count">—</span></button>
+        <button class="queue-tab" type="button" data-queue="visitors">First visits <span id="visitor-count">—</span></button>
+      </nav>
+      <div class="queue-layout">
+        <section class="queue-list" aria-label="Submissions">
+          <div class="queue-tools"><label class="sr-only" for="queue-filter">Filter submissions</label><select id="queue-filter"><option value="all">All statuses</option></select><button class="quiet-button" id="refresh-queue" type="button">Refresh</button></div>
+          <div id="queue-items" class="queue-items" aria-live="polite"></div>
+        </section>
+        <section class="record-panel" id="record-panel" aria-label="Submission detail">
+          <div class="empty-state"><span aria-hidden="true">✳</span><h2>Make room for their story.</h2><p>Select a submission to review it. Personal details and testimony text stay inside the authenticated dashboard.</p></div>
+        </section>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

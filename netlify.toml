@@ -6,7 +6,19 @@
 [dev]
   framework = "#static"
   publish = "dist"
-  port = 8888
+port = 8888
+[[redirects]]
+  from = "/api/intake"
+  to = "/.netlify/functions/intake"
+  status = 200
+[[redirects]]
+  from = "/api/youtube-feed"
+  to = "/.netlify/functions/youtube-feed"
+  status = 200
+[[redirects]]
+  from = "/api/review-testimony"
+  to = "/.netlify/functions/review-testimony"
+  status = 200
 [[headers]]
   for = "/*"
   [headers.values]

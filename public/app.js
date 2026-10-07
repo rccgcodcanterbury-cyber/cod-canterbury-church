@@ -261,7 +261,7 @@ async function refreshYouTube() {
   const grid = $('[data-youtube-grid]');
   if (!track && !grid) return;
   try {
-    const response = await fetch('/.netlify/functions/youtube-feed', { signal: AbortSignal.timeout(9000) });
+    const response = await fetch('/api/youtube-feed', { signal: AbortSignal.timeout(9000) });
     if (!response.ok) return;
     const data = await response.json();
     if (data.source !== 'youtube' || !Array.isArray(data.videos)) return;
