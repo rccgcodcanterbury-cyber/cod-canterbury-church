@@ -3,3 +3,5 @@ dist/
 .netlify/
 .env*
 .DS_Store
+
+.wrangler/
