@@ -261,20 +261,55 @@ if (search) {
 
 const eventFilter = $('#event-filter');
 const eventDate = $('#event-date');
-if (eventFilter && eventDate) {
-  const rows = $$('.event-row');
-  const update = () => rows.forEach(row => {
-    const title = $('h3', row).textContent.toLowerCase();
-    const date = $('time', row).textContent;
-    const kind = eventFilter.value;
-    const typeOk = kind === 'all' || (kind === 'sunday' && title.includes('sunday')) || (kind === 'friday' && title.includes('friday'));
-    const parsed = new Date(date.split('\n')[0]);
-    const dateOk = !eventDate.value || (!Number.isNaN(parsed) && parsed >= new Date(`${eventDate.value}T00:00:00`));
-    row.classList.toggle('hidden', !(typeOk && dateOk));
-  });
-  eventFilter.addEventListener('change', update); eventDate.addEventListener('change', update);
+const londonToday = () => new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/London',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+function updateEvents() {
+  for (const list of $$('[data-event-list]')) {
+    let visible = 0;
+    const minimum = eventDate?.value || londonToday();
+    const limit = list.dataset.upcoming === 'true' ? Number(list.dataset.limit) : Infinity;
+    for (const row of $$('.event-row',list)) {
+      const title = $('h3',row).textContent.toLowerCase();
+      const kind = eventFilter?.value || 'all';
+      const typeOk = kind === 'all' || (kind === 'sunday' && title.includes('sunday')) || (kind === 'friday' && title.includes('friday'));
+      const matches = typeOk && row.dataset.eventDate >= minimum && visible < limit;
+      row.classList.toggle('hidden',!matches);
+      if(matches) visible++;
+    }
+    const empty = $('#event-empty');
+    if(empty) empty.hidden = visible > 0;
+  }
 }
+if(eventDate) eventDate.value = londonToday();
+eventFilter?.addEventListener('change',updateEvents);
+eventDate?.addEventListener('change',updateEvents);
+updateEvents();
+setInterval(updateEvents,60000);
 
+async function refreshEvents(){
+ if(!document.querySelector('[data-event-list]'))return;
+ try{
+  const response=await fetch('/api/events',{signal:AbortSignal.timeout(12000)});
+  if(!response.ok)return;
+  const data=await response.json();
+  if(!Array.isArray(data.events)||!data.events.length)return;
+  const known=new Map($$('.event-row').map(row=>[row.getAttribute('href').split('/').filter(Boolean).pop(),row.getAttribute('href')]));
+  const decode=value=>{const text=document.createElement('textarea');text.innerHTML=value;return text.value};
+  for(const list of $$('[data-event-list]')){
+   const rows=data.events.map(event=>{
+    const row=document.createElement('a');row.className='event-row';row.dataset.eventDate=event.start_date.slice(0,10);
+    row.href=known.get(String(event.id))||'https://codcanterburychurch.org/events/';
+    const time=document.createElement('time');time.dateTime=event.start_date.replace(' ','T');
+    time.textContent=new Intl.DateTimeFormat('en-GB',{timeZone:'UTC',day:'numeric',month:'short',year:'numeric'}).format(new Date(event.start_date.replace(' ','T')+'Z'));
+    const small=document.createElement('small');small.textContent=event.start_date.slice(11,16);time.append(small);
+    const title=document.createElement('h3');title.textContent=decode(event.title);
+    const arrow=document.createElement('span');arrow.textContent='→';arrow.setAttribute('aria-hidden','true');row.append(time,title,arrow);return row;
+   });
+   list.replaceChildren(...rows);
+  }
+  updateEvents();
+ }catch{/* The saved upcoming calendar remains available. */}
+}
+refreshEvents();
 
 // Fetch recent public uploads through the site's cached endpoint; static cards remain usable.
 async function refreshYouTube() {
@@ -282,7 +317,7 @@ async function refreshYouTube() {
   const grid = $('[data-youtube-grid]');
   if (!track && !grid) return;
   try {
-    const response = await fetch('/.netlify/functions/youtube-feed', { signal: AbortSignal.timeout(9000) });
+    const response = await fetch('/api/youtube-feed', { signal: AbortSignal.timeout(9000) });
     if (!response.ok) return;
     const data = await response.json();
     if (data.source !== 'youtube' || !Array.isArray(data.videos)) return;

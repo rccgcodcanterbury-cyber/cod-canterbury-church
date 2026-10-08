@@ -129,6 +129,10 @@ dialog{max-height:92svh;box-shadow:0 24px 100px #0006}dialog[open]{animation:dia
 @media(max-width:600px){.sermon-rail-heading{grid-template-columns:1fr;gap:1.4rem;margin-bottom:1.8rem}.sermon-rail-heading h2 br{display:none}.sermon-rail-intro{max-width:none}.sermon-rail-card{width:290px}.sermon-rail-group{gap:16px;padding-right:16px}.sermon-rail-foot{flex-direction:column;align-items:flex-start}.home-page .visit-invitation{grid-template-columns:1fr;gap:2.5rem}.visit-arrival-photo{height:280px}.home-page .visit-details{margin:-2rem .75rem 0 1.5rem;padding:1.3rem 1.5rem}.home-page .next-generation-card:first-child,.home-page .next-generation-card:last-child{margin:0}.home-page .next-generation-card{min-height:360px}.home-life .three-columns{grid-template-columns:1fr;gap:2.4rem}.home-life .life-item:nth-child(2),.home-life .life-item:nth-child(3){margin:0}.home-life .life-item img,.home-life .life-item:first-child img{height:260px}.home-life .section-heading{align-items:start}.home-life .section-heading>.text-link{max-width:130px;font-size:.9rem}}
 @media(prefers-reduced-motion:reduce){.sermon-rail-window{overflow-x:auto;padding-left:var(--gutter);padding-right:var(--gutter)}.sermon-rail-group[aria-hidden]{display:none}.sermon-rail-track{animation:none;transform:none}.rail-pause{display:none}}
 
+/* Private intake forms for first visits and testimony review. */
+.first-visit-callout{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding-top:2.5rem;padding-bottom:2.5rem;background:#eee9db}.first-visit-callout h2{margin:.2rem 0;font-size:clamp(2rem,4vw,3rem)}.first-visit-callout p:not(.eyebrow){margin:.4rem 0 0}.intake-form{display:flex;flex-direction:column;gap:.55rem;padding:clamp(1.2rem,3vw,2.2rem);background:#fff;border:1px solid var(--line)}.intake-form>label,.intake-two-fields label{font-size:.8rem;font-weight:700;margin-top:.55rem}.intake-form label span{color:var(--muted);font-weight:400}.intake-form input:not([type=checkbox]),.intake-form select,.intake-form textarea{width:100%;min-height:48px;margin:.35rem 0 .65rem;padding:.7rem .8rem;border:1px solid #bdc8bf;background:#fff;color:var(--ink);font:inherit}.intake-form textarea{resize:vertical;line-height:1.6}.intake-form input:focus,.intake-form select:focus,.intake-form textarea:focus{outline:3px solid #b69a6466;border-color:var(--gold)}.intake-two-fields{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.intake-two-fields label{display:block}.consent-check{display:flex;align-items:flex-start;gap:.7rem;margin:.55rem 0;font-size:.84rem;line-height:1.5}.consent-check input{width:19px;height:19px;flex:none;margin:.1rem 0 0;accent-color:var(--green)}.intake-form .form-note{font-size:.76rem;color:var(--muted);line-height:1.6}.intake-form .form-note a{text-decoration:underline}.intake-form button:disabled{opacity:.55;cursor:not-allowed}.intake-status,.intake-unavailable{min-height:1.6rem;color:var(--muted);font-size:.86rem;line-height:1.5}.intake-unavailable{padding:.8rem;background:#f4eddb;border-left:3px solid var(--gold)}.form-trap{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+@media(max-width:600px){.first-visit-callout{align-items:flex-start;flex-direction:column;padding:2rem var(--gutter)}.intake-two-fields{grid-template-columns:1fr;gap:.2rem}.intake-form{padding:1.15rem}}
+
 /* Phone and tablet experience: purposeful scale, touch navigation and swipeable media. */
 .navigation-open{overflow:hidden}
 .sermon-rail.is-browsing .sermon-rail-window{overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:var(--gold-deep) transparent;touch-action:pan-x pan-y}
@@ -213,3 +217,19 @@ dialog{max-height:92svh;box-shadow:0 24px 100px #0006}dialog[open]{animation:dia
 .home-page .next-generation .section-heading>p{color:#d9e4df}
 .home-page .next-generation-card{border-color:rgba(255,255,255,.22)}
 footer{background:var(--ink-2)}
+
+/* Practical visitor guidance and private enquiries. */
+.visitor-faqs{max-width:900px;margin-left:auto}
+.visitor-faqs details{border-top:1px solid var(--line);padding:1.3rem 0}
+.visitor-faqs details:last-child{border-bottom:1px solid var(--line)}
+.visitor-faqs summary{cursor:pointer;font:600 clamp(1.2rem,2vw,1.6rem)/1.4 'DM Sans',sans-serif;padding-right:1rem}
+.visitor-faqs details p{max-width:65ch;color:var(--muted);margin:1rem 0}
+.project-steps{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:1.5rem 0;margin:2rem 0}
+.building-payment-note{background:var(--surface-muted);padding:1.3rem;border-left:3px solid var(--gold-deep)}
+.contact-section select{width:100%;background:transparent;border:0;border-bottom:1px solid var(--line);padding:.8rem 0;font:inherit;color:var(--ink)}
+.intake-status{min-height:1.5em;color:var(--ink);font-weight:600}
+.contact-section .consent-check{display:flex;gap:.75rem;align-items:flex-start;font-size:.9rem;margin:1rem 0}
+.contact-section .consent-check input{width:20px;min-width:20px;margin-top:.2rem}
+button:disabled{cursor:wait;opacity:.65}
+.ministry-contact .intake-form select,.ministry-contact .intake-form textarea{width:100%;font:inherit;padding:.75rem;border:1px solid currentColor;background:transparent;color:inherit}
+@media(max-width:600px){.page-intro{padding-top:3rem;padding-bottom:3rem}.visit-guide .section-heading{margin-bottom:2rem}}

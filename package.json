@@ -1,1 +1,22 @@
-{"name":"cod-canterbury-church","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","dev":"netlify dev","check":"node scripts/check.mjs"},"devDependencies":{"@netlify/edge-functions":"^4.0.2","netlify-cli":"^23.0.0"},"engines":{"node":">=22"}}
+{
+  "name": "cod-canterbury-church",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/build-admin.mjs && wrangler pages functions build functions --outdir dist/_worker.js --minify",
+    "dev": "npm run build && wrangler pages dev dist",
+    "check": "node scripts/check.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.117.3"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "wrangler": "4.148.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
