@@ -41,6 +41,18 @@
         <button class="quiet-button" id="sign-out" type="button">Sign out</button>
       </header>
       <div class="dashboard-note" id="dashboard-note" role="status"></div>
+      <section class="overview" id="overview" aria-labelledby="overview-title">
+        <div class="overview-heading"><div><p class="eyebrow">Ministry pulse</p><h2 id="overview-title">Know what needs care.</h2><p class="overview-copy">A live view of people reaching the church, follow-up work and public message activity.</p></div><button class="quiet-button" id="refresh-overview" type="button">Refresh insights</button></div>
+        <div class="metric-grid" id="metric-grid" aria-live="polite"><div class="metric-card skeleton"></div><div class="metric-card skeleton"></div><div class="metric-card skeleton"></div><div class="metric-card skeleton"></div></div>
+        <div class="insight-grid">
+          <section class="insight-card trend-card"><div class="card-heading"><div><p class="card-kicker">Last 30 days</p><h3>People reaching out</h3></div><span class="trend-key"><i></i>New submissions</span></div><div class="chart-wrap" id="submissions-chart"><p class="record-meta">Loading activity…</p></div></section>
+          <section class="insight-card"><div class="card-heading"><div><p class="card-kicker">Follow-up health</p><h3>Care pipeline</h3></div></div><div id="pipeline-chart" class="pipeline-chart"><p class="record-meta">Loading pipeline…</p></div></section>
+        </div>
+        <div class="insight-grid lower-insights">
+          <section class="insight-card"><div class="card-heading"><div><p class="card-kicker">Public message</p><h3>YouTube activity</h3></div><a class="card-link" href="https://www.youtube.com/@CODCanterbury" target="_blank" rel="noreferrer">Open channel ↗</a></div><div id="youtube-insight"><p class="record-meta">Loading channel feed…</p></div></section>
+          <section class="insight-card"><div class="card-heading"><div><p class="card-kicker">Gathering place</p><h3>Visitor location</h3></div><span class="live-badge">Verified venue</span></div><div class="venue-insight"><strong>St. John’s Church of England Primary School</strong><span>St. John’s Place, Northgate<br>Canterbury, CT1 1BD</span><a class="card-link" href="https://goo.gl/maps/qXR4hJePJZ36FeVdA" target="_blank" rel="noreferrer">Open directions ↗</a><p class="record-meta">The intake form currently records visit interest, not a visitor’s home location. Add an optional postcode field when the church is ready to collect that insight.</p></div></section>
+        </div>
+      </section>
       <nav class="queue-tabs" aria-label="Intake queues">
         <button class="queue-tab is-active" type="button" data-queue="contacts">Enquiries &amp; prayer <span id="contact-count">—</span></button>
         <button class="queue-tab" type="button" data-queue="testimonies">Testimonies <span id="testimony-count">—</span></button>
