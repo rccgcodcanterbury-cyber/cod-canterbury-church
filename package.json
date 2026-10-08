@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs && node scripts/build-admin.mjs && wrangler pages functions build functions --outdir dist/_worker.js --minify",
+    "build:netlify": "node scripts/build.mjs && node scripts/build-admin.mjs",
     "dev": "npm run build && wrangler pages dev dist",
     "check": "node scripts/check.mjs",
     "test": "node --test"
