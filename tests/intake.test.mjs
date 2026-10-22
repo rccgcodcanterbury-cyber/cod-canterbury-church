@@ -15,6 +15,12 @@ test('Validated records only contain allowed public fields',()=>{
  assert.equal(record.topic,'prayer');assert.equal(record.status,undefined);assert.equal(record.staff_role,undefined);
  assert.throws(()=>validateIntake({...payload,kind:'first_time_visitor',preferred_contact:'phone',contact_consent:true,visit_date:'2026-02-31'}));
 });
+test('First-visit location stays optional, bounded and limited to town or city',()=>{
+ const visit={...payload,kind:'first_time_visitor',preferred_contact:'none',contact_consent:false,visit_date:'2026-10-18',party_size:2};
+ assert.equal(validateIntake(visit).record.town_or_city,null);
+ assert.equal(validateIntake({...visit,town_or_city:'  Canterbury  '}).record.town_or_city,'Canterbury');
+ assert.throws(()=>validateIntake({...visit,town_or_city:'a'.repeat(81)}));
+});
 test('Rate limits and database errors never show success',async()=>{
  let writes=0;
  const limited=await handleIntake(request(payload),env,async()=>new Response('false'));assert.equal(limited.status,429);

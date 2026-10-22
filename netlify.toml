@@ -27,6 +27,11 @@
   status = 200
 
 [[redirects]]
+  from = "/api/youtube-stats"
+  to = "/.netlify/functions/youtube-stats"
+  status = 200
+
+[[redirects]]
   from = "/api/review-testimony"
   to = "/.netlify/functions/review-testimony"
   status = 200
