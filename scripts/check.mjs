@@ -3,7 +3,7 @@ const mustHave = ['dist/index.html','dist/style.css','dist/app.js','dist/events.
 const missing = mustHave.filter(file => !fs.existsSync(file));
 if (missing.length) throw new Error(`Missing build files: ${missing.join(', ')}`);
 const home = fs.readFileSync('dist/index.html','utf8');
-for (const text of ['A place to belong.','Join us this Sunday','Watch a sermon','City of David Canterbury']) {
+for (const text of ['Faith. Family.','Join us this Sunday','Watch a sermon','City of David Canterbury']) {
   if (!home.includes(text)) throw new Error(`Home page missing expected content: ${text}`);
 }
 const intakeConfig=fs.readFileSync('dist/intake-config.js','utf8');

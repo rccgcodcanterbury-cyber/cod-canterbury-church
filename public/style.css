@@ -237,3 +237,69 @@ button:disabled{cursor:wait;opacity:.65}
 /* Gold is an accent; navy anchors the larger reading and community sections. */
 .beliefs,.sermon-feature,.home-page .next-generation,.home-page .visit-details{background:var(--ink-2)}
 .building-band{background:var(--surface-muted);border-top:4px solid var(--gold)}
+
+/* Visitor-first homepage: separate the message from the photography. */
+.home-page .hero-slider{min-height:590px;background:var(--ink);display:grid;grid-template-columns:1fr 1fr}
+.home-page .hero-slides{left:50%;overflow:hidden}
+.home-page .hero-slide:after,.home-page .hero-wash{display:none}
+.home-page .hero-slide-image{object-position:center 32%;filter:none}
+.home-page .hero-slider-copy{width:100%;margin:0;padding:64px 48px 80px max(var(--gutter),calc((100vw - var(--wide))/2));grid-column:1;align-self:center}
+.home-page .hero-slider-copy h1{font-size:clamp(3.5rem,5.3vw,5.4rem);line-height:1.04;letter-spacing:-.04em;text-shadow:none;margin-bottom:24px}
+.home-page .hero-slider-copy>p{font-size:1.05rem!important;line-height:1.65!important;max-width:430px}
+.home-page .hero-slider-copy .actions{gap:20px;margin-top:28px}
+.home-page .hero-slider-copy .button{background:white;color:var(--ink);letter-spacing:.01em}
+.home-page .hero-slider-copy .hero-watch-link{font-family:var(--sans);font-size:.9rem;border-color:#ffffff80}
+.home-page .hero-slider-controls{left:auto;right:24px;bottom:22px;gap:8px;background:var(--ink-2);padding:8px}
+.home-page .hero-arrow{background:transparent;border-color:#ffffff60;width:40px;height:40px;min-height:40px}
+.home-page .hero-progress{display:none}
+.home-page .eyebrow{color:var(--ink);font-family:var(--sans);font-size:.7rem;letter-spacing:.12em}
+.home-page .button{letter-spacing:.01em}
+.sunday-details{background:var(--surface-muted);border-bottom:1px solid var(--line)}
+.sunday-details-inner{display:grid;grid-template-columns:1fr 1.4fr auto;gap:32px;align-items:center;padding-top:30px;padding-bottom:30px}
+.sunday-details .eyebrow{margin-bottom:8px}.sunday-details h2{font:600 1.8rem/1.2 var(--sans);letter-spacing:-.04em;margin:0}.sunday-details p{font-size:.9rem;margin:6px 0 0;max-width:360px}.sunday-details strong{font-size:1rem}
+.home-page .sermon-rail{padding:64px 0 26px;background:white}
+.home-page .sermon-rail-heading{gap:32px;margin-bottom:28px}
+.home-page .sermon-rail-heading h2,.home-page .home-ministries h2,.home-page .home-gatherings h2,.home-page .home-connect h2{font-size:clamp(2.2rem,3.4vw,3.4rem);line-height:1.12;letter-spacing:-.035em}
+.home-page .sermon-rail-intro>p{line-height:1.6;margin-bottom:12px}
+.home-page .sermon-rail-card{width:340px}
+.home-page .sermon-rail-foot{padding-top:18px}
+.home-ministries{padding-top:64px;padding-bottom:64px}
+.home-ministries .section-heading{margin-bottom:28px}
+.home-ministry-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.home-ministry-grid>a{display:grid;grid-template-columns:45% 1fr;background:var(--surface-muted);overflow:hidden;transition:background .2s ease}
+.home-ministry-grid>a:hover{background:#e4edfc}
+.home-ministry-grid img{width:100%;height:100%;min-height:270px;object-fit:cover;object-position:center 35%}
+.home-ministry-grid>a>div{padding:28px 24px;align-self:center}
+.home-ministry-grid h3{font-family:var(--sans);font-size:1.55rem;letter-spacing:-.04em;line-height:1.2;margin:12px 0;display:flex;justify-content:space-between;gap:8px}
+.home-ministry-grid h3 svg{width:22px;flex:none}.home-ministry-grid p{font-size:.95rem;line-height:1.6;margin:0}
+.home-gatherings{background:var(--surface-muted);padding:56px 0}
+.home-gatherings .section-heading{margin-bottom:24px}
+.weekly-gatherings{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-bottom:28px}
+.weekly-gatherings>a{display:grid;grid-template-columns:1fr auto;gap:8px;border-top:2px solid var(--ink);padding:18px 0}
+.weekly-gatherings strong{font-size:1rem}.weekly-gatherings span{font-size:.88rem;grid-column:1;color:var(--muted)}.weekly-gatherings svg{width:22px;grid-column:2;grid-row:1/3;align-self:center}
+.home-gatherings .event-list,.home-gatherings .event-row{border-color:var(--line)}
+.home-gatherings .event-row h3{font:600 1.15rem/1.4 var(--sans);letter-spacing:-.02em}
+.home-connect{padding-top:56px;padding-bottom:56px;display:grid;grid-template-columns:1.5fr 1fr;gap:64px;align-items:center}
+.home-connect h2{margin-bottom:16px}.home-connect p{max-width:560px;font-size:1rem;line-height:1.7}.home-connect aside{border-left:3px solid var(--gold);padding-left:28px}.home-connect aside h3{font-size:1.8rem}.home-connect .actions{gap:20px}
+.home-page footer{padding-top:40px}
+@media(max-width:1100px) and (min-width:701px){.home-page .hero-slider-copy{padding-left:var(--gutter);padding-right:32px}.home-page .hero-slider-copy h1{font-size:3.8rem}.home-ministry-grid>a{grid-template-columns:1fr}.home-ministry-grid img{height:260px;min-height:0}.sunday-details-inner{grid-template-columns:1fr 1.4fr}.sunday-details .button{grid-column:2;width:fit-content}.home-connect{gap:32px}}
+@media(max-width:700px){
+ .home-page .hero-slider{display:flex;flex-direction:column;min-height:0;padding:0 0 330px}
+ .home-page .hero-slides{left:0;top:auto;bottom:0;height:330px}
+ .home-page .hero-slider-copy{padding:36px var(--gutter);padding-bottom:36px}
+ .home-page .hero-slider-copy h1{font-size:clamp(2.8rem,12vw,4rem);margin-bottom:20px}
+ .home-page .hero-slider-copy>p{font-size:1rem!important;line-height:1.6!important;margin-bottom:0}
+ .home-page .hero-slider-copy .actions{display:flex;flex-direction:row;gap:16px;max-width:none;margin-top:24px}
+ .home-page .hero-slider-copy .button{font-size:.8rem;padding:14px 16px;min-height:48px}
+ .home-page .hero-slider-copy .hero-watch-link{font-size:.85rem;min-height:44px}
+ .home-page .hero-slider-controls{right:12px;bottom:12px;padding:6px;gap:4px}
+ .sunday-details-inner{grid-template-columns:1fr;gap:20px;padding-top:28px;padding-bottom:28px}
+ .sunday-details .button{width:fit-content;padding:12px 18px;min-height:46px}
+ .home-page .sermon-rail{padding-top:40px}.home-page .sermon-rail-heading{grid-template-columns:1fr;gap:18px;margin-bottom:24px}
+ .home-page .sermon-rail-heading h2 br{display:none}.home-page .sermon-rail-intro>p{font-size:.95rem}
+ .home-page .sermon-rail-card{width:280px}.home-page .sermon-rail-foot>span{display:none}.home-page .sermon-rail-foot{margin-top:0;padding-top:12px}
+ .home-ministries{padding-top:40px;padding-bottom:40px}.home-ministries .section-heading,.home-gatherings .section-heading{display:block}.home-ministries .section-heading>.text-link,.home-gatherings .section-heading>.text-link{margin-top:16px}
+ .home-ministry-grid{grid-template-columns:1fr;gap:20px}.home-ministry-grid>a{grid-template-columns:40% 1fr}.home-ministry-grid img{min-height:240px}.home-ministry-grid>a>div{padding:20px 16px}.home-ministry-grid h3{font-size:1.3rem}.home-ministry-grid p{font-size:.88rem}
+ .home-gatherings{padding:40px 0}.weekly-gatherings{grid-template-columns:1fr;gap:0;margin-bottom:16px}
+ .home-connect{grid-template-columns:1fr;gap:32px;padding-top:40px;padding-bottom:40px}.home-connect .actions{gap:16px}.home-connect aside{padding-left:20px}
+}
