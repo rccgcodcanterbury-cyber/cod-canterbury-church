@@ -15,6 +15,14 @@ The `/admin/` dashboard uses Supabase Auth and RLS. Administrators and pastoral
 contacts can read enquiries and visits; testimony reviewers can review testimonies.
 Admin access is assigned to the church-approved email, not to every signed-in user.
 
+The admin overview reads `church_dashboard_snapshot()` for full database counts,
+the last 30 days of submissions, follow-up statuses, first-visit town or city
+summaries, and entered attendance. Only the administrator role can read this
+overview. The attendance form records totals for the 9:00 am and 11:30 am
+services; it does not identify individual worshippers. Historical attendance
+must be entered by church staff. A first-visit form submission is not an
+attendance count.
+
 Records are retained until closed and deleted one month after closure by the existing
 Supabase nightly `purge-expired-church-intake` job. Private data is not emailed by
 public submission handlers. Optional testimony review notifications require
@@ -25,7 +33,15 @@ was sent. Staff can contact the person separately.
 
 Run `npm ci`, `npm run build`, `npm run check`, `npm test`.
 Deploy `dist` with the root `functions` directory through Cloudflare Pages.
-`npm run dev` starts the local Pages runtime. The Netlify runtime is no longer used.
+`npm run dev` starts the local Pages runtime. Netlify uses `npm run build:netlify`
+and `netlify.toml`; its production deployment requires access to the church's
+Netlify team and available credits. A Git push by itself does not prove that
+Netlify deployed.
+
+The office currently works at the Cloudflare site's `/admin/` path. The Netlify
+edge router also maps `admin.rccgcodcanterbury.com/` to that dashboard when the
+hostname is added to the church's Netlify site and its DNS. Verify DNS, TLS,
+login and form submission on the final hostname before announcing it as live.
 
 Public Supabase connection values are in `content/connection.json`. These are
 publishable/anon keys, not database admin credentials. RLS protects private tables.
@@ -37,3 +53,11 @@ The calendar refreshes from the church's original events feed and filters by the
 London date. If the feed is unavailable, the saved calendar stays visible. New events
 beyond the saved calendar open the original calendar. The YouTube endpoint follows
 the same live-feed/saved-selection fallback pattern.
+
+`/api/youtube-stats` can show public channel views, rounded subscriber count
+and video count once `YOUTUBE_API_KEY` is set as a server-side environment
+variable in each host. Restrict the key to the YouTube Data API and server
+usage. Without it, the dashboard explicitly shows that metrics are awaiting a
+connection. Watch time requires the church channel owner to authorise the
+YouTube Analytics API through OAuth; it is not available from the public feed
+or an API key alone.

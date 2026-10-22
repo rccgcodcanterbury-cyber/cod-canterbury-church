@@ -29,7 +29,8 @@ Use Node 22+, run `npm install`, then `npm run build` and `npm run dev`.
 
 Sunday service starts are confirmed by the church as 9am and 11:30am. General giving and the building project use separate accounts. Imported music-theme demo posts remain archived. The calendar refreshes from the original church events feed, with a saved-data fallback, and hides past dates using Europe/London time. The current-pastor reference is Pastor Akin Kunlipe; the site does not invent a biography or project milestones.
 
-The current church domain has not been changed.
+The final office hostname `admin.rccgcodcanterbury.com` still needs DNS and
+hosting setup; `/admin/` on the live Cloudflare site remains the working entry.
 
 ### Automatic YouTube updates
 
