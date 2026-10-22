@@ -316,3 +316,19 @@ button:disabled{cursor:wait;opacity:.65}
  .home-connect{grid-template-columns:1fr;gap:32px;padding-top:40px;padding-bottom:40px}.home-connect .actions{gap:16px}.home-connect aside{padding-left:20px}
 }
 @media(prefers-reduced-motion:reduce){.home-page .hero-slider-copy .button,.home-page .hero-slider-copy .button:before,.home-page .hero-slider-copy .button svg,.home-page .hero-slider-copy .hero-watch-link,.home-page .hero-slider-copy .hero-watch-link svg{transition:none}}
+
+/* Quiet carousel navigation: numbers and a fine active marker, without boxed arrows. */
+.home-page .hero-slider-controls{right:var(--gutter);bottom:24px;gap:8px;padding:6px 10px;background:rgba(7,21,46,.6);border:1px solid #ffffff26;border-radius:40px;backdrop-filter:blur(12px)}
+.home-page .hero-slider-controls .hero-arrow{width:44px;height:44px;min-height:44px;border:0;border-radius:50%;background:transparent;color:#fff;backdrop-filter:none;transform:none;transition:background .25s ease,color .25s ease}
+.home-page .hero-slider-controls .hero-arrow:hover,.home-page .hero-slider-controls .hero-arrow:focus-visible{background:#ffffff20;color:#fff;transform:none}
+.home-page .hero-slider-controls .hero-arrow svg{width:24px;height:20px;stroke:currentColor;stroke-width:1.5;fill:none}
+.home-page .hero-slider-status{gap:4px}
+.home-page .hero-dot{position:relative;display:grid;place-items:center;min-width:40px;min-height:44px;padding:0 0 4px;font:500 .76rem/1 var(--sans);letter-spacing:.04em;color:#ffffffa6;transition:color .25s ease}
+.home-page .hero-dot:after{content:'';position:absolute;bottom:7px;left:12px;right:12px;height:1px;background:white;transform:scaleX(0);transition:transform .3s ease}
+.home-page .hero-dot.is-active,.home-page .hero-dot:hover{color:white}
+.home-page .hero-dot.is-active:after{transform:scaleX(1)}
+.home-page .hero-slider-controls .hero-pause{margin-left:2px;border-left:1px solid #ffffff30;border-radius:0 24px 24px 0;width:48px}
+.home-page .hero-slider-controls .hero-pause svg{width:18px;height:18px;stroke-width:1.6}
+.home-page .hero-slider-controls button:focus-visible{outline:2px solid white;outline-offset:2px}
+@media(max-width:700px){.home-page .hero-slider-controls{right:var(--gutter);bottom:18px;gap:2px;padding:4px 6px}.home-page .hero-slider-controls .hero-arrow{width:40px}.home-page .hero-dot{min-width:36px}.home-page .hero-slider-controls .hero-pause{width:44px}}
+@media(prefers-reduced-motion:reduce){.home-page .hero-slider-controls button,.home-page .hero-dot:after{transition:none}}

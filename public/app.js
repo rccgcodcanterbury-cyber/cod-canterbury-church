@@ -82,7 +82,9 @@ if (heroSlider) {
   const hideVideo = () => { if (videoHost) { videoHost.replaceChildren(); videoHost.classList.remove('is-ready'); } };
   const pauseButton = document.createElement('button');
   pauseButton.className = 'hero-arrow hero-pause';
-  pauseButton.textContent = 'Pause';
+  const pauseIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6v12M15 6v12"/></svg>';
+  const playIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 10 7-10 7Z"/></svg>';
+  pauseButton.innerHTML = pauseIcon;
   pauseButton.setAttribute('aria-label', 'Pause hero motion');
   pauseButton.setAttribute('aria-pressed', 'false');
   $('.hero-slider-controls', heroSlider)?.append(pauseButton);
@@ -123,7 +125,7 @@ if (heroSlider) {
   };
   pauseButton.addEventListener('click', () => {
     paused = !paused;
-    pauseButton.textContent = paused ? 'Play' : 'Pause';
+    pauseButton.innerHTML = paused ? playIcon : pauseIcon;
     pauseButton.setAttribute('aria-label', paused ? 'Play hero motion' : 'Pause hero motion');
     pauseButton.setAttribute('aria-pressed', String(paused));
     heroSlider.classList.toggle('is-paused', paused);
