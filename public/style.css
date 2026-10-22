@@ -238,18 +238,28 @@ button:disabled{cursor:wait;opacity:.65}
 .beliefs,.sermon-feature,.home-page .next-generation,.home-page .visit-details{background:var(--ink-2)}
 .building-band{background:var(--surface-muted);border-top:4px solid var(--gold)}
 
-/* Visitor-first homepage: separate the message from the photography. */
-.home-page .hero-slider{min-height:590px;background:var(--ink);display:grid;grid-template-columns:1fr 1fr}
-.home-page .hero-slides{left:50%;overflow:hidden}
-.home-page .hero-slide:after,.home-page .hero-wash{display:none}
+/* Transparent welcome over colour photography, with a graduated readability layer. */
+.home-page .hero-slider{min-height:640px;background:var(--ink-2);display:flex;align-items:center}
+.home-page .hero-slides{left:0;overflow:hidden}
+.home-page .hero-slide:after{display:block;background:linear-gradient(90deg,rgba(7,29,73,.88),rgba(7,29,73,.64) 42%,rgba(7,29,73,.1) 78%)}
+.home-page .hero-wash{display:none}
 .home-page .hero-slide-image{object-position:center 32%;filter:none}
-.home-page .hero-slider-copy{width:100%;margin:0;padding:64px 48px 80px max(var(--gutter),calc((100vw - var(--wide))/2));grid-column:1;align-self:center}
+.home-page .hero-slider-copy{width:min(100%,760px);margin:0;padding:64px 48px 110px max(var(--gutter),calc((100vw - var(--wide))/2));background:transparent;align-self:center}
 .home-page .hero-slider-copy h1{font-size:clamp(3.5rem,5.3vw,5.4rem);line-height:1.04;letter-spacing:-.04em;text-shadow:none;margin-bottom:24px}
 .home-page .hero-slider-copy>p{font-size:1.05rem!important;line-height:1.65!important;max-width:430px}
 .home-page .hero-slider-copy .actions{gap:20px;margin-top:28px}
-.home-page .hero-slider-copy .button{background:white;color:var(--ink);letter-spacing:.01em}
-.home-page .hero-slider-copy .hero-watch-link{font-family:var(--sans);font-size:.9rem;border-color:#ffffff80}
-.home-page .hero-slider-controls{left:auto;right:24px;bottom:22px;gap:8px;background:var(--ink-2);padding:8px}
+.home-page .hero-slider-copy .button{background:transparent;color:white;border:1px solid #ffffffc0;letter-spacing:.01em;position:relative;isolation:isolate;overflow:hidden;transition:color .3s ease,border-color .3s ease,transform .3s ease,box-shadow .3s ease}
+.home-page .hero-slider-copy .button:before{content:'';position:absolute;inset:0;z-index:-1;background:white;transform:translateY(101%);transition:transform .35s cubic-bezier(.22,.61,.36,1)}
+.home-page .hero-slider-copy .button svg{transition:transform .3s ease}
+.home-page .hero-slider-copy .button:is(:hover,:focus-visible){color:var(--ink-2);border-color:white;transform:translateY(-2px);box-shadow:0 8px 24px #071d4926}
+.home-page .hero-slider-copy .button:is(:hover,:focus-visible):before{transform:translateY(0)}
+.home-page .hero-slider-copy .button:is(:hover,:focus-visible) svg{transform:translateX(4px)}
+.home-page .hero-slider-copy .button:active{transform:translateY(0) scale(.98)}
+.home-page .hero-slider-copy .hero-watch-link{font-family:var(--sans);font-size:.9rem;border-color:#ffffff80;transition:border-color .25s ease,color .25s ease}
+.home-page .hero-slider-copy .hero-watch-link svg{transition:transform .25s ease}
+.home-page .hero-slider-copy .hero-watch-link:is(:hover,:focus-visible){color:var(--gold);border-color:var(--gold)}
+.home-page .hero-slider-copy .hero-watch-link:is(:hover,:focus-visible) svg{transform:translateX(4px)}
+.home-page .hero-slider-controls{left:auto;right:24px;bottom:22px;gap:8px;background:rgba(7,29,73,.45);padding:8px}
 .home-page .hero-arrow{background:transparent;border-color:#ffffff60;width:40px;height:40px;min-height:40px}
 .home-page .hero-progress{display:none}
 .home-page .eyebrow{color:var(--ink);font-family:var(--sans);font-size:.7rem;letter-spacing:.12em}
@@ -284,9 +294,11 @@ button:disabled{cursor:wait;opacity:.65}
 .home-page footer{padding-top:40px}
 @media(max-width:1100px) and (min-width:701px){.home-page .hero-slider-copy{padding-left:var(--gutter);padding-right:32px}.home-page .hero-slider-copy h1{font-size:3.8rem}.home-ministry-grid>a{grid-template-columns:1fr}.home-ministry-grid img{height:260px;min-height:0}.sunday-details-inner{grid-template-columns:1fr 1.4fr}.sunday-details .button{grid-column:2;width:fit-content}.home-connect{gap:32px}}
 @media(max-width:700px){
- .home-page .hero-slider{display:flex;flex-direction:column;min-height:0;padding:0 0 330px}
- .home-page .hero-slides{left:0;top:auto;bottom:0;height:330px}
- .home-page .hero-slider-copy{padding:36px var(--gutter);padding-bottom:36px}
+ .home-page .hero-slider{display:flex;flex-direction:column;justify-content:center;min-height:660px;padding:0}
+ .home-page .hero-slides{left:0;top:0;bottom:0;height:100%}
+ .home-page .hero-slide:after{background:linear-gradient(90deg,rgba(7,29,73,.84),rgba(7,29,73,.45)),linear-gradient(0deg,rgba(7,29,73,.45),transparent 45%)}
+ .home-page .hero-slide-image{object-position:56% center}
+ .home-page .hero-slider-copy{padding:40px var(--gutter) 110px}
  .home-page .hero-slider-copy h1{font-size:clamp(2.8rem,12vw,4rem);margin-bottom:20px}
  .home-page .hero-slider-copy>p{font-size:1rem!important;line-height:1.6!important;margin-bottom:0}
  .home-page .hero-slider-copy .actions{display:flex;flex-direction:row;gap:16px;max-width:none;margin-top:24px}
@@ -303,3 +315,4 @@ button:disabled{cursor:wait;opacity:.65}
  .home-gatherings{padding:40px 0}.weekly-gatherings{grid-template-columns:1fr;gap:0;margin-bottom:16px}
  .home-connect{grid-template-columns:1fr;gap:32px;padding-top:40px;padding-bottom:40px}.home-connect .actions{gap:16px}.home-connect aside{padding-left:20px}
 }
+@media(prefers-reduced-motion:reduce){.home-page .hero-slider-copy .button,.home-page .hero-slider-copy .button:before,.home-page .hero-slider-copy .button svg,.home-page .hero-slider-copy .hero-watch-link,.home-page .hero-slider-copy .hero-watch-link svg{transition:none}}
