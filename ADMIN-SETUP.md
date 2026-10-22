@@ -34,14 +34,16 @@ was sent. Staff can contact the person separately.
 Run `npm ci`, `npm run build`, `npm run check`, `npm test`.
 Deploy `dist` with the root `functions` directory through Cloudflare Pages.
 `npm run dev` starts the local Pages runtime. Netlify uses `npm run build:netlify`
-and `netlify.toml`; its production deployment requires access to the church's
-Netlify team and available credits. A Git push by itself does not prove that
-Netlify deployed.
+and `netlify.toml`. Its production deployment of commit `82807b4` was verified
+in the church's Netlify team on 22 October 2026. Check the Deploys page for
+later releases; a Git push by itself does not prove that Netlify deployed.
 
-The office currently works at the Cloudflare site's `/admin/` path. The Netlify
-edge router also maps `admin.rccgcodcanterbury.com/` to that dashboard when the
-hostname is added to the church's Netlify site and its DNS. Verify DNS, TLS,
-login and form submission on the final hostname before announcing it as live.
+The office works at `/admin/` on both the main Netlify domain and the temporary
+Cloudflare domain. The Netlify edge router maps `admin.rccgcodcanterbury.com/`
+to that dashboard. The alias and Netlify-managed DNS records were added on
+22 October 2026; public DNS and HTTPS login response were verified. Some local
+DNS caches may still hold the earlier missing-record result. An authenticated
+sign-in and private form flow on the final hostname still need a staff check.
 
 Public Supabase connection values are in `content/connection.json`. These are
 publishable/anon keys, not database admin credentials. RLS protects private tables.
