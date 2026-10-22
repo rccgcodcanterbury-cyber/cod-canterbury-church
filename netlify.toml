@@ -7,6 +7,10 @@
   NODE_VERSION = "22"
   NPM_FLAGS = "--include=dev"
 
+[[edge_functions]]
+  function = "ministry-router"
+  path = "/*"
+
 [[redirects]]
   from = "/api/intake"
   to = "/.netlify/functions/intake"

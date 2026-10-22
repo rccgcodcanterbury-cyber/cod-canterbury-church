@@ -41,7 +41,7 @@ const sermonRail=`<section class="sermon-rail" data-sermon-rail aria-labelledby=
 const pages={};
 const ministryPhotos={
   audacious:['5778','5779','5780','5782','5783','5786','5790','5791','5792','5793','5796','5797'],
-  youth:['citiyouth-worship-1','citiyouth-dinner-1','citiyouth-dinner-2','citiyouth-worship-2','6030','6031','6032','6036','6038','6039','5833','5836','5854','5859','5901','5905']
+  youth:['citiyouth-breakfast-recap','citiyouth-worship-1','citiyouth-dinner-1','citiyouth-dinner-2','citiyouth-worship-2','6030','6031','6032','6036','6038','6039','5833','5836','5854','5859','5901','5905']
 };
 const ministryConfig={
   audacious:{
@@ -55,7 +55,7 @@ const ministryConfig={
   },
   youth:{
     name:'CITIYOUTHS', label:'Youth church', description:'A church community for young adults in Canterbury.', instagram:'https://www.instagram.com/codcyf_/',
-    title:'Find your people. Grow your faith.', hero:'citiyouth-worship-1',
+    title:'Find your people. Grow your faith.', hero:'citiyouth-breakfast-recap',
     intro:'Faith has room for your questions.',
     introText:'A place for real friendship, honest faith and a church community that knows life is lived beyond Sunday.',
     invitation:'There is a place for you here.',
