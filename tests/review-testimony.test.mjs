@@ -13,7 +13,7 @@ function stubFetch(calls){
   if(String(url).endsWith('/auth/v1/user'))return Response.json({id:'staff'});
   if(String(url).includes('/rpc/record_testimony_review'))return Response.json(null);
   if(String(url).includes('/rest/v1/testimonies'))return Response.json([{id,email:'member@example.test',full_name:'Member'}]);
-  if(String(url)==='https://api.resend.com/emails'){assert.equal(options.headers['Idempotency-Key'],`cod-review-${key}`);return Response.json({id:'email'})}
+  if(String(url)==='https://api.resend.com/emails'){assert.equal(options.headers['Idempotency-Key'],`cod-review-${key}`);assert.equal(JSON.parse(options.body).reply_to,'rccgcodcanterbury@gmail.com');return Response.json({id:'email'})}
   throw new Error(`Unexpected request ${url}`);
  };
 }
