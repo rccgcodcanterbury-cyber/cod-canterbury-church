@@ -2,10 +2,14 @@
 <html lang="en-GB">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="robots" content="noindex,nofollow">
-  <meta name="theme-color" content="#0750b5">
+  <meta name="theme-color" content="#f2f2f7">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Church office">
   <title>Church office | City of David Canterbury</title>
+  <link rel="icon" href="/admin/logo.webp">
+  <link rel="apple-touch-icon" href="/admin/logo.webp">
   <link rel="stylesheet" href="/admin/admin.css">
   <script src="/admin/config.js" defer></script>
   <script src="/admin/admin.bundle.js" defer></script>
@@ -13,74 +17,127 @@
 <body>
   <main class="admin-shell">
     <section class="login-panel" id="login-panel" aria-labelledby="login-title">
-      <a class="wordmark" href="https://rccgcodcanterbury.com/">CITY OF DAVID <span>CANTERBURY</span></a>
-      <p class="eyebrow">Church office</p>
-      <h1 id="login-title">Welcome back.</h1>
-      <p class="intro">Sign in with your church office account to review private enquiries, prayer requests and submissions.</p>
+      <img class="app-icon" src="/admin/logo.webp" alt="" width="84" height="84">
+      <p class="login-kicker">City of David Canterbury</p>
+      <h1 id="login-title">Church office</h1>
+      <p class="intro">Enquiries, prayer requests, visitors and website insights, in one private place.</p>
       <form id="login-form">
-        <label for="email">Email address</label>
-        <input id="email" name="email" type="email" autocomplete="username" required>
-        <label for="password">Password</label>
-        <input id="password" name="password" type="password" autocomplete="current-password" required>
-        <button class="primary" type="submit">Sign in <span aria-hidden="true">→</span></button>
+        <div class="field-group">
+          <label class="field"><span>Email</span><input id="email" name="email" type="email" autocomplete="username" placeholder="name@example.com" required></label>
+          <label class="field"><span>Password</span><input id="password" name="password" type="password" autocomplete="current-password" placeholder="Required" required></label>
+        </div>
+        <button class="primary" type="submit">Sign in</button>
       </form>
+      <button class="text-button" id="forgot-password" type="button">Forgot your password?</button>
       <p class="form-message" id="login-message" role="status" aria-live="polite"></p>
-      <a class="back-link" href="https://rccgcodcanterbury.com/">← Return to the church website</a>
+      <a class="back-link" href="https://rccgcodcanterbury.com/">Return to the church website</a>
     </section>
 
     <section class="login-panel hidden" id="password-panel" aria-labelledby="password-title">
-      <p class="eyebrow">Your church office account</p><h1 id="password-title">Set your password.</h1>
-      <p class="intro">Choose a password for your private church office account.</p>
-      <form id="password-form"><label for="new-password">New password</label><input id="new-password" name="password" type="password" autocomplete="new-password" minlength="12" maxlength="200" required><label for="repeat-password">Confirm password</label><input id="repeat-password" name="repeat" type="password" autocomplete="new-password" minlength="12" maxlength="200" required><button class="primary" type="submit">Save password</button></form>
+      <img class="app-icon" src="/admin/logo.webp" alt="" width="84" height="84">
+      <h1 id="password-title">Set your password</h1>
+      <p class="intro">Choose a password of at least 12 characters for your church office account.</p>
+      <form id="password-form">
+        <div class="field-group">
+          <label class="field"><span>New</span><input id="new-password" name="password" type="password" autocomplete="new-password" minlength="12" maxlength="200" placeholder="At least 12 characters" required></label>
+          <label class="field"><span>Confirm</span><input id="repeat-password" name="repeat" type="password" autocomplete="new-password" minlength="12" maxlength="200" placeholder="Repeat password" required></label>
+        </div>
+        <button class="primary" type="submit">Save password</button>
+      </form>
       <p id="password-message" class="form-message" role="status"></p>
     </section>
 
-    <section class="dashboard hidden" id="dashboard" aria-labelledby="dashboard-title">
-      <header class="dashboard-header">
-        <div><p class="eyebrow">City of David Canterbury / Church office</p><h1 id="dashboard-title">Care starts here.</h1></div>
-        <button class="quiet-button" id="sign-out" type="button">Sign out</button>
-      </header>
-      <div class="dashboard-note" id="dashboard-note" role="status"></div>
-      <section class="overview" id="overview" aria-labelledby="overview-title">
-        <div class="overview-heading" id="overview-heading"><div><p class="eyebrow">Ministry pulse</p><h2 id="overview-title">Know what needs care.</h2><p class="overview-copy">A live view of people reaching the church, follow-up work and public message activity.</p></div><button class="quiet-button" id="refresh-overview" type="button">Refresh insights</button></div>
-        <div class="metric-grid" id="metric-grid" aria-live="polite"><div class="metric-card skeleton"></div><div class="metric-card skeleton"></div><div class="metric-card skeleton"></div><div class="metric-card skeleton"></div></div>
-        <div class="insight-grid">
-          <section class="insight-card trend-card"><div class="card-heading"><div><p class="card-kicker">Last 30 days</p><h3>People reaching out</h3></div><span class="trend-key"><i></i>New submissions</span></div><div class="chart-wrap" id="submissions-chart"><p class="record-meta">Loading activity…</p></div></section>
-          <section class="insight-card"><div class="card-heading"><div><p class="card-kicker">Follow-up health</p><h3>Care pipeline</h3></div></div><div id="pipeline-chart" class="pipeline-chart"><p class="record-meta">Loading pipeline…</p></div></section>
-        </div>
-        <div class="insight-grid lower-insights">
-          <section class="insight-card"><div class="card-heading"><div><p class="card-kicker">Public message</p><h3>YouTube activity</h3></div><a class="card-link" href="https://www.youtube.com/@CODCanterbury" target="_blank" rel="noreferrer">Open channel ↗</a></div><div id="youtube-insight"><p class="record-meta">Loading channel feed…</p></div></section>
-          <section class="insight-card"><div class="card-heading"><div><p class="card-kicker">First-visit forms</p><h3>Where visitors come from</h3></div></div><div id="location-insight" class="pipeline-chart"><p class="record-meta">Loading locations…</p></div><p class="record-meta">Based on optional town or city entries. This does not measure everyone attending.</p></section>
-        </div>
-        <section class="insight-card attendance-card" id="attendance-section" aria-labelledby="attendance-title">
-          <div class="card-heading"><div><p class="card-kicker">Sunday gatherings</p><h3 id="attendance-title">Service attendance</h3></div></div>
-          <div id="attendance-summary" class="attendance-summary"><p class="record-meta">Loading attendance…</p></div>
-          <form id="attendance-form" class="attendance-form">
-            <label>Service date<input name="service_date" type="date" required></label>
-            <label>Service time<select name="service_time"><option value="09:00">9:00 am</option><option value="11:30">11:30 am</option></select></label>
-            <label>Total people<input name="total_attendance" type="number" min="0" max="100000" required></label>
-            <label>First-time people<input name="first_time_attendance" type="number" min="0" max="100000" value="0" required></label>
-            <button class="primary" type="submit">Save attendance</button>
-          </form>
-          <p id="attendance-message" class="form-message" role="status"></p>
-          <div id="attendance-recent" class="attendance-recent"></div>
-        </section>
-      </section>
-      <nav class="queue-tabs" aria-label="Intake queues">
-        <button class="queue-tab is-active" type="button" data-queue="contacts">Enquiries &amp; prayer <span id="contact-count">—</span></button>
-        <button class="queue-tab" type="button" data-queue="testimonies">Testimonies <span id="testimony-count">—</span></button>
-        <button class="queue-tab" type="button" data-queue="visitors">First visits <span id="visitor-count">—</span></button>
-      </nav>
-      <div class="queue-layout">
-        <section class="queue-list" aria-label="Submissions">
-          <div class="queue-tools"><label class="sr-only" for="queue-filter">Filter submissions</label><select id="queue-filter"><option value="all">All statuses</option></select><button class="quiet-button" id="refresh-queue" type="button">Refresh</button></div>
-          <div id="queue-items" class="queue-items" aria-live="polite"></div>
-        </section>
-        <section class="record-panel" id="record-panel" aria-label="Submission detail">
-          <div class="empty-state"><span aria-hidden="true">✳</span><h2>Make room for their story.</h2><p>Select a submission to review it. Personal details and testimony text stay inside the authenticated dashboard.</p></div>
-        </section>
-      </div>
+    <section class="login-panel hidden" id="no-access-panel" aria-labelledby="no-access-title">
+      <img class="app-icon" src="/admin/logo.webp" alt="" width="84" height="84">
+      <h1 id="no-access-title">Nothing to show yet</h1>
+      <p class="intro">Your account is signed in, but your role does not include any church office sections. Ask the church administrator to update your access.</p>
+      <button class="primary" type="button" data-sign-out>Sign out</button>
     </section>
+
+    <div class="app hidden" id="dashboard">
+      <header class="app-bar">
+        <div class="app-brand"><img class="app-icon small" src="/admin/logo.webp" alt="" width="34" height="34"><span><strong>City of David</strong><small>Church office</small></span></div>
+        <nav class="tab-bar" role="tablist" aria-label="Church office sections" id="tab-bar">
+          <button role="tab" type="button" id="tab-overview" aria-controls="view-overview" data-tab="overview"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.5 12 3.5l8.5 7V20a1 1 0 0 1-1 1h-5v-6h-5v6h-5a1 1 0 0 1-1-1z"/></svg><span>Overview</span></button>
+          <button role="tab" type="button" id="tab-inbox" aria-controls="view-inbox" data-tab="inbox"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 13.5 6 5h12l2.5 8.5V19a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 19z"/><path d="M3.5 13.5H8a4 4 0 0 0 8 0h4.5"/></svg><span>Inbox</span><i class="tab-badge" id="inbox-badge" hidden></i></button>
+          <button role="tab" type="button" id="tab-insights" aria-controls="view-insights" data-tab="insights"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V12M10 20V6M15 20v-9M20 20V4"/></svg><span>Insights</span></button>
+          <button role="tab" type="button" id="tab-attendance" aria-controls="view-attendance" data-tab="attendance"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c.6-3.6 3-5.5 6-5.5s5.4 1.9 6 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M16.5 14.6c2.4.2 4 1.8 4.5 4.9"/></svg><span>Attendance</span></button>
+        </nav>
+        <div class="account"><span class="account-avatar" id="account-avatar" aria-hidden="true"></span><span class="account-text"><strong id="account-email"></strong><small id="account-role"></small></span><button class="plain-button" type="button" data-sign-out>Sign out</button></div>
+      </header>
+      <div class="toast" id="dashboard-note" role="status" aria-live="polite"><span id="toast-text"></span><button type="button" id="toast-undo" hidden>Undo</button></div>
+
+      <section class="view" id="view-overview" role="tabpanel" aria-labelledby="tab-overview" tabindex="-1" hidden>
+        <section class="hero" aria-labelledby="greeting">
+          <div><p class="hero-date" id="overview-date"></p><h1 id="greeting">Welcome</h1><p class="hero-line" id="hero-line">Checking what needs your attention…</p></div>
+          <div class="hero-actions"><button class="primary pill" type="button" data-go="inbox" id="hero-cta">Open inbox</button><button class="icon-button" type="button" id="refresh-overview" aria-label="Refresh overview"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3M19.5 4v4.5H15"/></svg></button></div>
+        </section>
+        <div class="tile-grid" id="overview-tiles" aria-live="polite"><div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div></div>
+        <div class="columns">
+          <section class="group" aria-labelledby="attention-title"><h2 class="group-title" id="attention-title">Needs a first response</h2><div class="list" id="attention-list"></div></section>
+          <section class="group" aria-labelledby="recent-title"><h2 class="group-title" id="recent-title">Latest submissions</h2><div class="list" id="recent-list"></div></section>
+        </div>
+        <div class="columns wide-left">
+          <section class="card" aria-labelledby="trend-title"><div class="card-head"><div><h2 id="trend-title">People reaching out</h2><p id="trend-sub">Forms sent in the last 30 days</p></div></div><div class="chart" id="submissions-chart"></div></section>
+          <section class="card" aria-labelledby="pipeline-title"><div class="card-head"><div><h2 id="pipeline-title">Enquiry follow-up</h2><p>Where enquiries stand now</p></div></div><div id="pipeline-chart" class="meters"></div></section>
+        </div>
+        <section class="card" aria-labelledby="locations-title"><div class="card-head"><div><h2 id="locations-title">Where first-time visitors live</h2><p>From the optional town or city on the first-visit form</p></div></div><div id="location-insight" class="meters"></div></section>
+      </section>
+
+      <section class="view" id="view-inbox" role="tabpanel" aria-labelledby="tab-inbox" tabindex="-1" hidden>
+        <header class="large-title"><div><p>Private to authorised staff</p><h1>Inbox</h1></div></header>
+        <div class="segmented" role="tablist" aria-label="Submission type" id="queue-tabs">
+          <button role="tab" type="button" data-queue="contacts">Enquiries <i id="count-contacts"></i></button>
+          <button role="tab" type="button" data-queue="prayer">Prayer <i id="count-prayer"></i></button>
+          <button role="tab" type="button" data-queue="visitors">Visitors <i id="count-visitors"></i></button>
+          <button role="tab" type="button" data-queue="testimonies">Testimonies <i id="count-testimonies"></i></button>
+        </div>
+        <div class="split" id="inbox-split">
+          <section class="list-pane" aria-label="Submissions">
+            <div class="toolbar">
+              <label class="search"><span class="sr-only">Search by name or email</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="queue-search" type="search" placeholder="Search" autocomplete="off"></label>
+              <label class="sr-only" for="queue-filter">Show</label><select id="queue-filter"></select>
+              <button class="icon-button" type="button" id="refresh-queue" aria-label="Refresh list"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3M19.5 4v4.5H15"/></svg></button>
+            </div>
+            <div id="queue-items" class="list rows" aria-live="polite"></div>
+          </section>
+          <section class="detail-pane" id="record-panel" aria-label="Submission detail" tabindex="-1"></section>
+        </div>
+      </section>
+
+      <section class="view" id="view-insights" role="tabpanel" aria-labelledby="tab-insights" tabindex="-1" hidden>
+        <header class="large-title"><div><p>Main site, Audacious and CITIYOUTHS</p><h1>Insights</h1></div>
+          <div class="segmented compact" role="radiogroup" aria-label="Date range" id="range-picker">
+            <button type="button" role="radio" data-days="7">7D</button><button type="button" role="radio" data-days="30">30D</button><button type="button" role="radio" data-days="90">90D</button><button type="button" role="radio" data-days="365">12M</button>
+          </div>
+        </header>
+        <div id="insights-body" aria-live="polite"></div>
+      </section>
+
+      <section class="view" id="view-attendance" role="tabpanel" aria-labelledby="tab-attendance" tabindex="-1" hidden>
+        <header class="large-title"><div><p>Sunday services at 9:00 and 11:30</p><h1>Attendance</h1></div></header>
+        <div id="attendance-summary" class="tile-grid three"></div>
+        <section class="card" aria-labelledby="attendance-chart-title"><div class="card-head"><div><h2 id="attendance-chart-title">Last 12 Sundays</h2><p>People at each service</p></div><div class="legend"><span><i style="background:var(--tint)"></i>9:00 am</span><span><i style="background:var(--gold)"></i>11:30 am</span></div></div><div class="chart" id="attendance-chart"></div></section>
+        <div class="columns">
+          <section class="group" aria-labelledby="attendance-form-title">
+            <h2 class="group-title" id="attendance-form-title">Record a service</h2>
+            <form id="attendance-form" class="list form-list">
+              <label class="row-field"><span>Date</span><input name="service_date" type="date" required></label>
+              <label class="row-field"><span>Service</span><select name="service_time"><option value="09:00">9:00 am</option><option value="11:30">11:30 am</option></select></label>
+              <label class="row-field"><span>Total people</span><input name="total_attendance" type="number" inputmode="numeric" min="0" max="100000" placeholder="0" required></label>
+              <label class="row-field"><span>First-time</span><input name="first_time_attendance" type="number" inputmode="numeric" min="0" max="100000" value="0" required></label>
+              <div class="row-action"><button class="primary" type="submit">Save attendance</button></div>
+            </form>
+            <p class="group-footer">Saving the same date and service again corrects the earlier numbers. Only totals are stored, never names.</p>
+            <p id="attendance-message" class="form-message" role="status"></p>
+          </section>
+          <section class="group" aria-labelledby="attendance-recent-title">
+            <h2 class="group-title" id="attendance-recent-title">Recent Sundays</h2>
+            <div id="attendance-recent" class="list"></div>
+          </section>
+        </div>
+      </section>
+    </div>
   </main>
 </body>
 </html>

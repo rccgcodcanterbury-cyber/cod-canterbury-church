@@ -1,12 +1,14 @@
 # RCCG City of David Canterbury - website rebuild
 
-The rebuilt public website is live at [cod-canterbury-church.pages.dev](https://cod-canterbury-church.pages.dev/). It is a static, responsive replacement built from the church's public pages and media.
+The rebuilt public website is live at [rccgcodcanterbury.com](https://rccgcodcanterbury.com/). It is a static, responsive replacement built from the church's public pages and media.
 
 Source: https://codcanterburychurch.org/ - captured 4 October 2026.
 
 ## Live deployment
 
-- Public site: [https://cod-canterbury-church.pages.dev/](https://cod-canterbury-church.pages.dev/)
+- Public site: [https://rccgcodcanterbury.com/](https://rccgcodcanterbury.com/) (Netlify)
+- Church office: [https://admin.rccgcodcanterbury.com/](https://admin.rccgcodcanterbury.com/)
+- Temporary Cloudflare copy: [cod-canterbury-church.pages.dev](https://cod-canterbury-church.pages.dev/) (to be redirected or retired)
 - Source repository: [rccgcodcanterbury-cyber/cod-canterbury-church](https://github.com/rccgcodcanterbury-cyber/cod-canterbury-church)
 - Build command: `npm run build`
 - Verification command: `npm run check`

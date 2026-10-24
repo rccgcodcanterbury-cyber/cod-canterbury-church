@@ -11,7 +11,7 @@ if(!intakeConfig.includes('"enabled":true'))throw new Error('Intake configuratio
 const adminBundle=fs.readFileSync('dist/admin/admin.bundle.js','utf8');
 if(adminBundle.includes('RESEND_API_KEY')||adminBundle.includes('service_role'))throw new Error('A server-side secret appears in the browser dashboard bundle.');
 const privacy=fs.readFileSync('dist/privacy/index.html','utf8');
-for(const text of ['RCCG City of David Canterbury is responsible','Supabase provides the secure database','one month after the case is closed']){
+for(const text of ['RCCG City of David Canterbury is responsible','Supabase provides the secure database','You can ask us to delete your information at any time']){
   if(!privacy.includes(text))throw new Error(`Privacy page is missing required intake information: ${text}`);
 }
 if (!fs.readdirSync('dist/assets').some(name => name.endsWith('.webp'))) throw new Error('No optimized media in build output');
@@ -26,4 +26,10 @@ for (const file of ['dist/404.html','dist/thank-you/index.html','dist/audacious/
 }
 const eventPage = fs.readFileSync(`dist/events/${JSON.parse(fs.readFileSync('content/events.json','utf8'))[0].id}/index.html`,'utf8');
 if (!eventPage.includes('"@type":"Event"')) throw new Error('Event page is missing Event structured data.');
+for(const file of ['dist/index.html','dist/give/index.html','dist/audacious/index.html','dist/youth/index.html']){
+  if(!fs.readFileSync(file,'utf8').includes('src="/track.js"'))throw new Error(`${file} is missing visit counting.`);
+}
+if(fs.readFileSync('dist/admin/index.html','utf8').includes('track.js'))throw new Error('The church office must not count its own visits.');
+const temporaryHost=fs.readdirSync('dist',{recursive:true}).filter(file=>/\.(html|txt|xml|json)$/.test(file)).find(file=>fs.readFileSync(`dist/${file}`,'utf8').includes('pages.dev'));
+if(temporaryHost)throw new Error(`dist/${temporaryHost} still points at the temporary pages.dev address. Set SITE_URL to rccgcodcanterbury.com.`);
 console.log('Build check passed.');

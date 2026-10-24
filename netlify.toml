@@ -37,6 +37,11 @@
   status = 200
 
 [[redirects]]
+  from = "/api/track"
+  to = "/.netlify/functions/track"
+  status = 200
+
+[[redirects]]
   from = "/events.ics"
   to = "/.netlify/functions/events-ics"
   status = 200

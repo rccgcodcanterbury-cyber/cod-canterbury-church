@@ -269,14 +269,17 @@ function updateEvents() {
     let visible = 0;
     const minimum = eventDate?.value || londonToday();
     const limit = list.dataset.upcoming === 'true' ? Number(list.dataset.limit) : Infinity;
+    // The homepage already lists the weekly rhythm, so it only shows special events.
+    const routine = /^(sunday service|2nd service – sunday|2nd service - sunday|connect friday)$/;
     for (const row of $$('.event-row',list)) {
       const title = $('h3',row).textContent.toLowerCase();
       const kind = eventFilter?.value || 'all';
       const typeOk = kind === 'all' || (kind === 'sunday' && title.includes('sunday')) || (kind === 'friday' && title.includes('friday'));
-      const matches = typeOk && row.dataset.eventDate >= minimum && visible < limit;
+      const matches = typeOk && !(list.dataset.skipRoutine !== undefined && routine.test(title.trim())) && row.dataset.eventDate >= minimum && visible < limit;
       row.classList.toggle('hidden',!matches);
       if(matches) visible++;
     }
+    if(list.dataset.skipRoutine !== undefined) list.hidden = visible === 0;
     const empty = $('#event-empty');
     if(empty) empty.hidden = visible > 0;
   }

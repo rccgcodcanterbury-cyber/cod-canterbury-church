@@ -332,3 +332,6 @@ button:disabled{cursor:wait;opacity:.65}
 .home-page .hero-slider-controls button:focus-visible{outline:2px solid white;outline-offset:2px}
 @media(max-width:700px){.home-page .hero-slider-controls{right:var(--gutter);bottom:18px;gap:2px;padding:4px 6px}.home-page .hero-slider-controls .hero-arrow{width:40px}.home-page .hero-dot{min-width:36px}.home-page .hero-slider-controls .hero-pause{width:44px}}
 @media(prefers-reduced-motion:reduce){.home-page .hero-slider-controls button,.home-page .hero-dot:after{transition:none}}
+
+/* Three weekly gatherings sit side by side on wider screens. */
+@media(min-width:761px){.weekly-gatherings{grid-template-columns:repeat(3,1fr)}}

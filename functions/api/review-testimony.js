@@ -13,11 +13,9 @@ export async function onRequest({request,env}){
   try{input=JSON.parse(event.body||'{}')}catch{return json(400,{error:'Invalid review request.'})}
   if(!/^[0-9a-f-]{36}$/i.test(input.testimony_id||'')||!/^[0-9a-f-]{36}$/i.test(input.review_key||'')||!allowed.has(input.status))return json(400,{error:'Invalid review update.'});
   const apiHeaders={apikey:key,authorization:`Bearer ${token}`,'content-type':'application/json'};
-  let reviewer;
   try{
     const response=await fetch(`${url}/auth/v1/user`,{headers:apiHeaders});
     if(!response.ok)return json(401,{error:'Your sign-in has expired. Sign in again.'});
-  reviewer=await response.json();
   }catch{return json(503,{error:'Could not verify your church office sign-in.'})}
   const action=input.status==='in_review'?'review_started':input.status==='submitted'?'reopened':input.status;
   try{
@@ -32,8 +30,8 @@ export async function onRequest({request,env}){
   }catch{/* The status has already been saved; email notification may be unavailable. */}
   if(!member)return json(200,{ok:true,notificationSent:false});
 
-  const resendKey=env.RESEND_API_KEY;
-  const from=env.RESEND_FROM;
+  const resendKey=env?.RESEND_API_KEY;
+  const from=env?.RESEND_FROM;
   if(!resendKey||!from)return json(200,{ok:true,notificationSent:false});
   const titles={
     in_review:'Your testimony is being reviewed',
