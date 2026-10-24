@@ -39,6 +39,13 @@ The office is an iOS-style app with four tabs (bottom tab bar on phones):
 Pastoral contacts see Inbox and Attendance; testimony reviewers see
 Testimonies only; other roles see a short "no sections" message.
 
+New-submission alerts: when a form is saved, `/api/intake` emails the church
+office through Resend ("New prayer request", "New enquiry", "New first-visit
+form" or "New testimony") with a link to the inbox. The email never contains the
+person's name, contact details or message. It goes to `ALERT_EMAIL` (comma-separated)
+or, by default, rccgcodcanterbury@gmail.com, and needs `RESEND_API_KEY` and
+`RESEND_FROM` in Netlify. Spam, failed saves and missing settings send nothing.
+
 Records are kept; nothing is deleted automatically. The earlier nightly
 `purge-expired-church-intake` job (one month after closure) is switched off by
 migration `20261024090000_keep_intake_records.sql`. Private data is not emailed by
